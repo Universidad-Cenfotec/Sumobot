@@ -12,7 +12,7 @@ Componetes del Sumobot:
 
 ## Sumobot_Chasis.svg
 
-Archivo en formato SVG para corte láser del chasis de Sumobot.  Se puede cortar tanto en carñilico como MDF de 3mm
+Archivo en formato SVG para corte láser del chasis de Sumobot.  Se puede cortar tanto en acrílico como MDF de 3mm
 
 
 ## code.py
