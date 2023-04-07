@@ -28,3 +28,4 @@ El código "code.py" está desarrollado en CircuitPython que es un subconjunto d
 ### Funciones Básicas
 
 
+![SumoBot1](SumoBot_1.JPG)
