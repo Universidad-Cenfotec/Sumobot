@@ -6,6 +6,8 @@ El Sumobot es un robot simple pra competencias de sumobot. Fue diseñaro por Tom
 
 El Sumobot utiliza la placa [IdeaBoard](https://github.com/CRCibernetica/circuitpython-ideaboard/wiki), desarrollada por CrCiberética. esta placa tiene un ESP32.
 
+![SumoBot Parts](SumoBot_Parts.JPG)
+
 Componetes del Sumobot:
 - IdeaBoard (ESP32)
 - 2 x Micro motores de 200rpm
