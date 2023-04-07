@@ -1,3 +1,5 @@
+![SumoBot](SumobotBanner.png)
+
 # Código y Diseños del Sumobot
 
 El Sumobot es un robot simple pra competencias de sumobot. Fue diseñaro por Tomás de Camino Beck, para Universidad Cenfotec, como parte de un programa de trnasofrmación educativa, para ampliar capacidades de pensmaiento cpmputacional, tanto en estudiantes de colegio como en estudiantes de la universidad.
