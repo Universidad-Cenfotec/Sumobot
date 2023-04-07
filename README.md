@@ -38,6 +38,8 @@ El código "code.py" está desarrollado en CircuitPython que es un subconjunto d
 - scan() Rota hacia un lado hacta que detecte algo adelante, o gire un núero determinado de veces
 - forwardCheck(t, speed) Mueve hacia adelante, pero verifica con el sensor IR que no se salga del dojo.  Cuando detecta el borde hace un movimiento hacia atras y luego gira.
 
+![SumoBot_Dojo](SumoBot_Dojo.JPG)
+
 ## Competencia SumoBot
 
 La competencia sumobot, consiste en
