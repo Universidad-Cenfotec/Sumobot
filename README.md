@@ -10,11 +10,11 @@ Componetes del Sumobot:
 - Sesnor IR
 - Sensor ultrasónico de distanca (HCSR04)
 
-##Sumobot_Chasis.svg
+## Sumobot_Chasis.svg
 
 Archivo en formato SVG para corte láser del chasis de Sumobot.  Se puede cortar tanto en carñilico como MDF de 3mm
 
 
-##code.py
+## code.py
 
 El código base está desarrollado en CircuitPython. El Sumobot viene preparado para trabajar con Circuit Python. Si por alguna razón debe "reflashear" el IdeaBorad, siga las instrucciones en este [link](https://github.com/CRCibernetica/circuitpython-ideaboard/wiki/3.-Installation)
