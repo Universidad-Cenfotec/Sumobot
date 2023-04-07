@@ -42,7 +42,31 @@ El código "code.py" está desarrollado en CircuitPython que es un subconjunto d
 
 ## Competencia SumoBot
 
-La competencia sumobot, consiste en
+### Formato de competición
+
+- El torneo SumoBot se estructura como un torneo por eliminatoria.
+- Dos robot compiten en un Dojo y el que es sacado del ring, o deja de funcionar, pierde
+- Los encuentros de dos robots iniciales serán seleccionados al azar
+- Cada Set consiste de 3 juegos de un minuto, con una pausa de un minuto entre juegos
+- El “Dojo” es un ring circular de 120 cm de diámetro, con 10 cm de linea de borde, de fondo negro con línea blanca (para que los robots identifiquen el ring)
+
+### Especificaciones del Robot
+- El robot es entregado por Universidad Cenfotec
+- No se permiten medificaciones estructurales del robot
+- Se puede agregar sensores adicionales que no impliquen modificaciones del robot
+- Cada robot será revisado antes de cada torneo competencia
+
+
+### Principios del juego
+
+- La mesa de arbitraje revisará el robot para determinar que sigue las especificaciones requeridas
+- Son tres match por set , y gana el que gane dos o más match
+- Pierde el robot que sea removido del dojo más allá de la línea blanca del borde, o que no ejecute ningún movimiento en ese tiempo
+- Cada batalla tiene una duración máxima de 1:30 minutos
+- En caso de empate (no sea el robot sacado del dojo), la mesa de arbitraje considerará ganador el robot con mayor número de ataques
+- Las tres acciones de batalla son atacar, defender y buscar
+- La competencia es por eliminación, y van clasificando en pares hasta la final.
+
 
 
 ![SumoBot1](SumoBot_1.JPG)
