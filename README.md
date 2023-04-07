@@ -27,5 +27,16 @@ El código "code.py" está desarrollado en CircuitPython que es un subconjunto d
 
 ### Funciones Básicas
 
+- wiggle(t,n,speed) Hace que el bot se mueva izqiuerda derecha pot tiepo t (segundos), velocidad speed, n veces
+- forward(t,speed) Mueve el bot hacia adelante por tiepo t (segundos), velocidad speed
+- backward(t,speed) Mueve el bot hacia atras por tiepo t (segundos), velocidad speed
+- left(t,speed) Mueve el bot hacia la izquierda por tiepo t (segundos), velocidad speed
+- right(t,speed) Mueve el bot hacia la derecha por tiepo t (segundos), velocidad speed
+- stop() detiene el bot
+- randomTurn(t,speed) Gira izq o der al azar, por tiempo t y velocidad speed
+- lookForward() Hace una lectura del sensor ultrasónico y retorna la distancia en cm de lo que esté en frente del bot
+- scan() Rota hacia un lado hacta que detecte algo adelante, o gire un núero determinado de veces
+- forwardCheck(t, speed) Mueve hacia adelante, pero verifica con el sensor IR que no se salga del dojo.  Cuando detecta el borde hace un movimiento hacia atras y luego gira.
+
 
 ![SumoBot1](SumoBot_1.JPG)
