@@ -16,11 +16,15 @@ El Sumobot utiliza la placa [IdeaBoard](https://github.com/CRCibernetica/circuit
 
 Todos los componetes se puede encontrar en Costa Rica.
 
-## Sumobot_Chasis.svg
+## Chasis del SumoBot
 
-Archivo en formato SVG para corte láser del chasis de Sumobot.  Se puede cortar tanto en acrílico como MDF de 3mm
+Archivo "Sumobot_Chasis.svg" está en formato SVG para corte láser del chasis de Sumobot.  Se puede cortar tanto en acrílico como MDF de 3mm
 
 
-## code.py
+## Código
 
-El código base está desarrollado en CircuitPython. El Sumobot viene preparado para trabajar con Circuit Python. Si por alguna razón debe "reflashear" el IdeaBorad, siga las instrucciones en este [link](https://github.com/CRCibernetica/circuitpython-ideaboard/wiki/3.-Installation)
+El código "code.py" está desarrollado en CircuitPython que es un subconjunto de Python desarrollado para microcontroladores. El Sumobot ya viene preparado para trabajar con Circuit Python y no hay que cargar archivos adicionales. Si por alguna razón debe "reflashear" el IdeaBorad, siga las instrucciones en este [link](https://github.com/CRCibernetica/circuitpython-ideaboard/wiki/3.-Installation)
+
+### Funciones Básicas
+
+
