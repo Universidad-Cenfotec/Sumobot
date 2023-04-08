@@ -25,6 +25,8 @@ Archivo "Sumobot_Chasis.svg" está en formato SVG para corte láser del chasis d
 
 El código "code.py" está desarrollado en CircuitPython que es un subconjunto de Python desarrollado para microcontroladores. El Sumobot ya viene preparado para trabajar con Circuit Python y no hay que cargar archivos adicionales. Si por alguna razón debe "reflashear" el IdeaBorad, siga las instrucciones en este [link](https://github.com/CRCibernetica/circuitpython-ideaboard/wiki/3.-Installation)
 
+El código "hcsr04.mpy" corresponde a la librería para el sensor de distancia.
+
 ### Funciones Básicas
 
 - wiggle(t,n,speed) Hace que el bot se mueva izqiuerda derecha pot tiepo t (segundos), velocidad speed, n veces
