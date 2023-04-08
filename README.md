@@ -54,8 +54,8 @@ El código "hcsr04.mpy" corresponde a la librería para el sensor de distancia.
 
 ### Especificaciones del Robot
 - El robot es entregado por Universidad Cenfotec
-- No se permiten medificaciones estructurales del robot
-- Se puede agregar sensores adicionales que no impliquen modificaciones del robot
+- No se permiten modificaciones estructurales del robot
+- Se puede agregar sensores adicionales que no impliquen modificaciones del robot (modificar el chasis)
 - Cada robot será revisado antes de cada torneo competencia
 
 
