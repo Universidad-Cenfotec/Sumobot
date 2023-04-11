@@ -2,30 +2,32 @@
 
 # Código y Diseños del Sumobot
 
-El Sumobot es un robot simple pra competencias de sumobot. Fue diseñaro por Tomás de Camino Beck, para Universidad Cenfotec, como parte de un programa de trnasofrmación educativa, para ampliar capacidades de pensmaiento cpmputacional, tanto en estudiantes de colegio como en estudiantes de la universidad.
+El Sumobot es un robot simple para competencias de sumobot. Fue diseñaro por Tomás de Camino Beck, para Universidad Cenfotec, como parte de un programa de transofrmación educativa, con el objetivo de ampliar capacidades de pensmaiento cpmputacional, tanto en estudiantes de colegio, como en estudiantes de la universidad.
 
-El Sumobot utiliza la placa [IdeaBoard](https://github.com/CRCibernetica/circuitpython-ideaboard/wiki), desarrollada por CrCiberética. esta placa tiene un ESP32.
+El Sumobot utiliza la placa [IdeaBoard](https://github.com/CRCibernetica/circuitpython-ideaboard/wiki), desarrollada por CrCiberética, esta placa tiene un ESP32 como microcontrolador, y facilita la conección de sensores y su programación a través de USB o Wifi.
 
 ![SumoBot Parts](SumoBot_Parts.JPG)
 
 ## Componetes del Sumobot 
 - [IdeaBoard (ESP32)](https://www.crcibernetica.com/crcibernetica-ideaboard/)
-- 2 x [Micro motores](https://www.crcibernetica.com/micro-gearmotor/) de 200rpm
+- 2 x [Micro motores](https://www.crcibernetica.com/micro-gearmotor/) de 200 RPM
 - [Sesnor IR](https://www.crcibernetica.com/track-sensor-module/)
 - [Sensor ultrasónico](https://www.crcibernetica.com/hc-sr05-ultrasonic-distance-sensor/) de distanca (HCSR04)
 
-Todos los componetes se puede encontrar en Costa Rica.
+Todos los componetes se puede encontrar en Costa Rica en CrCibernética.
 
 ## Chasis del SumoBot
 
-Archivo "Sumobot_Chasis.svg" está en formato SVG para corte láser del chasis de Sumobot.  Se puede cortar tanto en acrílico como MDF de 3mm. También se encuentra el archivo "Sumobot_Chasis3D.stl" que pueden utilizar para imprimir el chasis en impresora 3D.
+Archivo "Sumobot_Chasis.svg" está en formato SVG para corte láser del chasis de Sumobot.  Se puede cortar tanto en acrílico como MDF u otro material con espesor de 3mm. 
+
+También con el "Sumobot_Chasis3D.stl" pueden utilizar imprimir el chasis en impresora 3D. Esto facilita agregar estructuras más complejas que no son posibles en 2D.
 
 
 ## Código
 
-El código "code.py" está desarrollado en CircuitPython que es un subconjunto de Python desarrollado para microcontroladores. El Sumobot ya viene preparado para trabajar con Circuit Python y no hay que cargar archivos adicionales. Si por alguna razón debe "reflashear" el IdeaBorad, siga las instrucciones en este [link](https://github.com/CRCibernetica/circuitpython-ideaboard/wiki/3.-Installation)
+El código "code.py" está desarrollado en CircuitPython. Circuit Python es un subconjunto de Python desarrollado para microcontroladores, y facilita la portabilidad y programabilidad de micrcontroladores como el ESP32 y otros. El Sumobot ya viene preparado para trabajar con Circuit Python y no hay que cargar archivos adicionales. Si por alguna razón debe "reflashear" el IdeaBorad, siga las instrucciones en este [link](https://github.com/CRCibernetica/circuitpython-ideaboard/wiki/3.-Installation)
 
-El código "hcsr04.mpy" corresponde a la librería para el sensor de distancia.
+El código "hcsr04.mpy" corresponde a la librería para el sensor de distancia. Que se utiliza para detectar otro robot que esté al frente del sumobot.
 
 ### Funciones Básicas
 
@@ -47,23 +49,24 @@ El código "hcsr04.mpy" corresponde a la librería para el sensor de distancia.
 ### Formato de competición
 
 - El torneo SumoBot se estructura como un torneo por eliminatoria.
-- Dos robot compiten en un Dojo y el que es sacado del ring, o deja de funcionar, pierde
-- Los encuentros de dos robots iniciales serán seleccionados al azar
-- Cada Set consiste de 3 juegos de un minuto, con una pausa de un minuto entre juegos
-- El “Dojo” es un ring circular de 120 cm de diámetro, con 10 cm de linea de borde, de fondo negro con línea blanca (para que los robots identifiquen el ring)
+- Dos robots compiten en un "Dojo". El que es sacado del ring, o deja de funcionar, pierde
+- Los encuentros de dos robots iniciales se seleccionan al azar
+- Los encuentros de dos robots los denominamos "Set"
+- Cada Set consiste de 3 juegos (Match) de un minuto y medio, con una pausa de un minuto entre juegos, para ajustes o cambios de estrategia
+- El “Dojo” es un ring circular de 120 cm de diámetro, de fondo negro, con 10 cm de linea de borde blanca. De esta manera los robots pueden indentifica cuando están dentro o fuera del ring, y detectar el borde a través de un sensor infrarojo.
 
 ### Especificaciones del Robot
-- El robot es entregado por Universidad Cenfotec
+- El robot es cronstruido y entregado por Universidad Cenfotec
 - No se permiten modificaciones estructurales del robot
-- Se puede agregar sensores adicionales que no impliquen modificaciones del robot (modificar el chasis)
+- Se puede agregar sensores adicionales que no impliquen modificaciones del robot (modificar el chasis). Es decir, se pueden incroporar a la estructura del chasis sin agregar nada más.
 - Cada robot será revisado antes de cada torneo competencia
 
 
 ### Principios del juego
 
 - La mesa de arbitraje revisará el robot para determinar que sigue las especificaciones requeridas
-- Son tres match por set , y gana el que gane dos o más match
-- Pierde el robot que sea removido del dojo más allá de la línea blanca del borde, o que no ejecute ningún movimiento en ese tiempo
+- Son tres "Match" por Set , y gana el que gane dos o más Match
+- Pierde el robot que sea removido del dojo más allá o a la línea blanca del borde, o que no ejecute ningún movimiento en ese tiempo
 - Cada batalla tiene una duración máxima de 1:30 minutos
 - En caso de empate (no sea el robot sacado del dojo), la mesa de arbitraje considerará ganador el robot con mayor número de ataques
 - Las tres acciones de batalla son atacar, defender y buscar
