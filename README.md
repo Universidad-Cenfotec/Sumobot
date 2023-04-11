@@ -18,7 +18,7 @@ Todos los componetes se puede encontrar en Costa Rica.
 
 ## Chasis del SumoBot
 
-Archivo "Sumobot_Chasis.svg" está en formato SVG para corte láser del chasis de Sumobot.  Se puede cortar tanto en acrílico como MDF de 3mm
+Archivo "Sumobot_Chasis.svg" está en formato SVG para corte láser del chasis de Sumobot.  Se puede cortar tanto en acrílico como MDF de 3mm. También se encuentra el archivo "Sumobot_Chasis3D.stl" que pueden utilizar para imprimir el chasis en impresora 3D.
 
 
 ## Código
