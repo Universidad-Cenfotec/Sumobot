@@ -71,7 +71,7 @@ El código "hcsr04.mpy" corresponde a la librería para el sensor de distancia. 
 - En caso de empate (no sea el robot sacado del dojo), la mesa de arbitraje considerará ganador el robot con mayor número de ataques
 - Las tres acciones de batalla son atacar, defender y buscar
 - La competencia es por eliminación, y van clasificando en pares hasta la final.
-- El código de los dos primeros lugares será publicado de forma abierta en este gitHub, con el fin de ir mejorando el nivel año con año.
+- El código de los dos primeros lugares será publicado de forma abierta en este gitHub, con el fin de ir mejorando el nivel año con año. 
 
 
 
