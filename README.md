@@ -22,12 +22,16 @@ Archivo "Sumobot_Chasis.svg" está en formato SVG para corte láser del chasis d
 
 También con el "Sumobot_Chasis3D.stl" pueden utilizar imprimir el chasis en impresora 3D. Esto facilita agregar estructuras más complejas que no son posibles en 2D.
 
+## Software para programar el Sumobot
+
+Para programar el sumobot se utiliza Thonny, el cua pueden descargar en este [link](https://thonny.org/)
 
 ## Código
 
 El código "code.py" está desarrollado en CircuitPython. Circuit Python es un subconjunto de Python desarrollado para microcontroladores, y facilita la portabilidad y programabilidad de micrcontroladores como el ESP32 y otros. El Sumobot ya viene preparado para trabajar con Circuit Python y no hay que cargar archivos adicionales. Si por alguna razón debe "reflashear" el IdeaBorad, siga las instrucciones en este [link](https://github.com/CRCibernetica/circuitpython-ideaboard/wiki/3.-Installation)
 
 El código "hcsr04.mpy" corresponde a la librería para el sensor de distancia. Que se utiliza para detectar otro robot que esté al frente del sumobot.
+
 
 ### Funciones Básicas
 
