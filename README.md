@@ -61,7 +61,8 @@ El código "hcsr04.mpy" corresponde a la librería para el sensor de distancia. 
 
 ### Especificaciones del Robot
 - El robot es cronstruido y entregado por Universidad Cenfotec
-- No se permiten modificaciones estructurales del robot
+- El robot pesa aproximadamente 205 gramos. El peso debe siempre mantenerse entre 205-210 gramos (al agregarle otros sensores el peso puede aumentar un poco)
+- No se permiten modificaciones estructurales del robot. Se puede adaptar para colocarle mas sensores, pero no se permiten agregar puntas, o extensiones para otros propósitos
 - Se puede agregar sensores adicionales que no impliquen modificaciones del robot (modificar el chasis). Es decir, se pueden incroporar a la estructura del chasis sin agregar nada más.
 - Cada robot será revisado antes de cada torneo competencia
 
