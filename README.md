@@ -4,7 +4,7 @@
 
 El Sumobot es un robot simple para competencias de sumobot. Fue diseñaro por Tomás de Camino Beck, para Universidad Cenfotec, como parte de un programa de transofrmación educativa, con el objetivo de ampliar capacidades de pensmaiento cpmputacional, tanto en estudiantes de colegio, como en estudiantes de la universidad.
 
-El Sumobot utiliza la placa [IdeaBoard](https://github.com/CRCibernetica/circuitpython-ideaboard/wiki), desarrollada por CrCiberética, esta placa tiene un ESP32 como microcontrolador, y facilita la conección de sensores y su programación a través de USB o Wifi.
+El Sumobot utiliza la placa [IdeaBoard](https://github.com/CRCibernetica/circuitpython-ideaboard/wiki), desarrollada por CrCiberética, esta placa tiene un ESP32 como microcontrolador, y facilita la conexión de sensores y su programación a través de USB o Wifi.
 
 ![SumoBot Parts](SumoBot_Parts.JPG)
 
