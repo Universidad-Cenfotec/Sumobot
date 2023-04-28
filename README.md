@@ -78,6 +78,8 @@ El código "hcsr04.mpy" corresponde a la librería para el sensor de distancia. 
 - La competencia es por eliminación, y van clasificando en pares hasta la final.
 - El código de los dos primeros lugares será publicado de forma abierta en este GitHub, con el fin de ir mejorando el nivel año con año. 
 
+## Preguntas Frecuentes
 
+- Pregunta 1
 
 ![SumoBot1](SumoBot_1.JPG)
