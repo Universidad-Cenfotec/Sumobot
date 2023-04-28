@@ -14,7 +14,7 @@ El Sumobot utiliza la placa [IdeaBoard](https://github.com/CRCibernetica/circuit
 - [Sesnor IR](https://www.crcibernetica.com/track-sensor-module/)
 - [Sensor ultrasónico](https://www.crcibernetica.com/hc-sr05-ultrasonic-distance-sensor/) de distanca (HCSR04)
 
-Todos los componetes se puede encontrar en Costa Rica en [CrCibernética.] (https://www.crcibernetica.com/)
+Todos los componetes se puede encontrar en Costa Rica en CrCibernética. 
 
 ## Chasis del SumoBot
 
@@ -85,7 +85,9 @@ El código "hcsr04.mpy" corresponde a la librería para el sensor de distancia. 
      R/ Si se puede modificar
 
 -Pregunta 2
+
 2. ¿Se puede agregar partes al robot?
+
     R/No se permiten modificaciones estructurales del robot. Se puede adaptar para colocarle más sensores, pero no se permiten agregar puntas, o extensiones para otros propósitos
 
 
