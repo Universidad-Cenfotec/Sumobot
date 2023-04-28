@@ -83,6 +83,7 @@ El código "hcsr04.mpy" corresponde a la librería para el sensor de distancia. 
 - Pregunta 1
 1.	¿Código se puede modificar?
      R/ Si se puede modificar
+
 -Pregunta 2
 2. ¿Se puede agregar partes al robot?
     R/No se permiten modificaciones estructurales del robot. Se puede adaptar para colocarle más sensores, pero no se permiten agregar puntas, o extensiones para otros propósitos
