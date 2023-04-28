@@ -2,7 +2,7 @@
 
 # Código y Diseños del Sumobot
 
-El Sumobot es un robot simple para competencias de sumobot. Fue diseñaro por Tomás de Camino Beck, para Universidad Cenfotec, como parte de un programa de transofrmación educativa, con el objetivo de ampliar capacidades de pensmaiento cpmputacional, tanto en estudiantes de colegio, como en estudiantes de la universidad.
+El Sumobot es un robot simple para competencias de sumobot. Fue diseñado por Tomás de Camino Beck para la Universidad Cenfotec como parte de un programa de transformación educativa con el objetivo de ampliar capacidades de pensamiento computacional tanto en estudiantes de colegio como en estudiantes de la universidad.
 
 El Sumobot utiliza la placa [IdeaBoard](https://github.com/CRCibernetica/circuitpython-ideaboard/wiki), desarrollada por CrCiberética, esta placa tiene un ESP32 como microcontrolador, y facilita la conexión de sensores y su programación a través de USB o Wifi.
 
@@ -14,7 +14,7 @@ El Sumobot utiliza la placa [IdeaBoard](https://github.com/CRCibernetica/circuit
 - [Sesnor IR](https://www.crcibernetica.com/track-sensor-module/)
 - [Sensor ultrasónico](https://www.crcibernetica.com/hc-sr05-ultrasonic-distance-sensor/) de distanca (HCSR04)
 
-Todos los componetes se puede encontrar en Costa Rica en CrCibernética.
+Todos los componetes se puede encontrar en Costa Rica en [CrCibernética.] (https://www.crcibernetica.com/)
 
 ## Chasis del SumoBot
 
@@ -81,5 +81,11 @@ El código "hcsr04.mpy" corresponde a la librería para el sensor de distancia. 
 ## Preguntas Frecuentes
 
 - Pregunta 1
+1.	¿Código se puede modificar?
+     R/ Si se puede modificar
+-Pregunta 2
+2. ¿Se puede agregar partes al robot?
+    R/No se permiten modificaciones estructurales del robot. Se puede adaptar para colocarle más sensores, pero no se permiten agregar puntas, o extensiones para otros propósitos
+
 
 ![SumoBot1](SumoBot_1.JPG)
