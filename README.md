@@ -80,30 +80,19 @@ El código "hcsr04.mpy" corresponde a la librería para el sensor de distancia. 
 
 ## Preguntas Frecuentes
 
-- Pregunta 1
-- 
 1.	¿Código se puede modificar?
-     R/ Si se puede modificar
-
-- Pregunta 2
+R/ Si se puede modificar
 
 2. ¿Se puede agregar partes al robot?
-R/No se permiten modificaciones estructurales del robot. Se puede adaptar para colocarle más sensores, pero no se permiten agregar puntas, o extensiones para otros propósitos
-
-- Pregunta 3
+R/ No se permiten modificaciones estructurales del robot. Se puede adaptar para colocarle más sensores, pero no se permiten agregar puntas, o extensiones para otros propósitos
 
 3. ¿El hardware se puede modificar? 
-R/Se puede agregar sensores adicionales que no impliquen modificaciones del robot (modificar el chasis). Es decir, se pueden incorporar a la estructura del chasis sin agregar nada más.Cada robot será revisado antes de cada torneo competencia
-
-- Pregunta 4
+R/ Se puede agregar sensores adicionales que no impliquen modificaciones del robot (modificar el chasis). Es decir, se pueden incorporar a la estructura del chasis sin agregar nada más.Cada robot será revisado antes de cada torneo competencia
 
 4. ¿Se puede agregar sensores de toque por ejemplo?
-R/Se puede agregar sensores adicionales que no impliquen modificaciones del robot
-
-- Pregunta 5
+R/ Se puede agregar sensores adicionales que no impliquen modificaciones del robot
 
 5.  ¿Esa programación la llevan los estudiantes hechos o la llevan memorizada?
-
-
+R/Los estudaintes llevan el programa heho, y en el mismo evento pueden modificar la programación. Si no cuentan con computador, se les facilitará uno en el evento.
 
 ![SumoBot1](SumoBot_1.JPG)
