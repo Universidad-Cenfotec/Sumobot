@@ -22,6 +22,14 @@ Archivo "Sumobot_Chasis.svg" está en formato SVG para corte láser del chasis d
 
 También con el "Sumobot_Chasis3D.stl" pueden utilizar imprimir el chasis en impresora 3D. Esto facilita agregar estructuras más complejas que no son posibles en 2D.
 
+## Esquema de conexiones
+
+- el sensor ifrarojo va conectado en el IO033
+- El sensor ultrasónico conectado en IO026 (trig) y I0025(Echo)
+- Los motores van en Motor 1 y Motor 2 (con posiciones invertidas)
+
+![SumoBot_Conexions](SumoBotCon.PNG)
+
 ## Software para programar el Sumobot
 
 Para programar el sumobot se utiliza Thonny, el cua pueden descargar en este [link](https://thonny.org/)
