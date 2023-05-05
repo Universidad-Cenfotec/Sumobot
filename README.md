@@ -28,7 +28,7 @@ También con el "Sumobot_Chasis3D.stl" pueden utilizar imprimir el chasis en imp
 - El sensor ultrasónico conectado en IO026 (trig) y I0025(Echo)
 - Los motores van en Motor 1 y Motor 2 (con posiciones invertidas)
 
-![SumoBot_Conexions](SumoBotCon.PNG)
+![SumoBot_Conexions](SumoBotCon.png)
 
 ## Software para programar el Sumobot
 
