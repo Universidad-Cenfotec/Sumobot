@@ -63,9 +63,9 @@ El código "hcsr04.mpy" corresponde a la librería para el sensor de distancia. 
 
 ![SumoBot_Dojo](SumoBot_Dojo.JPG)
 
-## Competencia SumoBot
+# Competencia SumoBot
 
-### Formato de competición
+## Formato de competición
 
 - El torneo SumoBot se estructura como un torneo por eliminatoria.
 - Dos robots compiten en un "Dojo". El que es sacado del ring, o deja de funcionar, pierde
@@ -74,7 +74,7 @@ El código "hcsr04.mpy" corresponde a la librería para el sensor de distancia. 
 - Cada Set consiste de 3 juegos (Match) de un minuto y medio, con una pausa de un minuto entre juegos, para ajustes o cambios de estrategia
 - El “Dojo” es un ring circular de 120 cm de diámetro, de fondo negro, con 10 cm de linea de borde blanca. De esta manera los robots pueden indentifica cuando están dentro o fuera del ring, y detectar el borde a través de un sensor infrarojo.
 
-### Especificaciones del Robot
+## Especificaciones del Robot
 - El robot es cronstruido y entregado por Universidad Cenfotec
 - El robot pesa aproximadamente 205 gramos. El peso debe siempre mantenerse entre 205-210 gramos (al agregarle otros sensores el peso puede aumentar un poco)
 - No se permiten modificaciones estructurales del robot. Se puede adaptar para colocarle mas sensores, pero no se permiten agregar puntas, o extensiones para otros propósitos
@@ -82,7 +82,7 @@ El código "hcsr04.mpy" corresponde a la librería para el sensor de distancia. 
 - Cada robot será revisado antes de cada torneo competencia
 
 
-### Principios del juego
+## Principios del juego
 
 - La mesa de arbitraje revisará el robot para determinar que sigue las especificaciones requeridas
 - Son tres "Match" por Set , y gana el que gane dos o más Match
@@ -93,7 +93,7 @@ El código "hcsr04.mpy" corresponde a la librería para el sensor de distancia. 
 - La competencia es por eliminación, y van clasificando en pares hasta la final.
 - El código de los dos primeros lugares será publicado de forma abierta en este GitHub, con el fin de ir mejorando el nivel año con año. 
 
-## Preguntas Frecuentes
+# Preguntas Frecuentes
 
 1.	¿Código se puede modificar?
 R/ Si se puede modificar
