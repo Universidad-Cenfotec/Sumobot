@@ -103,8 +103,5 @@ R/ Se puede agregar sensores adicionales que no impliquen modificaciones del rob
 5.  ¿Esa programación la llevan los estudiantes hechos o la llevan memorizada?
 R/Los estudaintes llevan el programa heho, y en el mismo evento pueden modificar la programación. Si no cuentan con computador, se les facilitará uno en el evento.
 
-[![Final video of fixing issues in your code in VS Code]
-(https://img.youtube.com/vi/JLMbpiywVxQ/maxresdefault.jpg)]
-(https://www.youtube.com/watch?v=JLMbpiywVxQ)
 
 ![SumoBot1](SumoBot_1.JPG)
