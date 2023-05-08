@@ -36,8 +36,8 @@ Para programar el sumobot se utiliza Thonny, el cua pueden descargar en este [li
 
 ### Instrucciones:
 - Descargar la última versión de Thonny
-- Instralar
-- UNa vez instalado, ir al menú "Herramientas > Opciones" o "Tools > Options" en inglés
+- Instalar
+- Una vez instalado, ir al menú "Herramientas > Opciones" o "Tools > Options" en inglés
 - En la pestaña de "Intérprete" (o "Interpreter" en inglés), seleccionar "CyrcuitPyton (Generic)"
 - Listo!
 
