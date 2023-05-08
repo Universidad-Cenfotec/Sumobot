@@ -105,7 +105,7 @@ R/Los estudaintes llevan el programa heho, y en el mismo evento pueden modificar
 
 ## Videos
 
-![Video Presentaci[on]
+![Video Presentación]
 (https://img.youtube.com/vi/cULynEyH3J8/maxresdefault.jpg)]
 (https://www.youtube.com/watch?v=cULynEyH3J8)
 
