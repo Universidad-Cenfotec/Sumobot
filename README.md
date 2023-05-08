@@ -65,9 +65,8 @@ El código "hcsr04.mpy" corresponde a la librería para el sensor de distancia. 
 ## Videos Instructivos
 - [Cómo instalar Thonny](https://youtu.be/Zc3oaAbVAdc)
 
-![SumoBot_Dojo](SumoBot_Dojo.JPG)
-
 # Competencia SumoBot
+![SumoBot_Dojo](SumoBot_Dojo.JPG)
 
 ## Formato de competición
 
