@@ -105,7 +105,9 @@ R/Los estudaintes llevan el programa heho, y en el mismo evento pueden modificar
 
 ## Videos
 
+[![Final video of fixing issues in your code in VS Code]
+(https://img.youtube.com/vi/cULynEyH3J8/maxresdefault.jpg)]
+(https://www.youtube.com/watch?v=cULynEyH3J8)
 
-{% include youtube.html id="cULynEyH3J8" %}
 
 ![SumoBot1](SumoBot_1.JPG)
