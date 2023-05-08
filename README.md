@@ -34,6 +34,13 @@ También con el "Sumobot_Chasis3D.stl" pueden utilizar imprimir el chasis en imp
 
 Para programar el sumobot se utiliza Thonny, el cua pueden descargar en este [link](https://thonny.org/)
 
+###Instrucciones:
+- Descargar la última versión de Thonny
+- Instralar
+- UNa vez instalado, ir al menú "Herramientas > Opciones" o "Tools > Options" en inglés
+- En la pestaña de "Intérprete" (o "Interpreter" en inglés), seleccionar "CyrcuitPyton (Generic)"
+- Listo!
+
 ## Código
 
 El código "code.py" está desarrollado en CircuitPython. Circuit Python es un subconjunto de Python desarrollado para microcontroladores, y facilita la portabilidad y programabilidad de micrcontroladores como el ESP32 y otros. El Sumobot ya viene preparado para trabajar con Circuit Python y no hay que cargar archivos adicionales. Si por alguna razón debe "reflashear" el IdeaBorad, siga las instrucciones en este [link](https://github.com/CRCibernetica/circuitpython-ideaboard/wiki/3.-Installation)
