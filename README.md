@@ -40,6 +40,7 @@ Para programar el sumobot se utiliza Thonny, el cua pueden descargar en este [li
 - Una vez instalado, ir al menú "Herramientas > Opciones" o "Tools > Options" en inglés
 - En la pestaña de "Intérprete" (o "Interpreter" en inglés), seleccionar "CyrcuitPyton (Generic)"
 - Listo!
+- [Video con detalles](https://youtu.be/Zc3oaAbVAdc)
 
 ## Código
 
@@ -60,6 +61,9 @@ El código "hcsr04.mpy" corresponde a la librería para el sensor de distancia. 
 - lookForward() Hace una lectura del sensor ultrasónico y retorna la distancia en cm de lo que esté en frente del bot
 - scan() Rota hacia un lado hacta que detecte algo adelante, o gire un núero determinado de veces
 - forwardCheck(t, speed) Mueve hacia adelante, pero verifica con el sensor IR que no se salga del dojo.  Cuando detecta el borde hace un movimiento hacia atras y luego gira.
+
+## Videos Instructivos
+- [Cómo instalar Thonny](https://youtu.be/Zc3oaAbVAdc)
 
 ![SumoBot_Dojo](SumoBot_Dojo.JPG)
 
