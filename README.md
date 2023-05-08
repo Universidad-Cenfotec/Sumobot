@@ -34,7 +34,7 @@ También con el "Sumobot_Chasis3D.stl" pueden utilizar imprimir el chasis en imp
 
 Para programar el sumobot se utiliza Thonny, el cua pueden descargar en este [link](https://thonny.org/)
 
-###Instrucciones:
+### Instrucciones:
 - Descargar la última versión de Thonny
 - Instralar
 - UNa vez instalado, ir al menú "Herramientas > Opciones" o "Tools > Options" en inglés
