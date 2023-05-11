@@ -30,6 +30,11 @@ También con el "Sumobot_Chasis3D.stl" pueden utilizar imprimir el chasis en imp
 
 ![SumoBot_Conexions](SumoBotCon.png)
 
+## Baterías
+- Las baterías se conectan, el cable rojo al pin marcado como "+" y el negro al pin "-", como se muestra en el siguiente esquema:
+
+![SumoBot_baterías](SumoBotBat.png)
+
 ## Software para programar el Sumobot
 
 Para programar el sumobot se utiliza Thonny, el cua pueden descargar en este [link](https://thonny.org/)
