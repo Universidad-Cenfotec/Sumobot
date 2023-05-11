@@ -33,7 +33,7 @@ También con el "Sumobot_Chasis3D.stl" pueden utilizar imprimir el chasis en imp
 ## Baterías
 - Las baterías se conectan, el cable rojo al pin marcado como "+" y el negro al pin "-", como se muestra en el siguiente esquema:
 
-![SumoBot_baterías](SumoBotBat.png)
+![SumoBot_baterías](SumobotBat.png)
 
 ## Software para programar el Sumobot
 
