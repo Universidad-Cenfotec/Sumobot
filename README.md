@@ -95,7 +95,7 @@ El código "hcsr04.mpy" corresponde a la librería para el sensor de distancia. 
 ## Principios del juego
 
 - La mesa de arbitraje revisará el robot para determinar que sigue las especificaciones requeridas
-- Son tres "Match" por Set , y gana el que gane dos o más Match
+- Son tres "Match" por Set , y gana el que gane dos o más Match. Si un equipo gana dos Match seguidos, no se realiza el tercero.
 - Pierde el robot que sea removido del dojo más allá o a la línea blanca del borde, o que no ejecute ningún movimiento en ese tiempo
 - Cada batalla tiene una duración máxima de 1:30 minutos
 - En caso de empate (no sea el robot sacado del dojo), la mesa de arbitraje considerará ganador el robot con mayor número de ataques
