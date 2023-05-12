@@ -71,6 +71,7 @@ El código "hcsr04.mpy" corresponde a la librería para el sensor de distancia. 
 - [Cómo instalar Thonny](https://youtu.be/Zc3oaAbVAdc)
 - [Conectar el Sumobot a Thonny](https://youtu.be/SpIcqRKmczk)
 - [El código principal del Sumobot](https://youtu.be/86sQCr-bjjk)
+- [CircuitPython: Programando el LED RGB](https://youtu.be/5ezFqexHwQE)
 
 # Competencia SumoBot
 ![SumoBot_Dojo](SumoBot_Dojo.JPG)
