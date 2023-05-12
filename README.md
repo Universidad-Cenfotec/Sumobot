@@ -75,7 +75,7 @@ Si por alguna razón quiere resetear el Sumobot a los archivos iniciales, cargue
 - [Cómo instalar Thonny](https://youtu.be/Zc3oaAbVAdc)
 - [Conectar el Sumobot a Thonny](https://youtu.be/SpIcqRKmczk)
 - [Instalando las baterías del Sumobot](https://youtu.be/ndWJ0q0M8CI)
-- [Calibrando el sensor infrarojo](https://youtu.be/XXJbzzaVefk) 
+- [Calibrando el sensor infrrarojo](https://youtu.be/XXJbzzaVefk) 
 - [El código principal del Sumobot](https://youtu.be/86sQCr-bjjk)
 - [CircuitPython: Programando el LED RGB](https://youtu.be/5ezFqexHwQE)
 
