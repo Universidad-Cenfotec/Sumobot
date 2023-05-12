@@ -67,6 +67,10 @@ El código "hcsr04.mpy" corresponde a la librería para el sensor de distancia. 
 - scan() Rota hacia un lado hacta que detecte algo adelante, o gire un núero determinado de veces
 - forwardCheck(t, speed) Mueve hacia adelante, pero verifica con el sensor IR que no se salga del dojo.  Cuando detecta el borde hace un movimiento hacia atras y luego gira.
 
+### Recuperar la configuración inicial
+
+Si por alguna razón quiere resetear el Sumobot a los archivos iniciales, cargue a través de Thonny en el CircuitPython Device (el sumobot conectado) todos los archivos que vienen en el archivo ZIP "SumoBot_Device_Files.zip"
+
 ## Videos Instructivos
 - [Cómo instalar Thonny](https://youtu.be/Zc3oaAbVAdc)
 - [Conectar el Sumobot a Thonny](https://youtu.be/SpIcqRKmczk)
