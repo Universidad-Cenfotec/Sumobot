@@ -1,5 +1,5 @@
 # Tomás de Camino Beck
-# Esceula de Sistemas Inteligentes
+# Escuela de Sistemas Inteligentes
 # Universidad Cenfotec
 
 import board #Librerías para accesar a I/O de la placa
@@ -15,7 +15,7 @@ ib = IdeaBoard() # Instanciación I/O y funcione sdel Ideboard
 irSensor =  ib.DigitalIn(board.IO33) # Instanciación del sensor infrarojo
 
 def wiggle(t,n,speed):
-# Hcae que el robot se mueva izquiera y derecha
+# Hace que el robot se mueva izquierda y derecha
 # por tiempo t, a velocidad speed = [0,1]
 #lo hace n veces
     for i in range(n):
@@ -84,7 +84,7 @@ def randomTurn(t,speed):
     sleep(t)
     
 def lookForward():
-    # con el sensor ultrasonico mide la distncia al objeto de enfrente
+    # con el sensor ultrasonico mide la distancia al objeto de enfrente
     # retorna la distancia en centímetros
     stop()
     dist = sonar.dist_cm()
