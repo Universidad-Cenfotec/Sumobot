@@ -127,5 +127,8 @@ R/ Se puede agregar sensores adicionales que no impliquen modificaciones del rob
 5.  ¿Esa programación la llevan los estudiantes hechos o la llevan memorizada?
 R/Los estudaintes llevan el programa heho, y en el mismo evento pueden modificar la programación. Si no cuentan con computador, se les facilitará uno en el evento.
 
+# Algunas cosas por mejorar
+- Las piezas del chasis se podrían soltar. Si ese es el caso utilizar goma loca (loctite) y aplicvar unas gotitas en la piezas que se despegaron. Puede utilizar cetona para luego limpiar el exceso de goma y partes que se ponen blancas
+- Los tornillo de motores son cortos, y con la vibración se pueden soltar y caer.  En versiones futuras intentarémos conseguir tornillo más largos para evitar este problema, o loctite "pegamento de roscas" para asegurar que no se suelten.
 
 ![SumoBot1](SumoBot_1.JPG)
