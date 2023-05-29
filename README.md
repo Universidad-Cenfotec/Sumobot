@@ -90,7 +90,7 @@ Si por alguna razón quiere resetear el Sumobot a los archivos iniciales, cargue
 - Los encuentros de dos robots los denominamos "Set"
 - Cada Set consiste de 3 juegos (Match) de un minuto y medio, con una pausa de un minuto entre juegos, para ajustes o cambios de estrategia
 - El “Dojo” es un ring circular de 120 cm de diámetro, de fondo negro, con 10 cm de linea de borde blanca. De esta manera los robots pueden indentifica cuando están dentro o fuera del ring, y detectar el borde a través de un sensor infrarojo.
-- En este archivo PDF tiene el dise;o del [Mini-Dojo](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/circulo_10cmEspesor.pdf)
+- En este archivo PDF tiene el dise;o del [Mini-Dojo](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/circulo_10cmEspesor.pdf). El mini-Dojo se puede utilizar para probar diferentes ideas y garantizar de que funciona el robot, pero siempre se debe tener en cuenta que el dojo de la competencia es mucho más grande.
 
 ## Especificaciones del Robot
 - El robot es cronstruido y entregado por Universidad Cenfotec
