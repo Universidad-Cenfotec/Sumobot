@@ -78,6 +78,8 @@ Si por alguna razón quiere resetear el Sumobot a los archivos iniciales, cargue
 - [Calibrando el sensor infrrarojo](https://youtu.be/XXJbzzaVefk) 
 - [El código principal del Sumobot](https://youtu.be/86sQCr-bjjk)
 - [CircuitPython: Programando el LED RGB](https://youtu.be/5ezFqexHwQE)
+- [Programando el sensor infrarrojo](https://youtu.be/1JA3G-FPpJ4)
+- [Programando el sensor ultrasónico](https://youtu.be/RwY2lEPkyg8)
 
 # Competencia SumoBot
 ![SumoBot_Dojo](SumoBot_Dojo.JPG)
