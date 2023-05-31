@@ -99,6 +99,7 @@ Si por alguna razón quiere resetear el Sumobot a los archivos iniciales, cargue
 - El robot pesa aproximadamente, sin la caja de la baterías 158g, con la caja de la baterías, sin baterías  173g, con la caja y las baterías puestas su peso es 258g. El peso debe siempre mantenerse entre 258-282 gramos (al agregarle otros sensores el peso puede aumentar un poco, un sensor ultrqasónico pesa unos 8.5 gramos)
 - No se permiten modificaciones estructurales del robot. Se puede adaptar para colocarle mas sensores, pero no se permiten agregar puntas, o extensiones para otros propósitos
 - Se puede agregar sensores adicionales que no impliquen modificaciones del robot (modificar el chasis). Es decir, se pueden incroporar a la estructura del chasis sin agregar nada más.
+- No se pueden cambiar los neumáticos o las ruedas del robot, esto para que los robots luchen en iguales condiciones y el ganador se deba a estrategia
 - Cada robot será revisado antes de cada torneo competencia
 
 
