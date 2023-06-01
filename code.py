@@ -119,7 +119,7 @@ def forwardCheck(t, speed):
              forward(0.1,speed)
          else:
              stop()
-             sleep(0.1)
+             sleep(0.3)
              backward(1,0.3)
              randomTurn(1,0.3)
              
