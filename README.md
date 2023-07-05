@@ -1,4 +1,4 @@
-![SumoBot](SumobotBanner.png)
+![SumoBot](imagenes/SumobotBanner.png)
 
 # Código y Diseños del Sumobot
 
@@ -6,7 +6,7 @@ El Sumobot es un robot simple para competencias de sumobot. Fue diseñado por To
 
 El Sumobot utiliza la placa [IdeaBoard](https://github.com/CRCibernetica/circuitpython-ideaboard/wiki), desarrollada por CrCiberética, esta placa tiene un ESP32 como microcontrolador, y facilita la conexión de sensores y su programación a través de USB o Wifi.
 
-![SumoBot Parts](SumoBot_Parts.JPG)
+![SumoBot Parts](imagenes/SumoBot_Parts.JPG)
 
 ## Componetes del Sumobot 
 - [IdeaBoard (ESP32)](https://www.crcibernetica.com/crcibernetica-ideaboard/)
@@ -28,12 +28,12 @@ También con el "Sumobot_Chasis3D.stl" pueden utilizar imprimir el chasis en imp
 - El sensor ultrasónico conectado en IO026 (trig) y I0025(Echo)
 - Los motores van en Motor 1 y Motor 2 (con posiciones invertidas)
 
-![SumoBot_Conexions](SumoBotCon.png)
+![SumoBot_Conexions](imagenes/SumoBotCon.png)
 
 ## Baterías
 - Las baterías se conectan, el cable rojo al pin marcado como "+" y el negro al pin "-", como se muestra en el siguiente esquema:
 
-![SumoBot_baterías](SumobotBat.png)
+![SumoBot_baterías](imagenes/SumobotBat.png)
 
 ## Software para programar el Sumobot
 
@@ -83,7 +83,7 @@ Si por alguna razón quiere resetear el Sumobot a los archivos iniciales, cargue
 - [Motores DC con el Sumobot](https://youtu.be/MybJACeDIgA)
 
 # Competencia SumoBot
-![SumoBot_Dojo](SumoBot_Dojo.JPG)
+![SumoBot_Dojo](imagenes/SumoBot_Dojo.JPG)
 
 ## Formato de competición
 
@@ -196,4 +196,4 @@ R/Los estudaintes llevan el programa heho, y en el mismo evento pueden modificar
 - Las piezas del chasis se podrían soltar. Si ese es el caso utilizar goma loca (loctite) y aplicvar unas gotitas en la piezas que se despegaron. Puede utilizar cetona para luego limpiar el exceso de goma y partes que se ponen blancas
 - Los tornillo de motores son cortos, y con la vibración se pueden soltar y caer.  En versiones futuras intentarémos conseguir tornillo más largos para evitar este problema, o loctite "pegamento de roscas" para asegurar que no se suelten.
 
-![SumoBot1](SumoBot_1.JPG)
+![SumoBot1](imagenes/SumoBot_1.JPG)
