@@ -6,6 +6,8 @@ El Sumobot es un robot simple, 100% desarrollado en Costa Rica, para competencia
 
 El Sumobot utiliza la placa [IdeaBoard](https://github.com/CRCibernetica/circuitpython-ideaboard/wiki), desarrollada por CrCiberética, esta placa que es Open Soruce tiene un ESP32 como microcontrolador, y facilita la conexión de sensores, motores y su programación a través de USB o Wifi.
 
+Pueder ver este [video de un resúmen](https://youtu.be/L98O-mApjXQ) de la primera competecnia de Sumobot de Costa Rica, celebrada en el Maker Fiare San José 2023
+
 ![SumoBot Parts](imagenes/SumoBot_Parts.JPG)
 
 ## Componetes del Sumobot 
