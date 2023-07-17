@@ -24,6 +24,8 @@ Archivo "Sumobot_Chasis.svg" está en formato SVG para corte láser del chasis d
 
 También con el "Sumobot_Chasis3D.stl" pueden utilizar imprimir el chasis en impresora 3D. Esto facilita agregar estructuras más complejas que no son posibles en 2D.
 
+Tenemos una nueva versión del chasis del Sumobot que no ocupa pegamento. Se une con tiras de plástico, lo cual facilita su construcción y reparación. Eñ Archivo "SumoBot_Sin_Goma.svg" contiene el diseño para corte láser.
+
 ## Esquema de conexiones
 
 - el sensor ifrarojo va conectado en el IO033
