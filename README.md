@@ -13,7 +13,7 @@ Pueder ver este [video de un resúmen](https://youtu.be/L98O-mApjXQ) de la prime
 ## Componetes del Sumobot 
 - [IdeaBoard (ESP32)](https://www.crcibernetica.com/crcibernetica-ideaboard/)
 - 2 x [Micro motores](https://www.crcibernetica.com/micro-gearmotor/) de 200 RPM
-- [Sesnor IR](https://www.crcibernetica.com/track-sensor-module/)
+- [Sensor IR](https://www.crcibernetica.com/track-sensor-module/)
 - [Sensor ultrasónico](https://www.crcibernetica.com/hc-sr05-ultrasonic-distance-sensor/) de distanca (HCSR04)
 
 Todos los componetes se puede encontrar en Costa Rica en CrCibernética. 
