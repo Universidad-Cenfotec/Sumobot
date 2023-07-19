@@ -26,6 +26,8 @@ También con el "Sumobot_Chasis3D.stl" pueden utilizar imprimir el chasis en imp
 
 Tenemos una nueva versión del chasis del Sumobot que no ocupa pegamento. Se une con tiras de plástico de 2.5mm, lo cual facilita su construcción y reparación. El Archivo [SumoBot_Sin_Goma.svg](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/archivos_de_fabricacion/SumoBot_Chasis.svg) contiene el diseño para corte láser.
 
+También hay una [versión](https://github.com/Universidad-Cenfotec/Sumobot/tree/main/archivos_de_fabricacion/FeeCAD_model) que es "snap" y que no ocupa ni pegamento ni tiras de plástico.
+
 ## Esquema de conexiones
 
 - el sensor ifrarojo va conectado en el IO033
