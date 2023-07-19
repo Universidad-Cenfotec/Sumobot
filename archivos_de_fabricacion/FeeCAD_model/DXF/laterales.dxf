@@ -219,7 +219,7 @@ TABLE
   2
 LAYER
   5
-A31
+A33
 330
 0
 100
@@ -229,9 +229,9 @@ AcDbSymbolTable
   0
 LAYER
   5
-A32
+A34
 330
-A31
+A33
 100
 AcDbSymbolTableRecord
 100
@@ -247,9 +247,9 @@ CONTINUOUS
   0
 LAYER
   5
-A33
+A35
 330
-A31
+A33
 100
 AcDbSymbolTableRecord
 100
@@ -265,9 +265,9 @@ CONTINUOUS
   0
 LAYER
   5
-A34
+A36
 330
-A31
+A33
 100
 AcDbSymbolTableRecord
 100
@@ -1233,7 +1233,7 @@ Sketch013
 100
 AcDbLine
  10
--66.4972
+-72.9972
  20
 -28.9866
  30
@@ -1241,13 +1241,61 @@ AcDbLine
  11
 -72.9972
  21
--28.9866
+-27.4866
  31
 0
   0
 LINE
   5
 A1F
+330
+A02
+100
+AcDbEntity
+  8
+Sketch013
+100
+AcDbLine
+ 10
+-72.9972
+ 20
+-27.4866
+ 30
+0
+ 11
+-68.015
+ 21
+-27.4866
+ 31
+0
+  0
+LINE
+  5
+A20
+330
+A02
+100
+AcDbEntity
+  8
+Sketch013
+100
+AcDbLine
+ 10
+-68.015
+ 20
+-27.4866
+ 30
+0
+ 11
+-66.4972
+ 21
+-28.9866
+ 31
+0
+  0
+LINE
+  5
+A21
 330
 A02
 100
@@ -1271,7 +1319,7 @@ AcDbLine
   0
 LINE
   5
-A20
+A22
 330
 A02
 100
@@ -1295,7 +1343,7 @@ AcDbLine
   0
 LINE
   5
-A21
+A23
 330
 A02
 100
@@ -1319,7 +1367,7 @@ AcDbLine
   0
 LINE
   5
-A22
+A24
 330
 A02
 100
@@ -1343,7 +1391,7 @@ AcDbLine
   0
 LINE
   5
-A23
+A25
 330
 A02
 100
@@ -1367,7 +1415,7 @@ AcDbLine
   0
 LINE
   5
-A24
+A26
 330
 A02
 100
@@ -1391,7 +1439,7 @@ AcDbLine
   0
 LINE
   5
-A25
+A27
 330
 A02
 100
@@ -1415,7 +1463,7 @@ AcDbLine
   0
 LINE
   5
-A26
+A28
 330
 A02
 100
@@ -1439,7 +1487,7 @@ AcDbLine
   0
 LINE
   5
-A27
+A29
 330
 A02
 100
@@ -1463,7 +1511,7 @@ AcDbLine
   0
 ARC
   5
-A28
+A2A
 330
 A02
 100
@@ -1489,7 +1537,7 @@ AcDbArc
   0
 LINE
   5
-A29
+A2B
 330
 A02
 100
@@ -1513,7 +1561,7 @@ AcDbLine
   0
 LINE
   5
-A2A
+A2C
 330
 A02
 100
@@ -1537,7 +1585,7 @@ AcDbLine
   0
 LINE
   5
-A2B
+A2D
 330
 A02
 100
@@ -1561,7 +1609,7 @@ AcDbLine
   0
 LINE
   5
-A2C
+A2E
 330
 A02
 100
@@ -1585,54 +1633,6 @@ AcDbLine
   0
 LINE
   5
-A2D
-330
-A02
-100
-AcDbEntity
-  8
-Sketch013
-100
-AcDbLine
- 10
--71.4972
- 20
--32.4036
- 30
-0
- 11
--68.4972
- 21
--32.4036
- 31
-0
-  0
-LINE
-  5
-A2E
-330
-A02
-100
-AcDbEntity
-  8
-Sketch013
-100
-AcDbLine
- 10
--68.4972
- 20
--32.4036
- 30
-0
- 11
--68.4972
- 21
--29.4036
- 31
-0
-  0
-LINE
-  5
 A2F
 330
 A02
@@ -1643,6 +1643,54 @@ Sketch013
 100
 AcDbLine
  10
+-71.4972
+ 20
+-32.4036
+ 30
+0
+ 11
+-68.4972
+ 21
+-32.4036
+ 31
+0
+  0
+LINE
+  5
+A30
+330
+A02
+100
+AcDbEntity
+  8
+Sketch013
+100
+AcDbLine
+ 10
+-68.4972
+ 20
+-32.4036
+ 30
+0
+ 11
+-68.4972
+ 21
+-29.4036
+ 31
+0
+  0
+LINE
+  5
+A31
+330
+A02
+100
+AcDbEntity
+  8
+Sketch013
+100
+AcDbLine
+ 10
 -68.4972
  20
 -29.4036
@@ -1657,7 +1705,7 @@ AcDbLine
   0
 LINE
   5
-A30
+A32
 330
 A02
 100
