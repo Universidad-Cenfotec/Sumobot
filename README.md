@@ -13,7 +13,7 @@ Pueder ver este [video de un resúmen](https://youtu.be/L98O-mApjXQ) de la prime
 ## Componetes del Sumobot 
 - [IdeaBoard (ESP32)](https://www.crcibernetica.com/crcibernetica-ideaboard/)
 - 2 x [Micro motores](https://www.crcibernetica.com/micro-gearmotor/) de 200 RPM
-- [Sesnor IR](https://www.crcibernetica.com/track-sensor-module/)
+- [Sensor IR](https://www.crcibernetica.com/track-sensor-module/)
 - [Sensor ultrasónico](https://www.crcibernetica.com/hc-sr05-ultrasonic-distance-sensor/) de distanca (HCSR04)
 
 Todos los componetes se puede encontrar en Costa Rica en CrCibernética. 
@@ -23,6 +23,8 @@ Todos los componetes se puede encontrar en Costa Rica en CrCibernética.
 Archivo "Sumobot_Chasis.svg" está en formato SVG para corte láser del chasis de Sumobot.  Se puede cortar tanto en acrílico como MDF u otro material con espesor de 3mm. 
 
 También con el "Sumobot_Chasis3D.stl" pueden utilizar imprimir el chasis en impresora 3D. Esto facilita agregar estructuras más complejas que no son posibles en 2D.
+
+Tenemos una nueva versión del chasis del Sumobot que no ocupa pegamento. Se une con tiras de plástico de 2.5mm, lo cual facilita su construcción y reparación. El Archivo [SumoBot_Sin_Goma.svg](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/archivos_de_fabricacion/SumoBot_Chasis.svg) contiene el diseño para corte láser.
 
 ## Esquema de conexiones
 
