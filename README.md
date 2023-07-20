@@ -202,4 +202,21 @@ R/Los estudaintes llevan el programa heho, y en el mismo evento pueden modificar
 - Las piezas del chasis se podrían soltar. Si ese es el caso utilizar goma loca (loctite) y aplicvar unas gotitas en la piezas que se despegaron. Puede utilizar cetona para luego limpiar el exceso de goma y partes que se ponen blancas
 - Los tornillo de motores son cortos, y con la vibración se pueden soltar y caer.  En versiones futuras intentarémos conseguir tornillo más largos para evitar este problema, o loctite "pegamento de roscas" para asegurar que no se suelten.
 
+[Nombre del proyecto] 
+# Licencia
+
+Sumobot es un robot desarrollado con el propósito de potenciar el aprendizaje de computación en colegios. Este proyecto está abierto a contribuciones y estamos encantados de recibir nuevas ideas.
+
+Este robot está protegido por una licencia Creative Commons. Específicamente, se trata de una licencia CC BY-NC-SA 4.0, que significa Atribución-NoComercial-CompartirIgual 4.0 Internacional.
+
+Bajo esta licencia, se permite el uso, distribución y modificación del robot, pero con las siguientes condiciones:
+- Atribución — Debes dar el crédito correspondiente, proporcionar un enlace a la licencia e indicar si se han realizado cambios.
+- NoComercial — No puedes utilizar el material para una finalidad comercial.
+- CompartirIgual — Si remezclas, transformas o creas a partir del material, debes distribuir tus contribuciones bajo la misma licencia que el original.
+
+Para obtener más detalles sobre la licencia, por favor visita [https://creativecommons.org/]
+
+# Contribuciones
+Si estás interesado en contribuir a el Sumobot, por favor, revisa las guías de contribución disponibles en la sección de 'Documentación'. Todas las contribuciones son bienvenidas, no importa cuán pequeñas sean. Juntos podemos hacer que Sumobot sea mejor para todos.
+
 ![SumoBot1](imagenes/SumoBot_1.JPG)
