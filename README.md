@@ -216,6 +216,8 @@ Bajo esta licencia, se permite el uso, distribución y modificación del robot, 
 
 Para obtener más detalles sobre la licencia, por favor visita [https://creativecommons.org/]
 
+![CC](imagenes/Reconocimiento-no-comercial-sin-obra-derivada.PNG)
+
 # Contribuciones
 Si estás interesado en contribuir a el Sumobot, por favor, revisa las guías de contribución disponibles en la sección de 'Documentación'. Todas las contribuciones son bienvenidas, no importa cuán pequeñas sean. Juntos podemos hacer que Sumobot sea mejor para todos.
 
