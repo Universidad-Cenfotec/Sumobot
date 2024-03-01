@@ -94,20 +94,12 @@ Si por alguna razón quiere resetear el Sumobot a los archivos iniciales, cargue
 ## Formato de competición
 
 - El torneo SumoBot se estructura como un torneo por eliminatoria.
-- Dos robots compiten en un "Dojo". El que es sacado del ring, o deja de funcionar, pierde
-- Los encuentros de dos robots iniciales se seleccionan al azar
+- Dos robots compiten en un "Dojo". El que es sacado del ring, deja de funcionar , o sin posibilidad de movimiento, pierde
+- Se define una llave previa donde los equipos serán asignados al azar.
 - Los encuentros de dos robots los denominamos "Set"
 - Cada Set consiste de 3 juegos (Match) de un minuto y medio, con una pausa de un minuto entre juegos, para ajustes o cambios de estrategia
 - El “Dojo” es un ring circular de 120 cm de diámetro, de fondo negro, con 10 cm de linea de borde blanca. De esta manera los robots pueden indentifica cuando están dentro o fuera del ring, y detectar el borde a través de un sensor infrarojo.
-- En este archivo PDF tiene el dise;o del [Mini-Dojo](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/circulo_10cmEspesor.pdf). El mini-Dojo se puede utilizar para probar diferentes ideas y garantizar de que funciona el robot, pero siempre se debe tener en cuenta que el dojo de la competencia es mucho más grande.
-
-## Especificaciones del Robot
-- El robot es cronstruido y entregado por Universidad Cenfotec
-- El robot pesa aproximadamente, sin la caja de la baterías 158g, con la caja de la baterías, sin baterías  173g, con la caja y las baterías puestas su peso es 258g. El peso debe siempre mantenerse entre 258-282 gramos (al agregarle otros sensores el peso puede aumentar un poco, un sensor ultrqasónico pesa unos 8.5 gramos)
-- No se permiten modificaciones estructurales del robot. Se puede adaptar para colocarle mas sensores, pero no se permiten agregar puntas, o extensiones para otros propósitos
-- Se puede agregar sensores adicionales que no impliquen modificaciones del robot (modificar el chasis). Es decir, se pueden incroporar a la estructura del chasis sin agregar nada más.
-- No se pueden cambiar los neumáticos o las ruedas del robot, esto para que los robots luchen en iguales condiciones y el ganador se deba a estrategia
-- Cada robot será revisado antes de cada torneo competencia
+- En este archivo PDF tiene el diseño del [Mini-Dojo](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/circulo_10cmEspesor.pdf). El mini-Dojo se puede utilizar para probar diferentes ideas y garantizar de que funciona el robot, pero siempre se debe tener en cuenta que el dojo de la competencia es mucho más grande.
 
 
 ## Principios del juego
@@ -131,6 +123,7 @@ Si por alguna razón quiere resetear el Sumobot a los archivos iniciales, cargue
 5. Mesa de arbitraje: es la o las persona con autoridad responsable de presidir el juego desde un punto de vista neutral y de tomar decisiones sobre la marcha que hacen cumplir las reglas de este reglamento.
 6. Dojo: área de combate, el espacio formado por la tarima circular y un espacio circundante denominado área exterior de seguridad
 7. Ronda: Sistema en torneos que consiste en que el perdedor de un encuentro queda inmediatamente eliminado de la competición, mientras que el ganador avanza a la siguiente fase. Se van jugando rondas y en cada una de ellas se elimina la mitad de participantes hasta dejar un único competidor que se corona como campeón
+8. Fiscal: Persona encargad de revisar y validar las especificaciones del robot.
 
 ## ESPECIFICACIONES DEL ROBOT
 1. Los robots son construidos y entregados por la Universidad CENFOTEC.
@@ -141,45 +134,37 @@ Si por alguna razón quiere resetear el Sumobot a los archivos iniciales, cargue
 6. No se pueden cambiar los motores
 7. No se puede utilizar otro tipo de baterías
 8. Cada robot será revisado antes de cada competencia.
+9. En situaciones especiales con respecto a las especificaciones del robot, su estructura y funcionamiento, que no estén clarametne denfindo en las reglas, quedará a criterio unificado de jueces.
 
 
 ## REGLAS DEL JUEGO
-1. La mesa de arbitraje revisará cada robot para asegurarse de que cumple con las especificaciones requeridas.
+1. Un fiscal revisará cada robot para asegurarse de que cumple con las especificaciones requeridas. En caso de duda, será verificado por jueces.
 2. Cada "match" consta de tres rondas o tiempos, y el equipo que gane dos o más rondas será el ganador. Si un equipo gana dos rondas seguidas, no se realizará la tercera.
 3. Un robot pierde si es removido del dojo más allá de la línea blanca del borde o si no ejecuta ningún movimiento durante el tiempo asignado, o queda inmovilizado por el oponente.
 4. Cada batalla tiene una duración máxima de 1 minuto y 30 segundos.
-5. En caso de empate (si ninguno de los robots es sacado del dojo), la mesa de arbitraje determinará el ganador según el robot con mayor número de ataques.
+5. En caso de empate (si ninguno de los robots es sacado del dojo en los tres rounds), se resolverá por lanzamiento de moneda.
 6. La competencia es por eliminación y los equipos avanzarán en pares hasta la final.
-7. Empieza cada robot a cada extremo viéndose de frente
-8. Entre cada set se tiene 1 minuto para revisar el robot y hacer posibles cambios
-9. En caso de empate (no sea el robot sacado del dojo), la mesa de arbitraje considerará ganador el robot con mayor número de ataques
-10. La competencia es por eliminación, y van clasificando en pares hasta la final.
-11. De todos los equipos que perdieron se escogerá uno al azar que pasará a la siguiente ronda
-12. Si en un match no se presenta uno de los equipos, ganará el que se presentó
-13. Si en un match no se presenta ninguno de los equipos, el pase a la siguiente ronda se rifará entre los que perdieron
-14. El código de los dos primeros lugares se publicará de forma abierta en GitHub con el objetivo de fomentar la mejora del nivel de competencia año tras año.
+7. Cada round comienza diferente. Primero con los robots frente a frente a una distancia aproximada de 10 cm, Luego espalda a epsalda pegados. y luego lado a lado pregados viendo en direcciones opuestas.
+9. Entre cada set se tiene 1 minuto para revisar el robot y hacer posibles cambios
+12. De todos los equipos que perdieron existe la posibilidad que se escoja uno al azar que pasará a la siguiente ronda
+13. Si en un match no se presenta uno de los equipos, ganará el que se presentó
+14. Si en un match no se presenta ninguno de los equipos, el pase a la siguiente ronda se rifará entre equipos eliminados en rondas anteriores
 
 ## REGLAMENTACIÓN Y FORMATO DE COMPETICIÓN EL DÍA DEL EVENTO
-1. Antes de la gran competencia, se realizará un sorteo virtual el viernes 23 de junio de 2023, de 5:00 p.m. a 5:50 p.m., para determinar los enfrentamientos del día domingo 25 de junio de 2023. La transmisión del sorteo se llevará a cabo en el enlace: https://meet.google.com/hoq-psws-qnt.
-2. Durante el sorteo, se seleccionarán al azar los nombres de los 44 equipos (2 por colegio) hasta completar los 22 enfrentamientos.
-3. Ronda #1: El día domingo 25 de junio de 2023, a partir de las 10:30 a.m., se llevarán a cabo los enfrentamientos entre los equipos. Los 22 equipos ganadores pasarán a la siguiente fase..
-4. Ronda #2: A partir de las 2:00 p.m., se enfrentarán los 22 equipos clasificados de la ronda #1. De esta ronda, 11 equipos ganadores pasarán a la siguiente etapa y el equipo #12 será seleccionado mediante un sorteo entre los equipos perdedores.
-5. Ronda #3: En esta ronda participarán los 12 equipos clasificados, de los cuales pasarán 6 equipos a la siguiente ronda.
-6. Ronda #4: En esta ronda participarán los 6 equipos clasificados de la ronda anterior, y se clasifican 3 equipos para pasar a la final. El cuarto equipo será seleccionado mediante un sorteo entre los equipos perdedores.
-7. Ronda #5: Fase final, en esta ronda se enfrentarán los 4 equipos clasificados en una semifinal, luego habrá un match para tercero y cuarto lugar y la final para determinar  el primer y segundo 
-
+1. Antes de la gran competencia, se realizará un sorteo virtual
+2. Durante el sorteo, se seleccionarán al azar los nombres de los equipos (2 por colegio) hasta completar los  enfrentamientos.
+3. Ronda eliminatorias: Se realizarán el día domingo 30 de junio de 2024. La hora se determina el día del evento. Los enfrentamientos se darñan de acuerdo a una llave de eliminatoria  que se establecerá de acuerdo con el número de equipos participantes.
+7. Ronda final: En esta ronda se enfrentarán los 4 equipos clasificados en una semifinal, luego habrá un match para tercero y cuarto lugar y la final para determinar  el primer y segundo. 
 
 ## EL PREMIO
-1. El colegio ganador y campeón del Sumobot 2023 recibirá una impresora 3D de la marca Ender, así cómo el trofeo que lo acreditará cómo el campeón del primer sumobot 2023.
-2. El segundo y tercer lugar recibirán reconocimientos por parte de los patrocinadores.
-
+Por definir
 
 ## SANCIONES Y APELACIONES
 1. Si un equipo no se presenta para un "match" en el día del evento, el equipo oponente clasificará automáticamente.
 
 
 ## DISPOSICIONES FINALES
-1. Este evento tiene cómo objetivo colaborar, apoyar y estimular la comunidad, por lo cual cada colegio representado podrá recibir apoyo de sus oponentes en el momento que ellos así lo manifiesten.
+1. Este evento tiene cómo objetivo colaborar, apoyar y estimular la comunidad, por lo cual cada colegio representado podrá recibir apoyo de sus oponentes en el momento que ellos así lo manifiesten. Los docentes pueden ayudar y asesorar a sus equipos. Se espera de los docentes que dejen y estimulen a sus estudiantes realizar el 100% del trabajo.
 
 # Preguntas Frecuentes
 
