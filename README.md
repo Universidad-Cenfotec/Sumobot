@@ -4,9 +4,9 @@
 
 El Sumobot es un robot simple, 100% desarrollado en Costa Rica, para competencias colegiales de sumobot. Fue diseñado por el profesor Tomás de Camino Beck para la Universidad Cenfotec como parte de un programa de transformación educativa con el objetivo de ampliar capacidades de pensamiento computacional tanto en estudiantes de colegio como en estudiantes de la universidad.
 
-El Sumobot utiliza la placa [IdeaBoard](https://github.com/CRCibernetica/circuitpython-ideaboard/wiki), desarrollada por CrCiberética, esta placa que es Open Soruce tiene un ESP32 como microcontrolador, y facilita la conexión de sensores, motores y su programación a través de USB o Wifi.
+El Sumobot utiliza la placa [IdeaBoard](https://github.com/CRCibernetica/circuitpython-ideaboard/wiki), desarrollada por CrCibernética, esta placa que es Open Source tiene un ESP32 como microcontrolador, y facilita la conexión de sensores, motores y su programación a través de USB o Wifi.
 
-Pueder ver este [video de un resúmen](https://youtu.be/L98O-mApjXQ) de la primera competecnia de Sumobot de Costa Rica, celebrada en el Maker Fiare San José 2023
+Pueder ver este [video de un resúmen](https://youtu.be/L98O-mApjXQ) de la primera competencia de Sumobot de Costa Rica, celebrada en el Maker Faire San José 2023
 
 ![SumoBot Parts](imagenes/SumoBot_Parts.JPG)
 
@@ -30,7 +30,7 @@ También hay una [versión](https://github.com/Universidad-Cenfotec/Sumobot/tree
 
 ## Esquema de conexiones
 
-- el sensor ifrarojo va conectado en el IO033
+- el sensor infrarojo va conectado en el IO033
 - El sensor ultrasónico conectado en IO026 (trig) y I0025(Echo)
 - Los motores van en Motor 1 y Motor 2 (con posiciones invertidas)
 
@@ -43,7 +43,7 @@ También hay una [versión](https://github.com/Universidad-Cenfotec/Sumobot/tree
 
 ## Software para programar el Sumobot
 
-Para programar el sumobot se utiliza Thonny, el cua pueden descargar en este [link](https://thonny.org/)
+Para programar el sumobot se utiliza Thonny, el cual pueden descargar en este [link](https://thonny.org/)
 
 ### Instrucciones:
 - Descargar la última versión de Thonny
@@ -62,15 +62,15 @@ El código "hcsr04.mpy" corresponde a la librería para el sensor de distancia. 
 
 ### Funciones Básicas
 
-- wiggle(t,n,speed) Hace que el bot se mueva izqiuerda derecha pot tiepo t (segundos), velocidad speed, n veces
-- forward(t,speed) Mueve el bot hacia adelante por tiepo t (segundos), velocidad speed
-- backward(t,speed) Mueve el bot hacia atras por tiepo t (segundos), velocidad speed
-- left(t,speed) Mueve el bot hacia la izquierda por tiepo t (segundos), velocidad speed
-- right(t,speed) Mueve el bot hacia la derecha por tiepo t (segundos), velocidad speed
+- wiggle(t,n,speed) Hace que el bot se mueva izquierda derecha por tiempo t (segundos), velocidad speed, n veces
+- forward(t,speed) Mueve el bot hacia adelante por tiempo t (segundos), velocidad speed
+- backward(t,speed) Mueve el bot hacia atras por tiempo t (segundos), velocidad speed
+- left(t,speed) Mueve el bot hacia la izquierda por tiempo t (segundos), velocidad speed
+- right(t,speed) Mueve el bot hacia la derecha por tiempo t (segundos), velocidad speed
 - stop() detiene el bot
 - randomTurn(t,speed) Gira izq o der al azar, por tiempo t y velocidad speed
 - lookForward() Hace una lectura del sensor ultrasónico y retorna la distancia en cm de lo que esté en frente del bot
-- scan() Rota hacia un lado hacta que detecte algo adelante, o gire un núero determinado de veces
+- scan() Rota hacia un lado hasta que detecte algo adelante, o gire un número determinado de veces
 - forwardCheck(t, speed) Mueve hacia adelante, pero verifica con el sensor IR que no se salga del dojo.  Cuando detecta el borde hace un movimiento hacia atras y luego gira.
 
 ### Recuperar la configuración inicial
@@ -98,15 +98,15 @@ Si por alguna razón quiere resetear el Sumobot a los archivos iniciales, cargue
 - Se define una llave previa donde los equipos serán asignados al azar.
 - Los encuentros de dos robots los denominamos "Set"
 - Cada Set consiste de 3 juegos (Match) de un minuto y medio, con una pausa de un minuto entre juegos, para ajustes o cambios de estrategia
-- El “Dojo” es un ring circular de 120 cm de diámetro, de fondo negro, con 10 cm de linea de borde blanca. De esta manera los robots pueden indentifica cuando están dentro o fuera del ring, y detectar el borde a través de un sensor infrarojo.
-- En este archivo PDF tiene el diseño del [Mini-Dojo](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/circulo_10cmEspesor.pdf). El mini-Dojo se puede utilizar para probar diferentes ideas y garantizar de que funciona el robot, pero siempre se debe tener en cuenta que el dojo de la competencia es mucho más grande.
+- El “Dojo” es un ring circular de 120 cm de diámetro, de fondo negro, con 10 cm de linea de borde blanca. De esta manera los robots pueden indentificar cuando están dentro o fuera del ring, y detectar el borde a través de un sensor infrarojo.
+- En este archivo PDF tiene el diseño del [Mini-Dojo](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/circulo_10cmEspesor.pdf). El mini-Dojo se puede utilizar para probar diferentes ideas y garantizar de que funciona el robot, pero siempre se debe tener en cuenta que el dojo de la competencia es mucho más grande y que encima tiene una lamina de acrilico de 3mm.
 
 
 ## Principios del juego
 
 - La mesa de arbitraje revisará el robot para determinar que sigue las especificaciones requeridas
 - Son tres "Match" por Set , y gana el que gane dos o más Match. Si un equipo gana dos Match seguidos, no se realiza el tercero.
-- Pierde el robot que sea removido del dojo más allá o a la línea blanca del borde, o que no ejecute ningún movimiento en ese tiempo
+- Un robot perderá si es removido del dojo más allá de la línea blanca del borde, o si no ejecuta ningún movimiento dentro del tiempo establecido
 - Cada batalla tiene una duración máxima de 1:30 minutos
 - En caso de empate (no sea el robot sacado del dojo), la mesa de arbitraje considerará ganador el robot con mayor número de ataques
 - Las tres acciones de batalla son atacar, defender y buscar
@@ -123,7 +123,7 @@ Si por alguna razón quiere resetear el Sumobot a los archivos iniciales, cargue
 5. Mesa de arbitraje: es la o las persona con autoridad responsable de presidir el juego desde un punto de vista neutral y de tomar decisiones sobre la marcha que hacen cumplir las reglas de este reglamento.
 6. Dojo: área de combate, el espacio formado por la tarima circular y un espacio circundante denominado área exterior de seguridad
 7. Ronda: Sistema en torneos que consiste en que el perdedor de un encuentro queda inmediatamente eliminado de la competición, mientras que el ganador avanza a la siguiente fase. Se van jugando rondas y en cada una de ellas se elimina la mitad de participantes hasta dejar un único competidor que se corona como campeón
-8. Fiscal: Persona encargad de revisar y validar las especificaciones del robot.
+8. Fiscal: Persona encargada de revisar y validar las especificaciones del robot.
 
 ## ESPECIFICACIONES DEL ROBOT
 1. Los robots son construidos y entregados por la Universidad CENFOTEC.
@@ -134,8 +134,7 @@ Si por alguna razón quiere resetear el Sumobot a los archivos iniciales, cargue
 6. No se pueden cambiar los motores
 7. No se puede utilizar otro tipo de baterías
 8. Cada robot será revisado antes de cada competencia.
-9. En situaciones especiales con respecto a las especificaciones del robot, su estructura y funcionamiento, que no estén clarametne denfindo en las reglas, quedará a criterio unificado de jueces.
-
+9. En situaciones especiales con respecto a las especificaciones del robot, su estructura y funcionamiento, que no estén claramente definidos en las reglas, quedará a criterio unificado de los jueces
 
 ## REGLAS DEL JUEGO
 1. Un fiscal revisará cada robot para asegurarse de que cumple con las especificaciones requeridas. En caso de duda, será verificado por jueces.
@@ -143,28 +142,28 @@ Si por alguna razón quiere resetear el Sumobot a los archivos iniciales, cargue
 3. Un robot pierde si es removido del dojo más allá de la línea blanca del borde o si no ejecuta ningún movimiento durante el tiempo asignado, o queda inmovilizado por el oponente.
 4. Cada batalla tiene una duración máxima de 1 minuto y 30 segundos.
 5. En caso de empate (si ninguno de los robots es sacado del dojo en los tres rounds), se resolverá por lanzamiento de moneda.
-6. La competencia es por eliminación y los equipos avanzarán en pares hasta la final.
-7. Cada round comienza diferente. Primero con los robots frente a frente a una distancia aproximada de 10 cm, Luego espalda a epsalda pegados. y luego lado a lado pregados viendo en direcciones opuestas.
+6. La competencia es por eliminación y los equipos avanzan en pares hasta la final.
+7. Cada round comienza diferente. Primero con los robots frente a frente a una distancia aproximada de 10 cm, Luego espalda a espalda pegados. y luego lado a lado pegados viendo en direcciones opuestas.
 9. Entre cada set se tiene 1 minuto para revisar el robot y hacer posibles cambios
 12. De todos los equipos que perdieron existe la posibilidad que se escoja uno al azar que pasará a la siguiente ronda
 13. Si en un match no se presenta uno de los equipos, ganará el que se presentó
 14. Si en un match no se presenta ninguno de los equipos, el pase a la siguiente ronda se rifará entre equipos eliminados en rondas anteriores
 
 ## REGLAMENTACIÓN Y FORMATO DE COMPETICIÓN EL DÍA DEL EVENTO
-1. Antes de la gran competencia, se realizará un sorteo virtual
+1. Antes de la gran competencia, se realizará un sorteo virtual, cuya fecha será comunicada en el grupo de WhatsApp.
 2. Durante el sorteo, se seleccionarán al azar los nombres de los equipos (2 por colegio) hasta completar los  enfrentamientos.
-3. Ronda eliminatorias: Se realizarán el día domingo 30 de junio de 2024. La hora se determina el día del evento. Los enfrentamientos se darñan de acuerdo a una llave de eliminatoria  que se establecerá de acuerdo con el número de equipos participantes.
+3. Rondas eliminatorias: Se realizarán el día domingo 30 de junio de 2024. La hora se determina el día del evento. Los enfrentamientos se daran de acuerdo a una llave de eliminatoria  que se establecerá de acuerdo con el número de equipos participantes.
 7. Ronda final: En esta ronda se enfrentarán los 4 equipos clasificados en una semifinal, luego habrá un match para tercero y cuarto lugar y la final para determinar  el primer y segundo. 
 
 ## EL PREMIO
-Por definir
+1.
 
 ## SANCIONES Y APELACIONES
 1. Si un equipo no se presenta para un "match" en el día del evento, el equipo oponente clasificará automáticamente.
 
 
 ## DISPOSICIONES FINALES
-1. Este evento tiene cómo objetivo colaborar, apoyar y estimular la comunidad, por lo cual cada colegio representado podrá recibir apoyo de sus oponentes en el momento que ellos así lo manifiesten. Los docentes pueden ayudar y asesorar a sus equipos. Se espera de los docentes que dejen y estimulen a sus estudiantes realizar el 100% del trabajo.
+1. Este evento tiene cómo objetivo colaborar, apoyar y estimular la comunidad, por lo cual cada colegio representado podrá recibir apoyo de sus oponentes en el momento que ellos así lo manifiesten. Los docentes pueden ayudar y asesorar a sus equipos. Se espera de los docentes que dejen y estimulen a sus estudiantes a realizar el 100% del trabajo.
 
 # Preguntas Frecuentes
 
