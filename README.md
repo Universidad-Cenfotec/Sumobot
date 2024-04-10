@@ -127,7 +127,7 @@ Si por alguna razón quiere resetear el Sumobot a los archivos iniciales, cargue
 
 ## ESPECIFICACIONES DEL ROBOT
 1. Los robots son construidos y entregados por la Universidad CENFOTEC.
-2. El peso del robot sin la caja de baterías es de aproximadamente 158 g, con la caja de baterías pero sin las baterías pesa 173 g, y con la caja y las baterías su peso es de 258 g. El peso debe mantenerse siempre entre 258-282 gramos. Al agregar otros sensores, el peso puede aumentar ligeramente (por ejemplo, un sensor ultrasónico pesa aproximadamente 8.5 gramos).
+2. El peso del robot sin la caja de baterías es de aproximadamente 158 g, con la caja de baterías pero sin las baterías pesa 173 g, y con la caja y las baterías su peso es de 260 g. El peso debe mantenerse siempre entre 260-290 gramos. Al agregar otros sensores, el peso puede aumentar ligeramente (por ejemplo, un sensor ultrasónico pesa aproximadamente 8.5 gramos).
 3. No se permiten modificaciones estructurales en el robot. Se pueden adaptar para colocar más sensores, pero no se pueden agregar puntas o extensiones para otros propósitos.
 4. Se pueden agregar sensores adicionales que no impliquen modificaciones en la estructura del robot.
 5. No se pueden cambiar los neumáticos o las ruedas del robot para asegurar condiciones de igualdad entre los robots y que el ganador se determine por estrategia.
