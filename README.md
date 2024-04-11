@@ -14,7 +14,7 @@ Pueder ver este [video de un resúmen](https://youtu.be/L98O-mApjXQ) de la prime
 - [IdeaBoard (ESP32)](https://www.crcibernetica.com/crcibernetica-ideaboard/)
 - Cable USB C
 - Tiras de plástico de 2.5mm
-- Tornillos y tuercas para colocar la plana IdeaBoard
+- Tornillos y tuercas para colocar la placa IdeaBoard
 - Tornillos adicionales para sostener motores
 - 2 x Soportes de motor microgear
 - 2 x [Micro motores](https://www.crcibernetica.com/micro-gearmotor/) de 200 RPM
