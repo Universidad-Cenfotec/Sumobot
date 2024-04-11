@@ -12,9 +12,17 @@ Pueder ver este [video de un resúmen](https://youtu.be/L98O-mApjXQ) de la prime
 
 ## Componetes del Sumobot 
 - [IdeaBoard (ESP32)](https://www.crcibernetica.com/crcibernetica-ideaboard/)
+- Cable USB C
+- Tiras de plástico de 2.5mm
+- Tornillos y tuercas para colocar la plana IdeaBoard
+- Tornillos adicionales para sostener motores
+- 2 x Soportes de motor microgear
 - 2 x [Micro motores](https://www.crcibernetica.com/micro-gearmotor/) de 200 RPM
+- 2 X ruedas
+- Soporte de 4 baterías AA
 - [Sensor IR](https://www.crcibernetica.com/track-sensor-module/)
 - [Sensor ultrasónico](https://www.crcibernetica.com/hc-sr05-ultrasonic-distance-sensor/) de distanca (HCSR04)
+- Piezas de acrílico de 3mm [Ver archivo de corte láser](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/archivos_de_fabricacion/chasis_sumobot.svg)
 
 Todos los componetes se puede encontrar en Costa Rica en CrCibernética. 
 
@@ -27,6 +35,11 @@ También con el [chasis_sumobot_2024_3D.stl](https://github.com/Universidad-Cenf
 Tenemos una nueva versión del chasis del Sumobot que no ocupa pegamento. Se une con tiras de plástico de 2.5mm, lo cual facilita su construcción y reparación. El Archivo [chasis_sumobot.svg](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/archivos_de_fabricacion/chasis_sumobot.svg) contiene el diseño para corte láser.
 
 También hay una [versión](https://github.com/Universidad-Cenfotec/Sumobot/tree/main/archivos_de_fabricacion/FeeCAD_model) que es "snap" y que no ocupa ni pegamento ni tiras de plástico.
+
+## Kit Sumobot
+![Kit Sumobot](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/kit_sumobot_2024.jpg)
+
+El Kit Sumobot es creación de Universidad CENFOTEC, y lo distribuye CrCibernética.com. SI desean adquierir el kit pueden libremente contactar a CrCibernética.
 
 ## Esquema de conexiones
 
