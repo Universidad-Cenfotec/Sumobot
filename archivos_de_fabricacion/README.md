@@ -1,3 +1,4 @@
+# Archivos de fabricación del Chasis
 1. **chasis_sumobot.dxf**: Este archivo está en formato DXF (Drawing Exchange Format), que es utilizado comúnmente para intercambiar datos de dibujos entre diferentes programas de diseño asistido por computadora (CAD). Se utiliza frecuentemente para precisar las dimensiones y el diseño del chasis del robot, incluyendo cortes y perforaciones.
 
 2. **chasis_sumobot.rld**: Este archivo es un archivo de corte láser, típicamente usado en máquinas de corte láser para interpretar el diseño y realizar cortes precisos en materiales como metal o plástico. El formato RLD es específico para ciertos tipos de software o controladores de máquinas de corte.
