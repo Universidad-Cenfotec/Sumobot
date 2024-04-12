@@ -11,7 +11,7 @@ Pueder ver este [video de un resúmen](https://youtu.be/L98O-mApjXQ) de la prime
 
 
 ## Componetes del Sumobot 
-![SumoBot Parts](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/competencia_sumobot.jpg)
+![SumoBot Parts](imagenes/piezas_sumobot.jpg)
 
 - [IdeaBoard (ESP32)](https://www.crcibernetica.com/crcibernetica-ideaboard/)
 - Cable USB C
@@ -104,7 +104,7 @@ Si por alguna razón quiere resetear el Sumobot a los archivos iniciales, cargue
 - [Motores DC con el Sumobot](https://youtu.be/MybJACeDIgA)
 
 # Competencia SumoBot
-![SumoBot_Dojo]([imagenes/SumoBot_Dojo.JPG](imagenes/competencia_sumobot.jpg))
+![SumoBot_Dojo](imagenes/SumoBot_Dojo.JPG](imagenes/competencia_sumobot.jpg)
 
 ## Formato de competición
 
