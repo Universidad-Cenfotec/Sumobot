@@ -104,7 +104,7 @@ Si por alguna razón quiere resetear el Sumobot a los archivos iniciales, cargue
 - [Motores DC con el Sumobot](https://youtu.be/MybJACeDIgA)
 
 # Competencia SumoBot
-![SumoBot_Dojo](imagenes/SumoBot_Dojo.JPG)
+![SumoBot_Dojo]([imagenes/SumoBot_Dojo.JPG](imagenes/competencia_sumobot.jpg))
 
 ## Formato de competición
 
