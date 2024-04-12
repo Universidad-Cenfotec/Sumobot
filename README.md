@@ -11,7 +11,7 @@ Pueder ver este [video de un resúmen](https://youtu.be/L98O-mApjXQ) de la prime
 
 
 ## Componetes del Sumobot 
-![SumoBot Parts](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/piezas_sumobot.jpg)
+![SumoBot Parts](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/competencia_sumobot.jpg)
 
 - [IdeaBoard (ESP32)](https://www.crcibernetica.com/crcibernetica-ideaboard/)
 - Cable USB C
