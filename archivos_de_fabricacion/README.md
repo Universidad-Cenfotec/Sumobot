@@ -6,4 +6,4 @@
 3. **chasis_sumobot.svg**: Un archivo SVG (Scalable Vector Graphics) es un formato de gráficos vectoriales que puede ser usado para diseño web y también en impresión y cortes de precisión. En el contexto de la fabricación de un chasis de sumobot, este archivo podría utilizarse para proporcionar una visualización detallada de componentes individuales o del diseño decorativo del chasis.
 
 4. **chasis_sumobot2024_3D.stl**: Este archivo en formato STL (STereoLithography) es ampliamente usado en impresión 3D. Contiene la información geométrica de un modelo 3D del chasis del sumobot. Es esencial para la creación de prototipos y la producción final de partes del robot mediante impresión 3D.
-[Imagen Corte](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/corte_chasis.jpg)
+![Imagen Corte](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/corte_chasis.jpg)
