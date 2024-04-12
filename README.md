@@ -8,9 +8,11 @@ El Sumobot utiliza la placa [IdeaBoard](https://github.com/CRCibernetica/circuit
 
 Pueder ver este [video de un resúmen](https://youtu.be/L98O-mApjXQ) de la primera competencia de Sumobot de Costa Rica, celebrada en el Maker Faire San José 2023
 
-![SumoBot Parts](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/piezas_sumobot.jpg)
+
 
 ## Componetes del Sumobot 
+![SumoBot Parts](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/piezas_sumobot.jpg)
+
 - [IdeaBoard (ESP32)](https://www.crcibernetica.com/crcibernetica-ideaboard/)
 - Cable USB C
 - Tiras de plástico de 2.5mm
