@@ -26,7 +26,7 @@ Pueder ver este [video de un resúmen](https://youtu.be/L98O-mApjXQ) de la prime
 - [Sensor ultrasónico](https://www.crcibernetica.com/hc-sr05-ultrasonic-distance-sensor/) de distanca (HCSR04)
 - Piezas de acrílico de 3mm [Ver archivo de corte láser](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/archivos_de_fabricacion/chasis_sumobot.svg)
 
-Todos los componetes se puede encontrar en Costa Rica en CrCibernética. [Acá pueden ver un video}(https://youtu.be/N60gXp_uzeo?si=2TApsz6n20wZ9ZoX) de los componntes que vienen parte del Kit.
+Todos los componetes se puede encontrar en Costa Rica en CrCibernética. [Acá pueden ver un video](https://youtu.be/N60gXp_uzeo?si=2TApsz6n20wZ9ZoX) de los componntes que vienen parte del Kit.
 
 ## Chasis del SumoBot
 
