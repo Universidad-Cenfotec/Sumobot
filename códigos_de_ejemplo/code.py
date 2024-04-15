@@ -125,6 +125,8 @@ def forwardCheck(t, speed):
              
 ###### CODIGO PRINCIPAL   #######
 
+sleep(3) # da 3 segundoas para arrancar el código principal
+
 while True:
     if scan():
         sleep(0.2)
