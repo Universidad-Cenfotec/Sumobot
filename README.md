@@ -38,6 +38,10 @@ El chasis del robot se une con tiras (gasas) de plástico de 2.5mm, esto facilit
 
 También hay una [versión](https://github.com/Universidad-Cenfotec/Sumobot/tree/main/archivos_de_fabricacion/FeeCAD_model) que es "snap" y que no ocupa ni pegamento ni tiras de plástico.
 
+## Armando el Sumobot
+
+Pueden ver [este video detallado](https://youtu.be/m4y3BSPjgoc?si=vLK6NNjRJQF1DbDc) de cómo armar el Sumobot.
+
 ## Kit Sumobot
 ![Kit Sumobot](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/kit_sumobot_2024.jpg)
 
