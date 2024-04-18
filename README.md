@@ -10,7 +10,7 @@ Pueder ver este [video de un resúmen](https://youtu.be/L98O-mApjXQ) de la prime
 
 
 
-## Componetes del Sumobot 
+## Componentes del Sumobot 
 ![SumoBot Parts](imagenes/piezas_sumobot.jpg)
 
 - [IdeaBoard (ESP32)](https://www.crcibernetica.com/crcibernetica-ideaboard/)
