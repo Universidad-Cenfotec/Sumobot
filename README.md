@@ -38,7 +38,9 @@ El chasis del robot se une con tiras (gasas) de plástico de 2.5mm, esto facilit
 
 También hay una [versión](https://github.com/Universidad-Cenfotec/Sumobot/tree/main/archivos_de_fabricacion/FeeCAD_model) que es "snap" y que no ocupa ni pegamento ni tiras de plástico.
 
-## Armando el Sumobot
+---
+
+# Armando el Sumobot
 
 Pueden ver [este video detallado](https://youtu.be/m4y3BSPjgoc?si=vLK6NNjRJQF1DbDc) de cómo armar el Sumobot.
 
@@ -96,6 +98,8 @@ El código "hcsr04.mpy" corresponde a la librería para el sensor de distancia. 
 
 Si por alguna razón quiere resetear el Sumobot a los archivos iniciales, cargue a través de Thonny en el CircuitPython Device (el sumobot conectado) todos los archivos que vienen en el archivo ZIP "SumoBot_Device_Files.zip"
 
+---
+
 ## Videos Instructivos
 - [Cómo instalar Thonny](https://youtu.be/Zc3oaAbVAdc)
 - [Conectar el Sumobot a Thonny](https://youtu.be/SpIcqRKmczk)
@@ -106,6 +110,8 @@ Si por alguna razón quiere resetear el Sumobot a los archivos iniciales, cargue
 - [Programando el sensor infrarrojo](https://youtu.be/1JA3G-FPpJ4)
 - [Programando el sensor ultrasónico](https://youtu.be/RwY2lEPkyg8)
 - [Motores DC con el Sumobot](https://youtu.be/MybJACeDIgA)
+
+---
 
 # Competencia SumoBot
 ![SumoBot_Dojo](imagenes/competencia_sumobot.jpg)
@@ -120,7 +126,7 @@ Si por alguna razón quiere resetear el Sumobot a los archivos iniciales, cargue
 - El “Dojo” es un ring circular de 120 cm de diámetro, de fondo negro, con 10 cm de linea de borde blanca. De esta manera los robots pueden indentificar cuando están dentro o fuera del ring, y detectar el borde a través de un sensor infrarojo.
 - En este archivo PDF tiene el diseño del [Mini-Dojo](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/circulo_10cmEspesor.pdf). El mini-Dojo se puede utilizar para probar diferentes ideas y garantizar de que funciona el robot, pero siempre se debe tener en cuenta que el dojo de la competencia es mucho más grande y que encima tiene una lamina de acrilico de 3mm.
 
----
+
 ## Principios del juego
 
 - La mesa de arbitraje revisará el robot para determinar que sigue las especificaciones requeridas
