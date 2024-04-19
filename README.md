@@ -138,51 +138,43 @@ Si por alguna razón quiere resetear el Sumobot a los archivos iniciales, cargue
 1. Sumobot: El robot sumobot es un robot de combate autónomo programado por el usuario, que deberá sacar a su rival del área de combate (dojo) ya sea empujando o arrastrando, o dejándolo inhabilitado.
 2. Match: enfrentamiento entre 2 robots de diferentes equipos, dividido en 3 sets
 3. Maker Space: laboratorio de innovación de la Universidad CENFOTEC.
-4. GitHub: plataformas para crear proyectos abiertos de herramientas y aplicaciones, y se caracteriza sobre todo por sus funciones colaborativas que ayudan a que todos puedan aportar su granito de arena para mejorar el código.
+4. GitHub: plataforma para crear proyectos abiertos de herramientas y aplicaciones, y se caracteriza sobre todo por sus funciones colaborativas que ayudan a que todos puedan aportar su granito de arena para mejorar el código.
 5. Mesa de arbitraje: es la o las persona con autoridad responsable de presidir el juego desde un punto de vista neutral y de tomar decisiones sobre la marcha que hacen cumplir las reglas de este reglamento.
 6. Dojo: área de combate, el espacio formado por la tarima circular y un espacio circundante denominado área exterior de seguridad
 7. Ronda: Sistema en torneos que consiste en que el perdedor de un encuentro queda inmediatamente eliminado de la competición, mientras que el ganador avanza a la siguiente fase. Se van jugando rondas y en cada una de ellas se elimina la mitad de participantes hasta dejar un único competidor que se corona como campeón
-8. Fiscal: Persona encargada de revisar y validar las especificaciones del robot.
+
 
 ## ESPECIFICACIONES DEL ROBOT
-1. Los robots son construidos y entregados por la Universidad CENFOTEC.
-2. El peso del robot sin la caja de baterías es de aproximadamente 158 g, con la caja de baterías pero sin las baterías pesa 173 g, y con la caja y las baterías su peso es de 260 g. El peso debe mantenerse siempre entre 260-290 gramos. Al agregar otros sensores, el peso puede aumentar ligeramente (por ejemplo, un sensor ultrasónico pesa aproximadamente 8.5 gramos).
+1. Los robots son entregados por la Universidad CENFOTEC. Los robots deben ser armados por los colegios, con las instrucciones publicadas por Universidad CENFOTEC en el GitHub
+2. El peso del robot con caja y las baterías su peso es de 260 g. El peso debe mantenerse siempre entre 260-290 gramos. Al agregar otros sensores, el peso puede aumentar ligeramente (por ejemplo, un sensor ultrasónico pesa aproximadamente 8.5 gramos). (PENDIENTE CONFIRMAR)
 3. No se permiten modificaciones estructurales en el robot. Se pueden adaptar para colocar más sensores, pero no se pueden agregar puntas o extensiones para otros propósitos.
 4. Se pueden agregar sensores adicionales que no impliquen modificaciones en la estructura del robot.
 5. No se pueden cambiar los neumáticos o las ruedas del robot para asegurar condiciones de igualdad entre los robots y que el ganador se determine por estrategia.
 6. No se pueden cambiar los motores
 7. No se puede utilizar otro tipo de baterías
 8. Cada robot será revisado antes de cada competencia.
-9. En situaciones especiales con respecto a las especificaciones del robot, su estructura y funcionamiento, que no estén claramente definidos en las reglas, quedará a criterio unificado de los jueces
+9. En situaciones especiales con respecto a las especificaciones del robot, su estructura y funcionamiento, que no estén claramente definidos en las reglas, quedará a criterio unificado de los jueces.
 
 ## REGLAS DEL JUEGO
 1. Un fiscal revisará cada robot para asegurarse de que cumple con las especificaciones requeridas. En caso de duda, será verificado por jueces.
 2. Cada "match" consta de tres rondas o tiempos, y el equipo que gane dos o más rondas será el ganador. Si un equipo gana dos rondas seguidas, no se realizará la tercera.
-3. Un robot pierde si es removido del dojo más allá de la línea blanca del borde o si no ejecuta ningún movimiento durante el tiempo asignado, o queda inmovilizado por el oponente.
-4. Cada batalla tiene una duración máxima de 1 minuto y 30 segundos.
-5. En caso de empate (si ninguno de los robots es sacado del dojo en los tres rounds), se resolverá por lanzamiento de moneda.
-6. La competencia es por eliminación y los equipos avanzan en pares hasta la final.
-7. Cada round comienza diferente. Primero con los robots frente a frente a una distancia aproximada de 10 cm, Luego espalda a espalda pegados. y luego lado a lado pegados viendo en direcciones opuestas.
+3. Al iniciar el match, el equipo debe programar el robot para que espere 3 segundos antes de comenzar sus movimientos y actividad
+4. Un robot pierde si es removido del dojo más allá de la línea blanca del borde o si no ejecuta ningún movimiento durante el tiempo asignado, o queda inmovilizado por el oponente.
+5. Cada batalla tiene una duración máxima de 1 minuto y 30 segundos.
+6. En caso de empate (si ninguno de los robots es sacado del dojo en los tres rounds), se resolverá por lanzamiento de moneda.
+7. La competencia es por eliminación y los equipos avanzan en pares hasta la final.
+8. Cada round comienza diferente. Primero con los robots frente a frente a una distancia aproximada de 10 cm, Luego espalda a espalda pegados. y luego lado a lado pegados viendo en direcciones opuestas.
 9. Entre cada set se tiene 1 minuto para revisar el robot y hacer posibles cambios
-12. De todos los equipos que perdieron existe la posibilidad que se escoja uno al azar que pasará a la siguiente ronda
-13. Si en un match no se presenta uno de los equipos, ganará el que se presentó
-14. Si en un match no se presenta ninguno de los equipos, el pase a la siguiente ronda se rifará entre equipos eliminados en rondas anteriores
-
-## REGLAMENTACIÓN Y FORMATO DE COMPETICIÓN EL DÍA DEL EVENTO
-1. Antes de la gran competencia, se realizará un sorteo virtual, cuya fecha será comunicada en el grupo de WhatsApp.
-2. Durante el sorteo, se seleccionarán al azar los nombres de los equipos (2 por colegio) hasta completar los  enfrentamientos.
-3. Rondas eliminatorias: Se realizarán el día domingo 30 de junio de 2024. La hora se determina el día del evento. Los enfrentamientos se daran de acuerdo a una llave de eliminatoria  que se establecerá de acuerdo con el número de equipos participantes.
-7. Ronda final: En esta ronda se enfrentarán los 4 equipos clasificados en una semifinal, luego habrá un match para tercero y cuarto lugar y la final para determinar  el primer y segundo. 
-
-## EL PREMIO
-1.
+10. De todos los equipos que perdieron existe la posibilidad que se escoja uno al azar que pasará a la siguiente ronda
+11. Si en un match no se presenta uno de los equipos, ganará el que se presentó
+12. Si en un match no se presenta ninguno de los equipos, el pase a la siguiente ronda se rifará entre equipos eliminados en rondas anteriores
 
 ## SANCIONES Y APELACIONES
 1. Si un equipo no se presenta para un "match" en el día del evento, el equipo oponente clasificará automáticamente.
 
 
 ## DISPOSICIONES FINALES
-1. Este evento tiene cómo objetivo colaborar, apoyar y estimular la comunidad, por lo cual cada colegio representado podrá recibir apoyo de sus oponentes en el momento que ellos así lo manifiesten. Los docentes pueden ayudar y asesorar a sus equipos. Se espera de los docentes que dejen y estimulen a sus estudiantes a realizar el 100% del trabajo.
+Este evento tiene cómo objetivo colaborar, apoyar y estimular la comunidad, por lo cual cada colegio representado podrá recibir apoyo de sus oponentes en el momento que ellos así lo manifiesten. Los docentes pueden ayudar y asesorar a sus equipos. Se espera de los docentes que dejen y estimulen a sus estudiantes a realizar el 100% del trabajo. 
 
 # Preguntas Frecuentes
 
