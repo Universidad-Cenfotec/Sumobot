@@ -1,5 +1,6 @@
 #Tomás de Camino Beck
 #Universidad CENFOTEC
+
 import storage
 from ideaboard import IdeaBoard
 import time
