@@ -163,17 +163,17 @@ Si por alguna razón quiere resetear el Sumobot a los archivos iniciales, cargue
 
 ## REGLAS DEL JUEGO
 1. Un fiscal revisará cada robot para asegurarse de que cumple con las especificaciones requeridas. En caso de duda, será verificado por jueces.
-2. Cada "match" consta de tres rondas o tiempos, y el equipo que gane dos o más rondas será el ganador. Si un equipo gana dos rondas seguidas, no se realizará la tercera.
-3. Al iniciar el match, el equipo debe programar el robot para que espere 3 segundos antes de comenzar sus movimientos y actividad
+2. Cada "Partida" consta de tres "combates". Cada equipo, en un combate, da 3 puntos por ganar, 1 punto si es empate, y 0 si pierde
+3. Al iniciar la partida, el equipo debe programar el robot para que espere 3 segundos antes de comenzar sus movimientos y actividad
 4. Un robot pierde si es removido del dojo más allá de la línea blanca del borde o si no ejecuta ningún movimiento durante el tiempo asignado, o queda inmovilizado por el oponente.
 5. Cada batalla tiene una duración máxima de 1 minuto y 30 segundos.
-6. En caso de empate (si ninguno de los robots es sacado del dojo en los tres rounds), se resolverá por lanzamiento de moneda.
-7. La competencia es por eliminación y los equipos avanzan en pares hasta la final.
-8. Cada round comienza diferente. Primero con los robots frente a frente a una distancia aproximada de 10 cm, Luego espalda a espalda pegados. y luego lado a lado pegados viendo en direcciones opuestas.
-9. Entre cada set se tiene 1 minuto para revisar el robot y hacer posibles cambios
-10. De todos los equipos que perdieron existe la posibilidad que se escoja uno al azar que pasará a la siguiente ronda
-11. Si en un match no se presenta uno de los equipos, ganará el que se presentó
-12. Si en un match no se presenta ninguno de los equipos, el pase a la siguiente ronda se rifará entre equipos eliminados en rondas anteriores
+6. En caso de empate en un combate, cada equipo gana 1 punto.
+7. La competencia incia por grupos, y las siguientes rondas son por eliminación y los equipos avanzan en pares hasta la final.
+8. Cada combate comienza diferente. Primero con los robots frente a frente a una distancia aproximada de 10 cm, Luego espalda a espalda pegados. y luego lado a lado pegados viendo en direcciones opuestas.
+9. Entre cada combate se tiene 1 minuto para revisar el robot y hacer posibles cambios
+10. De todos los equipos que perdieron en la primera ronda, se escogen un número, por definir, de los segundos mejores.
+11. Si en una partida no se presenta uno de los equipos, ganará el que se presentó (gana 9 puntos por partida en la primera ronda, o pasa a la siguiente ronda a partir de la segunda ronda)
+12. Si en una partida no se presenta ninguno de los equipos, para la siguiente ronda se escogerá de los mejores segundos lugares
 
 ## SANCIONES Y APELACIONES
 1. Si un equipo no se presenta para un "match" en el día del evento, el equipo oponente clasificará automáticamente.
