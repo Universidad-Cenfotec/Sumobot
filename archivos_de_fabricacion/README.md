@@ -7,5 +7,8 @@
 
 4. **chasis_sumobot2024_3D.stl**: Este archivo en formato STL (STereoLithography) es ampliamente usado en impresión 3D. Contiene la información geométrica de un modelo 3D del chasis del sumobot. Es esencial para la creación de prototipos y la producción final de partes del robot mediante impresión 3D.
 
+## Modificación del Chasis
+
+También puede utilizar [este archivo](https://www.tinkercad.com/things/2SyTLlaZ3rV-sumobot6?sharecode=ivtFQecJ67wsbuyDAFKAAIibqH1ZuByYk1oDVZOuIXM) en Tinkercad para hacer modificaciones del diseño, o separar partes
 
 ![Imagen Corte](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/corte_chasis.jpg)
