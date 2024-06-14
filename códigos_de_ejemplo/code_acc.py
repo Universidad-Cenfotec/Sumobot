@@ -1,7 +1,7 @@
 from ideaboard import IdeaBoard
 from time import sleep
 import board
-from adafruit_msa3xx import MSA311
+from adafruit_msa3xx import MSA311 #https://github.com/adafruit/Adafruit_CircuitPython_MSA301 
 from hcsr04 import HCSR04 # Librerías para el sensor de Ultrasonido
 import random  # Librerías de números aleatorios
 import storage #para guardar datos en memoria
