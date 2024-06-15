@@ -131,7 +131,7 @@ Si por alguna razón quiere resetear el Sumobot a los archivos iniciales, cargue
 ## Principios del juego
 
 - La mesa de arbitraje revisará el robot para determinar que sigue las especificaciones requeridas
-- Son tres "Match" por Set , y gana el que gane dos o más Match. Si un equipo gana dos Match seguidos, no se realiza el tercero.
+- Son tres "COmbates" por partida , yse gana por puntos.
 - Un robot perderá si es removido del dojo más allá de la línea blanca del borde, o si no ejecuta ningún movimiento dentro del tiempo establecido
 - Cada batalla tiene una duración máxima de 1:30 minutos
 - En caso de empate (no sea el robot sacado del dojo), la mesa de arbitraje considerará ganador el robot con mayor número de ataques
