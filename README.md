@@ -143,7 +143,7 @@ Si por alguna razón quiere resetear el Sumobot a los archivos iniciales, cargue
 
 ## DEFINICIONES:
 1. Sumobot: El robot sumobot es un robot de combate autónomo programado por el usuario, que deberá sacar a su rival del área de combate (dojo) ya sea empujando o arrastrando, o dejándolo inhabilitado.
-2. Match: enfrentamiento entre 2 robots de diferentes equipos, dividido en 3 sets
+2. Partida: enfrentamiento entre 2 robots de diferentes equipos, dividido en 3 combates
 3. Maker Space: laboratorio de innovación de la Universidad CENFOTEC.
 4. GitHub: plataforma para crear proyectos abiertos de herramientas y aplicaciones, y se caracteriza sobre todo por sus funciones colaborativas que ayudan a que todos puedan aportar su granito de arena para mejorar el código.
 5. Mesa de arbitraje: es la o las persona con autoridad responsable de presidir el juego desde un punto de vista neutral y de tomar decisiones sobre la marcha que hacen cumplir las reglas de este reglamento.
