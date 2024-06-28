@@ -133,7 +133,7 @@ Si por alguna razón quiere resetear el Sumobot a los archivos iniciales, cargue
 - La mesa de arbitraje revisará el robot para determinar que sigue las especificaciones requeridas
 - Son tres "COmbates" por partida , yse gana por puntos.
 - Un robot perderá si es removido del dojo más allá de la línea blanca del borde, o si no ejecuta ningún movimiento dentro del tiempo establecido
-- Cada batalla tiene una duración máxima de 1:30 minutos
+- Cada batalla tiene una duración máxima de 1:00 minutos
 - En caso de empate (no sea el robot sacado del dojo), la mesa de arbitraje considerará ganador el robot con mayor número de ataques
 - Las tres acciones de batalla son atacar, defender y buscar
 - La competencia es por eliminación, y van clasificando en pares hasta la final.
