@@ -133,7 +133,7 @@ Si por alguna razón quiere resetear el Sumobot a los archivos iniciales, cargue
 - La mesa de arbitraje revisará el robot para determinar que sigue las especificaciones requeridas
 - Son tres "COmbates" por partida , yse gana por puntos.
 - Un robot perderá si es removido del dojo más allá de la línea blanca del borde, o si no ejecuta ningún movimiento dentro del tiempo establecido
-- Cada batalla tiene una duración máxima de 1:00 minutos
+- Cada batalla tiene una duración máxima de 1:30 minutos
 - En caso de empate (no sea el robot sacado del dojo), la mesa de arbitraje considerará ganador el robot con mayor número de ataques
 - Las tres acciones de batalla son atacar, defender y buscar
 - La competencia es por eliminación, y van clasificando en pares hasta la final.
@@ -172,9 +172,11 @@ Si por alguna razón quiere resetear el Sumobot a los archivos iniciales, cargue
 7. La competencia incia por grupos, y las siguientes rondas son por eliminación y los equipos avanzan en pares hasta la final.
 8. Cada combate comienza diferente. Primero con los robots frente a frente a una distancia aproximada de 10 cm, Luego espalda a espalda pegados. y luego lado a lado pegados viendo en direcciones opuestas.
 9. Entre cada combate se tiene 1 minuto para revisar el robot y hacer posibles cambios
-10. De todos los equipos que perdieron en la primera ronda, se escogen un número, por definir, de los segundos mejores.
-11. Si en una partida no se presenta uno de los equipos, ganará el que se presentó (gana 9 puntos por partida en la primera ronda, o pasa a la siguiente ronda a partir de la segunda ronda)
-12. Si en una partida no se presenta ninguno de los equipos, para la siguiente ronda se escogerá de los mejores segundos lugares
+10. Si en una partida, los euqipos quedan empatados por puntos, se hara la rifa por moneda
+11. De todos los equipos que perdieron en la primera ronda, se escogen un número, por definir, de los segundos mejores.
+12. Si en una partida no se presenta uno de los equipos, ganará el que se presentó (gana 9 puntos por partida en la primera ronda, o pasa a la siguiente ronda a partir de la segunda ronda)
+13. Si un equipo llega tarde a la primera partida, puede presentarse a las siguientes, perdiendo la primera partida
+14. Si en una partida no se presenta ninguno de los equipos, para la siguiente ronda se escogerá de los mejores segundos lugares
 
 ## SANCIONES Y APELACIONES
 1. Si un equipo no se presenta para un "match" en el día del evento, el equipo oponente clasificará automáticamente.
