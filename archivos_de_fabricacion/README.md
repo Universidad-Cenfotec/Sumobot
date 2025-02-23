@@ -1,15 +1,32 @@
-# Archivos de fabricación del Chasis
-1. **chasis_sumobot.dxf**: Este archivo está en formato DXF (Drawing Exchange Format), que es utilizado comúnmente para intercambiar datos de dibujos entre diferentes programas de diseño asistido por computadora (CAD). Se utiliza frecuentemente para precisar las dimensiones y el diseño del chasis del robot, incluyendo cortes y perforaciones.
+# Archivos de fabricación del Chasis del SumoBot – Universidad CENFOTEC
 
-2. **chasis_sumobot.rld**: Este archivo es un archivo de corte láser, típicamente usado en máquinas de corte láser para interpretar el diseño y realizar cortes precisos en materiales como metal o plástico. El formato RLD es específico para ciertos tipos de software o controladores de máquinas de corte.
+## 📁 Archivos de fabricación del Chasis
 
-3. **chasis_sumobot.svg**: Un archivo SVG (Scalable Vector Graphics) es un formato de gráficos vectoriales que puede ser usado para diseño web y también en impresión y cortes de precisión. En el contexto de la fabricación de un chasis de sumobot, este archivo podría utilizarse para proporcionar una visualización detallada de componentes individuales o del diseño decorativo del chasis.
+### 🔹 1. **chasis_sumobot_2025.svg**
+- **Formato:** SVG (Scalable Vector Graphics)
+- Diseño vectorizado del SumoBot. Puede ser exportado a otros formatos mediante software de diseño como [Inkscape](https://inkscape.org/es/) o Adobe Illustrator.
 
-4. **chasis_sumobot2024_3D.stl**: Este archivo en formato STL (STereoLithography) es ampliamente usado en impresión 3D. Contiene la información geométrica de un modelo 3D del chasis del sumobot. Es esencial para la creación de prototipos y la producción final de partes del robot mediante impresión 3D.
+### 🔹 2. **chasis_sumobot_2025_LaserCutOptimized.svg**
+- **Formato:** SVG (Scalable Vector Graphics)
+- Diseño optimizado para corte en máquina láser, maximizando el uso del material.
 
-![Imagen Corte](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/corte_chasis.jpg)
+### 🔹 3. **chasis_sumobot.dxf**
+- **Formato:** DXF (Drawing Exchange Format)
+- Archivo CAD que define dimensiones, cortes y perforaciones. Es compatible con la mayoría de los programas de corte láser. Basado en **chasis_sumobot_2025_LaserCutOptimized.svg**.
+**chasis_sumobot.dxf**
+### 🔹 4. **Sumobot_LaserCut.rld**
+- **Formato:** RLD
+- Archivo nativo de corte láser, desarrollado para RDWorks. Puede ser usado directamente en muchas máquinas de corte láser sin necesidad de conversión. Basado en **chasis_sumobot.dxf**.
 
+### 🔹 5. **chasis_sumobot2025_3D.stl**
+- **Formato:** STL (STereoLithography)
+- Modelo 3D del chasis para impresión 3D.
 
-## Modificación del Chasis
+![Imagen Corte](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/corte_chasis.jpg?raw=true)
 
-También puede utilizar [este archivo](https://www.tinkercad.com/things/2SyTLlaZ3rV-sumobot6?sharecode=ivtFQecJ67wsbuyDAFKAAIibqH1ZuByYk1oDVZOuIXM) en Tinkercad para hacer modificaciones del diseño, o separar partes
+---
+
+## 🛠️ Modificación del Chasis 🤖
+Si deseas modificar el diseño o separar partes, puedes usar el siguiente enlace a Tinkercad:
+
+🔗 [Abrir en Tinkercad](https://www.tinkercad.com/things/2SyTLlaZ3rV-sumobot6?sharecode=ivtFQecJ67wsbuyDAFKAAIibqH1ZuByYk1oDVZOuIXM)
