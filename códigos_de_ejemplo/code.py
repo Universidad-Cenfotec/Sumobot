@@ -12,7 +12,12 @@ sonar = HCSR04(board.IO26,board.IO25) # Crea una instanciación del sensor ultra
 
 
 ib = IdeaBoard() # Instanciación I/O y funcione sdel Ideboard
-irSensor =  ib.DigitalIn(board.IO33) # Instanciación del sensor infrarojo
+irSensor =  ib.AnalogIn(board.IO36) # Instanciación del sensor infrarojo
+
+def on_white(value = 4000):
+    #Devuelve True si el valor del sensor es menor a value, es decir, está en blanco
+    #Si es mayor a value devuelve False
+    return irSensor.value < value
 
 def wiggle(t,n,speed):
 # Hace que el robot se mueva izquierda y derecha
@@ -115,7 +120,7 @@ def forwardCheck(t, speed):
     # Pero revisando el sensor IR para evitar salir del Dojo
      d = int(t / 0.1)
      for i in range(d):
-         if irSensor.value :
+         if on_white() :
              forward(0.1,speed)
          else:
              stop()
@@ -136,10 +141,3 @@ while True:
         randomTurn(1,0.2)
         forwardCheck(0.5,0.2)
     sleep(0.2)
-    
-
-
-
-
-
-

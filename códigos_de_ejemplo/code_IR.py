@@ -8,7 +8,7 @@ import board
 from ideaboard import IdeaBoard
 
 ib = IdeaBoard()
-irSensor = ib.DigitalIn(board.IO33)
+irSensor = ib.AnalogIn(board.IO36)
 
 while True:
     print(irSensor.value)

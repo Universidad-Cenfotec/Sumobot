@@ -1,4 +1,4 @@
-Este código es un script de Python diseñado para controlar un robot utilizando la placa IdeaBoard, junto con varios sensores y actuadores. Está orientado a estudiantes de secundaria y tiene como objetivo introducirlos en la programación de robots y el manejo de componentes electrónicos. Aquí hay un resumen de sus principales características y funciones:
+Este código es un script de CircuiPython diseñado para controlar el sumobot de la Universidad CENFOTEC utilizando la placa IdeaBoard, junto con varios sensores y actuadores. Está orientado a estudiantes de secundaria y tiene como objetivo introducirlos en la programación de robots y el manejo de componentes electrónicos.
 
 1. **Librerías e Importaciones**: Se importan varias librerías para interactuar con la placa IdeaBoard, el sensor de ultrasonidos HCSR04, control de tiempo, y generación de números aleatorios.
 
@@ -11,6 +11,7 @@ Este código es un script de Python diseñado para controlar un robot utilizando
    - `randomTurn(t, speed)`: Hace girar al robot en una dirección aleatoria (izquierda o derecha) por un tiempo `t` a una velocidad `speed`.
 
 4. **Funciones de Detección**:
+   - `on_white(value)`: Utiliza un sensor infrarrojo analogo y devuelve una respuesta booleana, True si la lectura es menor que value, False de lo contrario
    - `lookForward()`: Utiliza el sensor de ultrasonidos para medir la distancia a objetos enfrente del robot y retorna esta distancia en centímetros.
    - `scan()`: Mueve el robot hacia un lado buscando objetos delante. Se detiene después de un número fijo de giros o cuando encuentra un objeto a una distancia adecuada.
 
