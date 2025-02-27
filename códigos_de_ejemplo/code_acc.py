@@ -1,7 +1,7 @@
 from time import sleep
 import board
 from adafruit_lsm6ds import Rate, AccelRange, GyroRange
-from adafruit_lsm6ds.lsm6ds3trc import LSM6DS3TRC
+from adafruit_lsm6ds.lsm6ds3trc import LSM6DS3TRC # https://github.com/adafruit/Adafruit_CircuitPython_LSM6DS
 import storage  # Para guardar datos en memoria
 
 
