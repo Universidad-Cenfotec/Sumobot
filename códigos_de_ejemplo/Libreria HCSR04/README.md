@@ -1,5 +1,5 @@
 
-# Archivos `.mpy`
+# Archivos `.mpy` 🐍
 
 Los archivos `.mpy` son archivos de código precompilado utilizados por **MicroPython** y **CircuitPython**.  
 Funcionan como módulos o librerías convencionales de Python, pero al estar precompilados, su ejecución es más rápida en un microcontrolador en comparación con un archivo `.py` convencional.  
@@ -8,6 +8,8 @@ Sin embargo, debido a su naturaleza, presentan ciertas **limitaciones e incompat
 ---
 
 ## Incompatibilidad entre versiones
+
+### **CircuitPython**
 
 En CircuitPython existen dos versiones mayores al momento de escribir esto: **8.x y 9.x**.  
 Un archivo `.mpy` compilado para una versión **no** funcionará en la otra.  
@@ -19,23 +21,10 @@ incompatible .mpy file
 ```
 (O su equivalente en el idioma de tu firmware).
 
-### **¿Cómo saber qué versión usar?**
-
-Al conectar tu dispositivo con CircuitPython a **Thonny**, deberías ver un mensaje similar en la consola:
-
-```
-]0;🐍Wi-Fi: apagado | REPL | 8.2.0\
-
-Adafruit CircuitPython 8.2.0 on 2023-07-05; CRCibernetica IdeaBoard with ESP32
-
-```
-
-En este caso, la versión es **8.2.0**, por lo que se debe usar un archivo `.mpy` compatible con **8.x**.  
-Lo importante es el primer número: por ejemplo, si la versión fuera **9.1.1**, se necesitaría un archivo `.mpy` de **9.x**.
-
-### **Compatibilidad en MicroPython**
+### **MicroPython**
 
 Si estás usando **MicroPython**, consulta la siguiente tabla de compatibilidad entre versiones:
+<a id="tabla-compatibilidad"></a>
 
 | Versión de MicroPython | Versión de `.mpy` |
 |------------------------|-------------------|
@@ -52,6 +41,36 @@ Si estás usando **MicroPython**, consulta la siguiente tabla de compatibilidad 
 [Fuente](https://docs.micropython.org/en/latest/reference/mpyfiles.html)
 
 ---
+
+## **¿Cómo saber qué versión usar?**
+
+### **CircuitPython**
+Al conectar tu dispositivo con CircuitPython a **Thonny** u otro IDE para acceder al REPL, deberías ver un mensaje similar a este en la consola:
+
+``` python
+]0;🐍Wi-Fi: apagado | REPL | 8.2.0\
+
+Adafruit CircuitPython 8.2.0 on 2023-07-05; CRCibernetica IdeaBoard with ESP32
+```
+
+En este caso, la versión es **8.2.0**, por lo que se debe usar un archivo `.mpy` compatible con **8.x**.  
+Lo importante es el primer número: por ejemplo, si la versión fuera **9.1.1**, se necesitaría un archivo `.mpy` de **9.x**.
+
+## **MicroPython**
+Cuando accedas al REPL de micropython escribe el siguiente código y presiona *Enter*.
+
+``` python
+import os
+print(os.uname())
+```
+
+una vez hecho hecho esto un mensaje como este deberá aparecer:
+
+```python
+(sysname='esp32', nodename='esp32', release='1.25.0-preview', version='8987b39e0 on 2025-02-18', machine="CRCibernetica's IdeaBoard with ESP32-WROOM-32E")
+```
+Aquí, `release` indica la versión de micropython que está corriendo el microcontrolador. [Ver la tabla de compatibilidad de MicroPython](#tabla-compatibilidad)
+
 
 ## Incompatibilidad entre **CircuitPython** y **MicroPython**
 

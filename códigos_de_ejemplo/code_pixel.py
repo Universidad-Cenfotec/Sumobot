@@ -12,4 +12,5 @@ ib = IdeaBoard()
 ## CODIGO PRINCIPAL ##
 
 while True:
-    ib.pixel = (150,0)
+    #Neopixel   R   G    B
+    ib.pixel = (  0,100,255)

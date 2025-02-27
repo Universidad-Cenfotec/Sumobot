@@ -27,13 +27,19 @@ def acceleration_xyz(samples, sensor):
     Retorna:
       - Una tupla (x, y, z) con los promedios de aceleración, redondeados a una cifra decimal.
     """
-    sumx, sumy, sumz = 0, 0, 0
+    sumx, sumy, sumz, sumGx, sumGy, sumGz = 0, 0, 0, 0, 0, 0
     for _ in range(samples):
         x, y, z = sensor.acceleration
+        gX, gY, gZ = sensor.gyro
+
         sumx += x
         sumy += y
         sumz += z
-    return round(sumx / samples, 1), round(sumy / samples, 1), round(sumz / samples, 1)
+
+        sumGx += gX
+        sumGy += gY 
+        sumGz += gZ
+    return round(sumx / samples, 1), round(sumy / samples, 1), round(sumz / samples, 1), round(sumGx / samples, 1), round(sumGy / samples, 1), round(sumGz / samples, 1)
 
 def guardar_datos(datos):
     """
@@ -49,7 +55,7 @@ sleep(10)  # Espera 10 segundos antes de iniciar el ciclo principal
 while True:
     # Obtiene el promedio de 5 muestras de aceleración en X, Y y Z
     ax = acceleration_xyz(5, sensor)
-    print(f"{ax[0]:.1f}, {ax[1]:.1f}, {ax[2]:.1f}")
+    print(f"Acelerometro: {ax[0]:.1f}, {ax[1]:.1f}, {ax[2]:.1f} Giroscopio{ax[3]:.1f}, {ax[4]:.1f}, {ax[5]:.1f}")
     
     # Guarda los datos en 'datos.csv'
     guardar_datos(ax)
