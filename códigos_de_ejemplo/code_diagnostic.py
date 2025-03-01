@@ -70,7 +70,7 @@ except ImportError as e:
     else:
         print("Ocurrió un ImportError inesperado")
         print(f"Mensaje de Error: {error_msg}")
-    errores.append(error_msg)
+        errores.append(error_msg)
 else:
     print("Librería LSM6DS3TRC importada correctamente")
     
