@@ -5,7 +5,6 @@ import storage
 from ideaboard import IdeaBoard
 import time
 import board
-from adafruit_msa3xx import MSA311
 from hcsr04 import HCSR04 #
 
 sonar =  HCSR04(board.IO26,board.IO25)

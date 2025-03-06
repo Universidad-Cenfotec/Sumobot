@@ -2,15 +2,13 @@
 # Escuela de Sistemas Inteligentes
 # Universidad Cenfotec
 
-#Ejemplo de uso del Led RGB
+# Ejemplo de uso del sensor infrarrojo conectado al IO33
 
 import board
 from ideaboard import IdeaBoard
 
 ib = IdeaBoard()
-
-## CODIGO PRINCIPAL ##
+irSensor = ib.DigitalIn(board.IO33)
 
 while True:
-    #Neopixel   R   G    B
-    ib.pixel = (  0,100,255)
+    print(irSensor.value)
