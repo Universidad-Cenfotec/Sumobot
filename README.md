@@ -9,8 +9,16 @@ El Sumobot utiliza la placa [IdeaBoard](https://github.com/CRCibernetica/circuit
 Puede ver este [video resumen](https://youtu.be/L98O-mApjXQ) de la primera competencia de Sumobot de Costa Rica, celebrada en el Maker Faire San José 2023.
 
 ---
+## Componentes del Sumobot 2025
 
-## Componentes del Sumobot 
+El Sumobot de el 2025 es un modelo nuevo, con más sensores y capacidades comparado con el Sumobot del 2024.
+
+- Por Definir...
+
+
+---
+
+## Componentes del Sumobot 2024
 ![SumoBot Parts](imagenes/piezas_sumobot.jpg)
 
 - [IdeaBoard (ESP32)](https://www.crcibernetica.com/crcibernetica-ideaboard/)
