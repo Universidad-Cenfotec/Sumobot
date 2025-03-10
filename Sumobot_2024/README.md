@@ -33,7 +33,7 @@ El chasis del robot se une con tiras (gasas/zip ties) de plástico de 2.5 mm, 
 Pueden ver [este video detallado](https://youtu.be/m4y3BSPjgoc?si=vLK6NNjRJQF1DbDc) de cómo armar el Sumobot.
 
 ## Kit Sumobot
-![Kit Sumobot](imagenes/kit_sumobot_2024.jpg)
+![Kit Sumobot](../imagenes/kit_sumobot_2024.jpg)
 
 El Kit Sumobot es creación de la Universidad CENFOTEC y lo distribuye CrCibernetica.com. Si desean adquirir el kit, pueden contactar libremente a CrCibernetica.
 
@@ -43,12 +43,12 @@ El Kit Sumobot es creación de la Universidad CENFOTEC y lo distribuye CrCiberne
 - El sensor ultrasónico se conecta en el IO026 (trig) e IO025 (echo).
 - Los motores se conectan en Motor 1 y Motor 2 (con posiciones invertidas).
 
-![SumoBot_Conexions](imagenes/SumoBotCon.png)
+![SumoBot_Conexions](../imagenes/SumoBotCon.png)
 
 ## Baterías
 Las baterías se conectan: el cable rojo al pin marcado como "+" y el negro al pin "-", como se muestra en el siguiente esquema:
 
-![SumoBot_baterías](imagenes/SumobotBat.png)
+![SumoBot_baterías](../imagenes/SumobotBat.png)
 
 ## Software para programar el Sumobot 2024
 
@@ -101,7 +101,7 @@ Si por alguna razón se desea resetear el Sumobot a los archivos iniciales, carg
 ---
 
 # Competencia SumoBot 2024
-![SumoBot_Dojo](imagenes/competencia_sumobot.jpg)
+![SumoBot_Dojo](../imagenes/competencia_sumobot.jpg)
 
 ## Formato de competición 2024
 
@@ -113,7 +113,7 @@ Si por alguna razón se desea resetear el Sumobot a los archivos iniciales, carg
 - El "dojo" es un ring circular de 80 cm de diámetro, con fondo negro y una línea de borde blanca de 5 cm. De esta manera, los robots pueden identificar cuándo están dentro o fuera del ring y detectar el borde mediante un sensor infrarrojo.
 - Este archivo PDF contiene el diseño del [Mini‑Dojo](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/circulo_10cmEspesor.pdf). El Mini‑Dojo se puede utilizar para probar diferentes ideas y garantizar que el robot funcione, pero siempre se debe tener en cuenta que el dojo de la competencia es mucho más grande y, además, cuenta con una lámina de acrílico de 3 mm.
 
-![Dojo](imagenes/Dojo.png)
+![Dojo](../imagenes/Dojo.png)
 
 ## Principios del juego 2024
 
@@ -214,11 +214,11 @@ Bajo esta licencia, se permite el uso, distribución y modificación del robot, 
 
 Para obtener más detalles sobre la licencia, por favor visita [https://creativecommons.org/].
 
-![CC](imagenes/Reconocimiento-no-comercial-sin-obra-derivada.png)
+![CC](../imagenes/Reconocimiento-no-comercial-sin-obra-derivada.png)
 
 # Contribuciones
 
 Si estás interesado en contribuir al Sumobot, por favor revisa las guías de contribución disponibles en la sección de "Documentación". Todas las contribuciones son bienvenidas, sin importar cuán pequeñas sean. Juntos podemos hacer que Sumobot sea mejor para todos.
 
-![SumoBot1](imagenes/sumobot_varias.JPG)
+![SumoBot1](../imagenes/sumobot_varias.JPG)
 
