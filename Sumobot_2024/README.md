@@ -1,5 +1,5 @@
 ## Componentes del Sumobot 2024
-![SumoBot Parts](imagenes/piezas_sumobot.jpg)
+![SumoBot Parts](../imagenes/piezas_sumobot.jpg)
 
 - [IdeaBoard (ESP32)](https://www.crcibernetica.com/crcibernetica-ideaboard/)
 - Cable USB C
