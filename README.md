@@ -100,8 +100,6 @@ Si por alguna razón se desea resetear el Sumobot a los archivos iniciales, carg
 ## ESPECIFICACIONES DEL ROBOT
 - En Construcción
 
-# Reglas del Juego e Indicaciones del Torneo – SumoBot 2024
-
 ## Objetivo del Juego
 El objetivo de cada robot Sumobot es expulsar a su oponente fuera del dojo, ya sea empujándolo, arrastrándolo o inmovilizándolo. Los combates se desarrollan de forma autónoma, basados en la programación del robot.
 
