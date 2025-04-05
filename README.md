@@ -86,21 +86,7 @@ Si por alguna razón se desea resetear el Sumobot a los archivos iniciales, carg
 
 ---
 
-# Competencia SumoBot
-
-- En Construcción
-
-## Formato de competición
-
-- En Construcción
-
-## Principios del juego
-
-- En Construcción
-
----
-
-# Reglamento
+# Reglas del Juego e Indicaciones del Torneo – SumoBot 2025
 
 ## DEFINICIONES:
 1. **Sumobot:** El robot Sumobot es un robot de combate autónomo programado por el usuario, que deberá sacar a su rival del área de combate (dojo), ya sea empujándolo, arrastrándolo o dejándolo inhabilitado.
@@ -114,36 +100,95 @@ Si por alguna razón se desea resetear el Sumobot a los archivos iniciales, carg
 ## ESPECIFICACIONES DEL ROBOT
 - En Construcción
 
-## REGLAS DEL JUEGO
-- En Construcción
+# Reglas del Juego e Indicaciones del Torneo – SumoBot 2024
 
-## SANCIONES Y APELACIONES
-
-- En Construcción
----
-
-# Preguntas Frecuentes
-
-1. **¿El código se puede modificar?**  
-   R: Sí, se puede modificar.
-
-2. **¿Se pueden agregar partes al robot?**  
-   R: No se permiten modificaciones estructurales del robot. Se puede adaptar para colocarle más sensores, pero no se permiten agregar puntas o extensiones para otros propósitos.
-
-3. **¿Se puede modificar el hardware?**  
-   R: Se pueden agregar sensores adicionales que no impliquen modificaciones en el robot (por ejemplo, modificar el chasis). Es decir, se pueden incorporar a la estructura del chasis sin agregar nada más. Cada robot será revisado antes de cada torneo de competencia.
-
-4. **¿Se pueden agregar sensores de toque, por ejemplo?**  
-   R: Se pueden agregar sensores adicionales que no impliquen modificaciones en el robot.
-
-5. **¿Los estudiantes llevan la programación hecha o la memorizan?**  
-   R: Los estudiantes llevan el programa hecho y, en el mismo evento, pueden modificar la programación. Si no cuentan con computador, se les facilitará uno en el evento.
+## Objetivo del Juego
+El objetivo de cada robot Sumobot es expulsar a su oponente fuera del dojo, ya sea empujándolo, arrastrándolo o inmovilizándolo. Los combates se desarrollan de forma autónoma, basados en la programación del robot.
 
 ---
 
-# Algunas cosas por mejorar
-- Algunos motores presentan problemas y generan un corto.
-- Los cables de los motores deben ser más largos. Por el momento se están utilizando extensiones.
+## Formato de Competencia
+
+- El torneo se organiza en formato de eliminación directa.
+- Cada encuentro entre dos robots se denomina **partida** y consta de **3 combates**.
+- Cada combate tiene una duración máxima de **1 minuto y 30 segundos**.
+- La primera ronda, el ganador recibe 3 puntos por ganar y 1 punto en caso de empate. En las rondas eliminatorias, el equipo que gane **al menos 2 de los 3 combates** avanza a la siguiente ronda.
+- Entre cada combate hay **1 minuto de pausa** para ajustes técnicos o de estrategia.
+
+---
+
+##  Dinámica del Combate
+
+- Los robots deben iniciar su comportamiento autónomo en la posición indicada por el juez.  
+- Una vez que el juez indica que el combate inicia, ningún participante puede tocar el robot.
+- Se consideran válidas tres acciones: **atacar**, **defender** y **buscar**.
+- Cada robot gana un combate si:
+  - Expulsa a su oponente completamente fuera de la línea blanca del dojo.
+  - Su oponente no ejecuta movimientos durante el tiempo límite.
+  - Su oponente queda inmovilizado por fallos mecánicos o por efecto del enfrentamiento.
+
+---
+
+## Configuración Inicial del Combate
+
+Cada combate inicia con una disposición distinta:
+
+1. **Frente a frente** a 10 cm de distancia.
+2. **Espalda con espalda**.
+3. **Lado a lado**, en direcciones opuestas.
+
+---
+
+## Revisión y Arbitraje
+
+- Cada robot será inspeccionado antes del combate para asegurar que cumple con las **especificaciones técnicas**.
+- La **mesa de arbitraje** será la autoridad principal y podrá tomar decisiones sobre disputas o situaciones no previstas.
+- Un equipo puede ser descalificado si:
+  - Realiza cambios estructurales no autorizados al robot.
+  - No se presenta a su partida asignada.
+  - Excede el peso permitido (260 g – 290 g).
+  - Utiliza baterías, motores o neumáticos distintos a los del kit oficial.
+
+---
+
+## Progreso del Torneo
+
+- El torneo comienza con una **fase de grupos**.
+- A partir de la segunda ronda, la competición es de eliminación directa.
+- En caso de empate total en una partida, el ganador será decidido por **lanzamiento de moneda**.
+- Se podrá seleccionar un número determinado de **"mejores segundos lugares"** para avanzar en el torneo, si así lo definen los organizadores.
+
+---
+
+##  Sanciones y Ausencias
+
+- Si un equipo no se presenta a un combate, el equipo contrario gana automáticamente.
+- Si ningún equipo se presenta, se escogerán equipos sustitutos de entre los mejores perdedores.
+- Un equipo que llegue tarde pierde automáticamente su primer combate, pero puede competir en los siguientes.
+
+---
+
+##  Espíritu del Torneo
+
+Este torneo busca fomentar el aprendizaje, la creatividad y el trabajo en equipo. Se permite el apoyo entre equipos y la colaboración con docentes, siempre motivando a que sean los estudiantes quienes lideren el diseño, armado y programación del robot.
+
+---
+
+##  Preguntas Frecuentes
+
+1. **¿Se puede modificar el código del robot?**
+   - Sí, el código puede ser adaptado libremente.
+
+2. **¿Se pueden agregar sensores?**
+   - Sí, siempre y cuando no impliquen modificaciones estructurales al robot, y no exceda el peso permitido.
+
+3. **¿Se puede modificar el chasis o los motores?**
+   - No. Las partes estructurales, motores, ruedas y baterías deben permanecer como en el kit oficial.
+
+4. **¿Los estudiantes deben llevar el código memorizado?**
+   - No, pueden llevarlo preparado y modificarlo durante el evento. Se les proporcionará equipo si no tienen acceso a uno.
+
+---
 
 ---
 
