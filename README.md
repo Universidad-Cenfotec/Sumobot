@@ -1,4 +1,4 @@
-![SumoBot](imagenes/SumobotBanner.png)
+![SumoBot](imagenes/SumobotBanner2025.png)
 
 # Código y Diseños del Sumobot
 
