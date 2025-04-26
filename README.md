@@ -22,6 +22,8 @@ También se mejoró la forma en que los motores se conectan al chasis, haciendo 
 Todos los componentes se pueden encontrar en Costa Rica en [CrCibernética](https://www.crcibernetica.com/sumobot-universidad-cenfotec/).
 
 ---
+![Chasis](imagenes/chasis2025.png)
+
 
 ## Chasis del Sumobot 2025
 
