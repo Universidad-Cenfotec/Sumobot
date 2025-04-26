@@ -242,4 +242,4 @@ Para obtener más detalles sobre la licencia, por favor visita [https://creative
 
 Si estás interesado en contribuir al Sumobot, por favor revisa las guías de contribución disponibles en la sección de "Documentación". Todas las contribuciones son bienvenidas, sin importar cuán pequeñas sean. Juntos podemos hacer que Sumobot sea mejor para todos.
 
-![SumoBot1](imagenes/sumobot_varias.JPG)
+![SumoBot1](imagenes/abajo2025.png)
