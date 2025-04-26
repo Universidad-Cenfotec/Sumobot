@@ -43,7 +43,16 @@ Todo lo demás se ensambla usando las tiras de plástico que ya vienen en el paq
   
 ## Kit Sumobot 2025
 
-- En Construcción
+El kit incluye:
+
+1. Placa PCB que sirve como base del chasis.  
+2. Piezas del cuerpo del robot hechas en acrílico blanco.  
+3. Tiras de plástico para el ensamblaje.  
+4. Cables "jumper" para conexiones eléctricas.  
+5. Cable Qwiic para conexión rápida de sensores.  
+6. Sensor ultrasónico para detección de objetos.  
+7. Caja para baterías AA.  
+8. Motores Microgear de 200 RPM incorporados en la placa.
 
 ## Esquema de conexiones 2025
 
