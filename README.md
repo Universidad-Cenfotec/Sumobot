@@ -45,14 +45,15 @@ Todo lo demás se ensambla usando las tiras de plástico que ya vienen en el paq
 
 El kit incluye:
 
-1. Placa PCB que sirve como base del chasis.  
-2. Piezas del cuerpo del robot hechas en acrílico blanco.  
-3. Tiras de plástico para el ensamblaje.  
-4. Cables "jumper" para conexiones eléctricas.  
-5. Cable Qwiic para conexión rápida de sensores.  
-6. Sensor ultrasónico para detección de objetos.  
-7. Caja para baterías AA.  
-8. Motores Microgear de 200 RPM incorporados en la placa.
+1. Placa PCB que sirve como base del chasis.
+2. Placa IdeaBoard con microcontrolador ESP32 (Hecho en Costa Rica por CrCibernetica)
+3. Piezas del cuerpo del robot hechas en acrílico blanco.  
+4. Tiras de plástico para el ensamblaje.  
+5. Cables "jumper" para conexiones eléctricas.  
+6. Cable Qwiic para conexión rápida de sensores.  
+7. Sensor ultrasónico para detección de objetos.  
+8. Caja para baterías AA.  
+9. Motores Microgear de 200 RPM incorporados en la placa.
 
 ## Esquema de conexiones 2025
 
