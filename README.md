@@ -56,6 +56,8 @@ Para darle energía a tu IdeaBoard del SumoBot, seguí estos pasos:
 4. **Puente de energía (jumper)**:
    - Colocá el pequeño puente (jumper) rojo en el conector señalado en la imagen para **dar energía a los motores y al sensor ultrasónico**.
 
+![Chasis](imagenes/baterias2025.png)
+
 
 ## Software para programar el Sumobot 2025
 
