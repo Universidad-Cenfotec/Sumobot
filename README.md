@@ -6,24 +6,28 @@ El Sumobot es un robot simple, 100% desarrollado en Costa Rica, para competencia
 
 El Sumobot utiliza la placa [IdeaBoard](https://github.com/CRCibernetica/circuitpython-ideaboard/wiki), desarrollada por CrCibernética. Esta placa, que es Open Source, tiene un ESP32 como microcontrolador y facilita la conexión de sensores, motores y su programación a través de USB o Wi‑Fi.
 
-Puede ver este [video resumen](https://youtu.be/L98O-mApjXQ) de la primera competencia de Sumobot de Costa Rica, celebrada en el Maker Faire San José 2023.
+Puede ver este [video resumen](https://youtu.be/L98O-mApjXQ) de la primera competencia de Sumobot de Costa Rica, celebrada en el Maker Faire San José 2023. Y acá pueden ver un [video resumen](https://youtu.be/9zarR0cKY90?si=D4UTzPx91h4megWT) de la segunda edición en el 2024
 
 ---
 ## Componentes del Sumobot 2025
 
-El Sumobot de el 2025 es un modelo nuevo, con más sensores y capacidades comparado con el Sumobot del 2024.
+¡Descubrí el nuevo SumoBot 2025!
 
-- En Construcción
+El SumoBot de 2025 trae muchas mejoras respecto al modelo del 2024. Ahora tiene una nueva placa base especialmente diseñada para su chasis, lo que le da más fuerza y estabilidad. Además, el robot cuenta con cuatro sensores infrarrojos que le permiten detectar la línea blanca del dojo en diferentes posiciones, un acelerómetro y un giroscopio que mejoran su navegación y precisión.
 
+También se mejoró la forma en que los motores se conectan al chasis, haciendo que el robot sea más confiable en las competencias y evitando los problemas de conexión que se dieron en el pasado.
 
+¡Prepárate para construir, programar y competir con la nueva generación de SumoBots en el torneo 2025!
 
-Todos los componentes se pueden encontrar en Costa Rica en [CrCibernética](https://www.crcibernetica.com/sumobot-universidad-cenfotec/). [Aquí pueden ver un video](https://youtu.be/N60gXp_uzeo?si=2TApsz6n20wZ9ZoX) de los componentes que vienen como parte del kit.
+Todos los componentes se pueden encontrar en Costa Rica en [CrCibernética](https://www.crcibernetica.com/sumobot-universidad-cenfotec/).
 
 ---
 
 ## Chasis del Sumobot 2025
 
-- En Construcción
+¿Cómo es el chasis del SumoBot?
+
+El chasis del SumoBot es una placa PCB especial que ya incluye los sensores infrarrojos, el acelerómetro y el giroscopio. Todo está integrado para que sea mucho más fácil conectar los sensores directamente al microcontrolador y trabajar en tu robot sin complicaciones.
 
 ---
 
@@ -37,11 +41,19 @@ Todos los componentes se pueden encontrar en Costa Rica en [CrCibernética](http
 
 ## Esquema de conexiones 2025
 
-- En Construcción
 
-## Baterías Sumobot 2025
+### Conexiones de las baterías a la IdeaBoard
 
-- En Construcción
+Para darle energía a tu IdeaBoard del SumoBot, seguí estos pasos:
+
+1. **Usá un portabaterías** con **4 baterías AA**.
+2. **Cable rojo (+)** del portabaterías:
+   - Conectalo al **terminal positivo (+)** de la placa IdeaBoard (marcado con un símbolo + en verde).
+3. **Cable negro (-)** del portabaterías:
+   - Conectalo al **terminal negativo (-)** de la placa IdeaBoard (marcado con un símbolo - en verde).
+4. **Puente de energía (jumper)**:
+   - Colocá el pequeño puente (jumper) rojo en el conector señalado en la imagen para **dar energía a los motores y al sensor ultrasónico**.
+
 
 ## Software para programar el Sumobot 2025
 
