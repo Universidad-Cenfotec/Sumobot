@@ -43,7 +43,7 @@ El chasis del SumoBot es una placa PCB especial que ya incluye los sensores infr
 
 ## Esquema de conexiones 2025
 
-UNa guia completa de las conexiones del SumoBot ls pueden encontrar en [este documento](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/Guia%20de%20Conexiones%20Sumobot.pdf)
+Una guia completa de las conexiones del SumoBot ls pueden encontrar en [este documento](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/Guia%20de%20Conexiones%20Sumobot.pdf)
 
 ### Conexiones de las baterías a la IdeaBoard
 
