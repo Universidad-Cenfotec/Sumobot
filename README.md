@@ -35,7 +35,11 @@ El chasis del SumoBot es una placa PCB especial que ya incluye los sensores infr
 
 # Armando el Sumobot 2026
 
-- En Construcción
+¿Qué tan fácil es armar el SumoBot? ¡Muy fácil! No necesitás pegamento ni materiales especiales: todo lo que ocupás viene incluido en el kit.
+La única herramienta que vas a necesitar es un desatornillador Phillips para colocar la IdeaBoard en el robot.
+Todo lo demás se ensambla usando las tiras de plástico que ya vienen en el paquete.
+
+¡Así que podés concentrarte en construir, programar y competir!
   
 ## Kit Sumobot 2025
 
