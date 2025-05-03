@@ -1,6 +1,10 @@
 # Tomás de Camino Beck
 # Universidad Cenfotec
 
+# Programa para leer sensores infrarrojos conectados a una IdeaBoard.
+# El programa lee continuamente los valores de 4 sensores infrarrojos analógicos
+# y muestra en pantalla el número de cada sensor junto con su valor actual
+
 # Importa los módulos necesarios
 import board               # Permite acceder a los pines de entrada/salida del microcontrolador
 from time import sleep     # Permite usar la función sleep para pausar el programa
