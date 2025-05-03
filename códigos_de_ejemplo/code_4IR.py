@@ -1,7 +1,7 @@
 # Tomás de Camino Beck
 # Universidad Cenfotec
 
-# Programa para leer sensores infrarrojos conectados a una IdeaBoard.
+# Programa para leer los sensores infrarrojos del sumobot conectados al IdeaBoard.
 # El programa lee continuamente los valores de 4 sensores infrarrojos analógicos
 # y muestra en pantalla el número de cada sensor junto con su valor actual
 
