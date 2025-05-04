@@ -244,3 +244,34 @@ Esta guía está pensada para ayudarte a iniciar con **IdeaBoard** de manera sen
 Puedes combinar estas funciones para crear proyectos más complejos como robots, sistemas de luces inteligentes o control de sensores.
 
 ---
+
+# PLaca Sumobot + IdeaBoard
+
+## Sensores infrarrojos
+
+# Lectura de sensores infrarrojos con IdeaBoard
+
+La placa de Sumobot cuenta con 4 sensores infrarojos en la parte inferior. Este es un código de ejeplo de como se pueden leer los datos de el sensor.  Se asume que los sensores 1 a 4, están conectados a los pines 36,39,34 y 35
+
+```python
+import board
+from time import sleep
+from ideaboard import IdeaBoard
+
+ib = IdeaBoard()
+
+sen1 = ib.AnalogIn(board.IO36)
+sen2 = ib.AnalogIn(board.IO39)
+sen3 = ib.AnalogIn(board.IO34)
+sen4 = ib.AnalogIn(board.IO35)
+
+infrarrojos = [sen1, sen2, sen3, sen4]
+
+while True: 
+    for i, sen in enumerate(infrarrojos, start=1):
+        print(f"SENSOR {i}: {sen.value}")
+    
+    print("_________")
+    
+    sleep(0.5)
+```
