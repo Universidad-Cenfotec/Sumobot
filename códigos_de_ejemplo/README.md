@@ -275,3 +275,7 @@ while True:
 ```
 
 Los detalles de conexión de la placa, los puede encontrar en [esta guia](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/Guia%20de%20Conexiones%20Sumobot.pdf)
+
+## Acelerómetro y Giroscopio 
+
+
