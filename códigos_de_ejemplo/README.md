@@ -278,4 +278,75 @@ Los detalles de conexión de la placa, los puede encontrar en [esta guia](https:
 
 ## Acelerómetro y Giroscopio 
 
+La placa del Sumobot, cuenta con un acelerómetro y giroscopio, que se conecta a través de una una conexión Qwiic que requiere un cable especial que se entrega con el Kit de Sumobot.
+
+Este código simplificado muestra lo siguiente que:
+
+- Inicializa el acelerómetro y giroscopio LSM6DS3TRC
+- Lee datos del acelerómetro y del giroscopio
+- Muestra las lecturas en consola
+- Explica paso a paso cómo usar cada parte
+
+```python
+# Ejemplo básico para leer acelerómetro y giroscopio con el sensor LSM6DS3TRC
+
+import board
+import time
+import math
+from adafruit_lsm6ds import Rate, AccelRange, GyroRange
+from adafruit_lsm6ds.lsm6ds3trc import LSM6DS3TRC
+
+# Inicializamos el bus I2C del microcontrolador
+i2c = board.I2C()
+
+# Inicializamos el sensor LSM6DS3TRC en la dirección I2C por defecto (0x6B)
+sensor = LSM6DS3TRC(i2c, 0x6B)
+
+# Configuramos la sensibilidad del acelerómetro y giroscopio
+sensor.accelerometer_range = AccelRange.RANGE_8G  # Hasta ±8G para aceleraciones fuertes
+sensor.gyro_range = GyroRange.RANGE_2000_DPS      # Hasta ±2000 grados por segundo para giros rápidos
+sensor.accelerometer_data_rate = Rate.RATE_104_HZ # 104 lecturas por segundo
+sensor.gyro_data_rate = Rate.RATE_104_HZ          # Igual que acelerómetro para sincronizar
+
+# Función para convertir radianes a grados (opcional, útil para giroscopio)
+def radianes_a_grados(radianes):
+    return radianes * (180 / math.pi)
+
+print("Iniciando lectura de acelerómetro y giroscopio...")
+
+# Bucle principal
+while True:
+    # Leer aceleración (X, Y, Z) en metros por segundo cuadrado (m/s²)
+    accel_x, accel_y, accel_z = sensor.acceleration
+    print(f"Acelerómetro -> X: {accel_x:.2f} m/s², Y: {accel_y:.2f} m/s², Z: {accel_z:.2f} m/s²")
+    
+    # Leer velocidad angular (X, Y, Z) en radianes por segundo (rad/s)
+    gyro_x, gyro_y, gyro_z = sensor.gyro
+    print(f"Giroscopio -> X: {radianes_a_grados(gyro_x):.2f} °/s, Y: {radianes_a_grados(gyro_y):.2f} °/s, Z: {radianes_a_grados(gyro_z):.2f} °/s")
+    
+    print("-----------------------------------------")
+    
+    # Esperar un poco antes de la siguiente lectura
+    time.sleep(0.5)
+```
+
+### Explicación del código
+
+**1. Importar librerías**
+Se usan `board` para acceder al bus I2C, `time` para esperar entre lecturas y `math` para conversiones. La librería `adafruit_lsm6ds` se usa para controlar el sensor.
+
+**2. Inicializar el sensor**
+Se crea una instancia del sensor en la dirección I2C estándar `0x6B`.
+Si el sensor está conectado correctamente, comenzará a responder.
+
+**3. Configurar rangos y tasas de datos**
+Se ajustan los rangos de acelerómetro y giroscopio para que tengan buena sensibilidad y se evita ruido excesivo.
+
+**4. Leer datos**
+En cada ciclo se leen las aceleraciones en X, Y, Z y las velocidades angulares.
+Las velocidades angulares se convierten de radianes/segundo a grados/segundo para que sean más fáciles de interpretar.
+
+**5. Mostrar los datos**
+Se imprimen en la consola cada medio segundo.
+
 
