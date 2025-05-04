@@ -1,4 +1,4 @@
-![SumoBot](imagenes/ideaboard-sumobot.JPG)
+![SumoBot](imagenes/ideaboard-sumobot.JPG) 
 
 # Uso de la librería IdeaBoard
 
