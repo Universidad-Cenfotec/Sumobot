@@ -1,3 +1,5 @@
+![SumoBot](imagenes/ideaboard-sumobot.JPG)
+
 # Uso de la librería IdeaBoard
 
 El Sumobot utiliza la placa IdeaBoard, que es una placa que utiliza el ESP32, pero agrega drivers de motores, y pines para poder conectar gran cantidad de sensores digitales y analógicos.
