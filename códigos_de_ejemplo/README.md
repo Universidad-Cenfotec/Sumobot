@@ -249,7 +249,7 @@ Puedes combinar estas funciones para crear proyectos más complejos como robots,
 
 ## Sensores infrarrojos
 
-La placa de Sumobot cuenta con 4 sensores infrarojos en la parte inferior. Este es un código de ejeplo de como se pueden leer los datos de el sensor.  Se asume que los sensores 1 a 4, están conectados a los pines 36,39,34 y 35
+La placa de Sumobot cuenta con 4 sensores infrarojos en la parte inferior. Este es un código de ejemplo de como se pueden leer los datos de el sensor.  Se asume que los sensores 1 a 4, están conectados a los pines 36,39,34 y 35
 
 ```python
 import board
@@ -273,3 +273,5 @@ while True:
     
     sleep(0.5)
 ```
+
+Los detalles de conexión de la placa, los puede encontrar en [esta guia](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/Guia%20de%20Conexiones%20Sumobot.pdf)
