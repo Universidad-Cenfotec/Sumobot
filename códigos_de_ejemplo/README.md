@@ -278,7 +278,7 @@ Los detalles de conexión de la placa, los puede encontrar en [esta guia](https:
 
 ## Acelerómetro y Giroscopio 
 
-La placa del Sumobot, cuenta con un acelerómetro y giroscopio, que se conecta a través de una una conexión Qwiic que requiere un cable especial que se entrega con el Kit de Sumobot.
+La placa del Sumobot, cuenta con un acelerómetro y giroscopio, que se conecta a través de una una conexión Qwiic que requiere un cable especial que se entrega con el Kit de Sumobot. Detalles de las conexiones las puede ver en  [esta guia](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/Guia%20de%20Conexiones%20Sumobot.pdf)
 
 Este código simplificado muestra lo siguiente que:
 
