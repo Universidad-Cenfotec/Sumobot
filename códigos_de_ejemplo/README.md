@@ -1,4 +1,4 @@
-![SumoBot](imagenes/ideaboard-sumobot.JPG) 
+![SumoBot](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/ideaboard-sumobot.JPG) 
 
 # Uso de la librería IdeaBoard
 
