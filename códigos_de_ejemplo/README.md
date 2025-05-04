@@ -245,11 +245,9 @@ Puedes combinar estas funciones para crear proyectos más complejos como robots,
 
 ---
 
-# PLaca Sumobot + IdeaBoard
+# Placa Sumobot + IdeaBoard
 
 ## Sensores infrarrojos
-
-# Lectura de sensores infrarrojos con IdeaBoard
 
 La placa de Sumobot cuenta con 4 sensores infrarojos en la parte inferior. Este es un código de ejeplo de como se pueden leer los datos de el sensor.  Se asume que los sensores 1 a 4, están conectados a los pines 36,39,34 y 35
 
