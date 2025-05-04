@@ -258,10 +258,10 @@ from ideaboard import IdeaBoard
 
 ib = IdeaBoard()
 
-sen1 = ib.AnalogIn(board.IO36)
-sen2 = ib.AnalogIn(board.IO39)
-sen3 = ib.AnalogIn(board.IO34)
-sen4 = ib.AnalogIn(board.IO35)
+sen1 = ib.AnalogIn(board.IO36)  # SENSOR 1 (adelante izquierdo) pin IO36
+sen2 = ib.AnalogIn(board.IO39)  # SENSOR 2 (adelante derecho) pin IO39
+sen3 = ib.AnalogIn(board.IO34)  # SENSOR 3 (atrás izquierdo) pin IO34
+sen4 = ib.AnalogIn(board.IO35)  # SENSOR 4 (atrá derecho) pin IO35
 
 infrarrojos = [sen1, sen2, sen3, sen4]
 
