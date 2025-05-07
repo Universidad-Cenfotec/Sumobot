@@ -111,8 +111,16 @@ Si por alguna razón se desea resetear el Sumobot a los archivos iniciales, carg
 
 ---
 
-## Videos Instructivos
-- En Construcción
+## Videos Instructivos de Programación y Armado
+
+Constantemente estaremos actualizando links cuando se vayan creando más videos:
+
+- [Instalación de Thonny](https://youtu.be/Zc3oaAbVAdc?si=447Po0KyL_0hDAhJ)
+- [Programación del Sumobot con Thonny](https://youtu.be/EOnnslZhL2c?si=rmjno9d8OHmJu21c)
+- [Programación del NeoPixel](https://youtu.be/4abUHAFZwrY?si=RmHJYj71lK2cA2_J)
+- [Programación de sensores Infrarrojos](https://youtu.be/1eArcnWW8Ek?si=TjnI8ONcFrolIb8A)
+- [Programación de Motores](https://youtu.be/UMIWmT1n-kc?si=BwKY2DNXiGDF-0Ws)
+- [Programación de Sensor Ultrasónico](https://youtu.be/RwY2lEPkyg8?si=KfbUV8WfN8I7yd2R)
 
 
 ---
