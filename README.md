@@ -44,6 +44,8 @@ Todo lo demás se ensambla usando las tiras de plástico que ya vienen en el paq
 
 ## Soldando motores
 
+![motores](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/motores_soldar.jpeg)
+
 Los motores se sueldan al chasis y eso permie que queden bien asegurados y no se desconecten a pesar de los movimientos del robot.  Este es el paso que es un poco más difícil, sin embargo se puede hacer hasta si no tienes expeirencia soldando
 
 [En este video se explica con detalle el soldado de motores](https://youtu.be/R4Um8DInFHk?si=ON4kUQGllQKRUqAh)
