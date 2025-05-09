@@ -41,15 +41,6 @@ Todo lo demás se ensambla usando las tiras de plástico que ya vienen en el paq
 
 ¡Así que podés concentrarte en construir, programar y competir!
 
-
-## Soldando motores
-
-![motores](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/motores_soldar.jpeg)
-
-Los motores se sueldan al chasis y eso permie que queden bien asegurados y no se desconecten a pesar de los movimientos del robot.  Este es el paso que es un poco más difícil, sin embargo se puede hacer hasta si no tienes expeirencia soldando
-
-[En este video se explica con detalle el soldado de motores](https://youtu.be/R4Um8DInFHk?si=ON4kUQGllQKRUqAh)
-
   
 ## Kit Sumobot 2025
 
@@ -63,7 +54,16 @@ El kit incluye:
 6. Cable Qwiic para conexión rápida de sensores.  
 7. Sensor ultrasónico para detección de objetos.  
 8. Caja para baterías AA.  
-9. Motores Microgear de 200 RPM incorporados en la placa.
+9. Motores Microgear de 200 RPM y asas de plástico.
+
+## Soldando motores
+
+![motores](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/motores_soldar.jpeg)
+
+Los motores se sueldan al chasis y eso permie que queden bien asegurados y no se desconecten a pesar de los movimientos del robot.  Este es el paso que es un poco más difícil, sin embargo se puede hacer hasta si no tienes expeirencia soldando
+
+[En este video se explica con detalle el soldado de motores](https://youtu.be/R4Um8DInFHk?si=ON4kUQGllQKRUqAh)
+
 
 ## Esquema de conexiones 2025
 
