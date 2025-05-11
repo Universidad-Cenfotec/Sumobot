@@ -32,7 +32,10 @@ El área de competencia, conocida como **dojo**, está definida para nuestro for
 * El borde blanco debe ser uniforme y claramente visible.
 * La superficie debe ser plana y firme para asegurar condiciones justas de movilidad para los robots.
 
+--- 
 ## Construccion de Dojo de Práctica
+
+![dojo](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/const_dojo_2025.jpg)
 
 Para practicar con los robots, se puede construir un dojo fácilmente. Estudiantes de CENFOTEC explican en este video como se puede construir un Dojo, con materiales sencillos y de bajo costo.
 
