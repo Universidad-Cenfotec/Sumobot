@@ -1,3 +1,5 @@
+![componentes](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/componentes_2025.JPG)
+
 # Componentes del Sumobot 2025
 
 ¡Descubrí el nuevo SumoBot 2025!
