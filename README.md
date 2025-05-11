@@ -10,7 +10,7 @@ Puede ver este [video resumen](https://youtu.be/L98O-mApjXQ) de la primera compe
 
 ---
 
-## Contenidos de este repositorio
+## Contenidos de este Repositorio
 
 - [Componentes del Sumobot](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/componentes2025.md)
 - [Armado del Sumobot](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/armado_2025.md)
