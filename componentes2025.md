@@ -10,6 +10,23 @@ También se mejoró la forma en que los motores se conectan al chasis, haciendo 
 
 Todos los componentes se pueden encontrar en Costa Rica en [CrCibernética](https://www.crcibernetica.com/sumobot-universidad-cenfotec/).
 
+  
+## Kit Sumobot 2025
+
+El kit incluye:
+
+1. Placa PCB que sirve como base del chasis.
+2. Placa IdeaBoard con microcontrolador ESP32 (Hecho en Costa Rica por CrCibernetica)
+3. Piezas del cuerpo del robot hechas en acrílico blanco.  
+4. Tiras de plástico para el ensamblaje.  
+5. Cables "jumper" para conexiones eléctricas.  
+6. Cable Qwiic para conexión rápida de sensores.  
+7. Sensor ultrasónico para detección de objetos.  
+8. Caja para baterías AA.  
+9. Motores Microgear de 200 RPM y asas de plástico.
+
+
+
 ---
 ![Chasis](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/chasis2025.png)
 
