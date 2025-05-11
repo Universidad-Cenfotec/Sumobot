@@ -29,6 +29,8 @@ El objetivo de cada robot Sumobot es expulsar a su oponente fuera del dojo, ya s
 
 ##  Dinámica del Combate
 
+![ganador](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/gana_pierde.jpg)
+
 - Los robots deben iniciar su comportamiento autónomo en la posición indicada por el juez.  
 - Una vez que el juez indica que el combate inicia, ningún participante puede tocar el robot.
 - Se consideran válidas tres acciones: **atacar**, **defender** y **buscar**.
