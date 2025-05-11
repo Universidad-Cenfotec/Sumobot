@@ -1,4 +1,4 @@
-# Armando el Sumobot 2026
+# Armando el Sumobot 2025
 
 ¿Qué tan fácil es armar el SumoBot? ¡Muy fácil! No necesitás pegamento ni materiales especiales: todo lo que ocupás viene incluido en el kit.
 La única herramienta que vas a necesitar es un desatornillador Phillips para colocar la IdeaBoard en el robot, y un cautín para soldar los motores.
