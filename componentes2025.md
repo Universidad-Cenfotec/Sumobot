@@ -16,14 +16,14 @@ Todos los componentes se pueden encontrar en Costa Rica en [CrCibernética](http
 El kit incluye:
 
 1. Placa PCB que sirve como base del chasis.
-2. Placa IdeaBoard con microcontrolador ESP32 (Hecho en Costa Rica por CrCibernetica)
+2. Placa IdeaBoard con microcontrolador ESP32 ([Hecho en Costa Rica por CrCibernetica](https://www.crcibernetica.com/crcibernetica-ideaboard/?searchid=2395932&search_query=ideaboard))
 3. Piezas del cuerpo del robot hechas en acrílico blanco.  
 4. Tiras de plástico para el ensamblaje.  
-5. Cables "jumper" para conexiones eléctricas.  
-6. Cable Qwiic para conexión rápida de sensores.  
-7. Sensor ultrasónico para detección de objetos.  
+5. Cables ["jumper"](https://www.crcibernetica.com/female-to-female-jumper-wire-40-pcs-in-one-bunch/?searchid=2395933&search_query=jumper+cables) para conexiones eléctricas.  
+6. Cable [Qwiic](https://www.crcibernetica.com/stemma-qt-qwiic-jst-sh-4-pin-cable-20cm/?searchid=2395934&search_query=Qwiic) para conexión rápida de sensores.  
+7. Sensor [ultrasónico](https://www.crcibernetica.com/hc-sr05-ultrasonic-distance-sensor/?searchid=2395935&search_query=ultrasonic) para detección de objetos.  
 8. Caja para baterías AA.  
-9. Motores Microgear de 200 RPM y asas de plástico.
+9. Motores [Microgear](https://www.crcibernetica.com/micro-gearmotor/?searchid=0&search_query=motor) de 200 RPM y asas de plástico.
 
 
 
