@@ -41,6 +41,8 @@ El objetivo de cada robot Sumobot es expulsar a su oponente fuera del dojo, ya s
 
 ## Configuración Inicial del Combate
 
+![configuracion](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/combates.jpg)
+
 Cada combate inicia con una disposición distinta:
 
 1. **Frente a frente** a 10 cm de distancia.
