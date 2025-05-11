@@ -13,7 +13,7 @@ Puede ver este [video resumen](https://youtu.be/L98O-mApjXQ) de la primera compe
 ## Contenidos de este Repositorio
 
 - [Componentes del Sumobot](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/componentes2025.md)
-- [Armado del Sumobot](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/armado_2025.md)
+- [Armado y Conexiones del Sumobot](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/armado_2025.md)
 - [Programación del Sumobot](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/programacion.md)
 - [Especificaciones del Dojo](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/dojo.md)
 - [Reglas del Torneo Sumobot](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/reglas_2025.md)
