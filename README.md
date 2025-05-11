@@ -18,7 +18,7 @@ Puede ver este [video resumen](https://youtu.be/L98O-mApjXQ) de la primera compe
 - [Especificaciones del Dojo](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/dojo.md)
 - [Reglas del Torneo Sumobot](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/reglas_2025.md)
 - [Preguntas frecuentes](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/FAQ.md)
-- [Playlist de Videos de Sumobot](https://youtu.be/Cxlyzh-E9kE?si=L4Qg8Ui6Rm3TZbBI)
+- [Playlist de Videos de Sumobot](https://www.youtube.com/watch?v=Cxlyzh-E9kE&list=PLySA0noR1JGVZg5L3hGVwRD3PP2ibNYMT)
 
 
 ---
