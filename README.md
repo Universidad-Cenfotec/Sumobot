@@ -1,4 +1,4 @@
-![SumoBot](imagenes/SumobotBanner2025.png)
+![SumoBot](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/SumobotBanner2025.png)
 
 # Código y Diseños del Sumobot
 
