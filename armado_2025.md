@@ -6,6 +6,10 @@ Todo lo demás se ensambla usando las tiras de plástico que ya vienen en el paq
 
 ¡Así que podés concentrarte en construir, programar y competir!
 
+## Armando el Sumobot
+
+- Para armar el sumobot pueden seguir las [instrucciones en este video](https://youtu.be/Cxlyzh-E9kE?si=Whpzej_X_6gWu1zQ)
+- En la siguientes secciones se detallan algunos de los pasos de soldado de motores y esquema de conexiones
 
 ## Soldando motores
 
