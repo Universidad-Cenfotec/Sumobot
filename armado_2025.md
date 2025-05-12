@@ -1,3 +1,4 @@
+![armado](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/armadosumobot.png)
 # Armando el Sumobot 2025
 
 ¿Qué tan fácil es armar el SumoBot? ¡Muy fácil! No necesitás pegamento ni materiales especiales: todo lo que ocupás viene incluido en el kit.
