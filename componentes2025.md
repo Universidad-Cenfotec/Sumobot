@@ -17,7 +17,7 @@ Todos los componentes se pueden encontrar en Costa Rica en [CrCibernética](http
 
 El kit incluye:
 
-1. Placa PCB que sirve como base del chasis.
+1. Placa o Shield PCB que sirve como base del chasis [Hecho en COsta Rica por CrCibernética](https://www.crcibernetica.com/sumobot-shield/).
 2. Placa IdeaBoard con microcontrolador ESP32 ([Hecho en Costa Rica por CrCibernetica](https://www.crcibernetica.com/crcibernetica-ideaboard/?searchid=2395932&search_query=ideaboard))
 3. Piezas del cuerpo del robot hechas en acrílico blanco.  
 4. Tiras de plástico para el ensamblaje.  
