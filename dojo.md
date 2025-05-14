@@ -31,6 +31,13 @@ El área de competencia, conocida como **dojo**, está definida para nuestro for
 
 * El borde blanco debe ser uniforme y claramente visible.
 * La superficie debe ser plana y firme para asegurar condiciones justas de movilidad para los robots.
+---
+## Archivo con Dojo Oficial
+
+[Este es una archivo SVG](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/archivos_de_fabricacion/Dojo_Oficial_Sumobot_CENFOTEC.svg), con el Dojo oficial que puede ser utilizado para corte e impresión
+
+
+
 
 --- 
 ## Construccion de Dojo de Práctica
