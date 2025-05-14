@@ -35,7 +35,7 @@ El área de competencia, conocida como **dojo**, está definida para nuestro for
 ## Archivo con Dojo Oficial
 
 - [Este es una archivo **SVG**](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/archivos_de_fabricacion/Dojo_Oficial_Sumobot_CENFOTEC.svg), con el Dojo oficial que puede ser utilizado para corte e impresión
-- Acá hay una versión [**PDF**](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/archivos_de_fabricacion/Dojo_Oficial_Sumobot_CENFOTEC.pdf) del mismo archiv
+- Acá hay una versión [**PDF**](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/archivos_de_fabricacion/Dojo_Oficial_Sumobot_CENFOTEC.pdf) del mismo archivo
 
 
 
