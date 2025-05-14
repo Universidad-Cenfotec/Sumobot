@@ -1,0 +1,10 @@
+<svg width="100cm" height="100cm" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <!-- fondo negro -->
+  <rect width="1000" height="1000" fill="black"/>
+
+  <!-- anillo blanco: círculo más grande -->
+  <circle cx="500" cy="500" r="450" fill="white"/>
+
+  <!-- círculo negro interno de 80cm = 800 unidades SVG -->
+  <circle cx="500" cy="500" r="400" fill="black"/>
+</svg>
