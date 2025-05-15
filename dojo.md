@@ -47,7 +47,7 @@ El área de competencia, conocida como **dojo**, está definida para nuestro for
 
 Para practicar con los robots, se puede construir un dojo fácilmente. Estudiantes de CENFOTEC explican en este video como se puede construir un Dojo, con materiales sencillos y de bajo costo.
 
-- [Video explicando como cinstuir un Dojo](https://youtu.be/kQZlyKjGssc?si=kFoVl_klJZuh9psP)
+- [Video explicando como construir un Dojo](https://youtu.be/kQZlyKjGssc?si=kFoVl_klJZuh9psP)
 
 
 
