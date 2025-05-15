@@ -23,7 +23,7 @@ Los motores se sueldan al chasis y eso permie que queden bien asegurados y no se
 
 ## Esquema de conexiones 2025
 
-Una guia completa de las conexiones del SumoBot ls pueden encontrar en [este documento](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/Guia%20de%20Conexiones%20Sumobot.pdf)
+Una guia completa de las conexiones del SumoBot ls pueden encontrar en [este documento](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/Conexiones%20SumoBot.pdf)
 
 ### Conexiones de las baterías a la IdeaBoard
 
