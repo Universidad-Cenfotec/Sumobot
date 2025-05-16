@@ -1,6 +1,7 @@
 
 # Programación del Sumobot
 
+
 ## Software para programar el Sumobot 2025
 
 Para programar el Sumobot se utiliza Thonny, el cual se puede descargar desde este [enlace](https://thonny.org/).
@@ -12,6 +13,11 @@ Para programar el Sumobot se utiliza Thonny, el cual se puede descargar desde es
 - En la pestaña "Intérprete" (o "Interpreter" en inglés), seleccionar "CircuitPython (Generic)".
 - ¡Listo!
 - [Video con detalles](https://youtu.be/Zc3oaAbVAdc)
+
+##  Resetear el IdeaBoard
+
+Para resetear el IdeaBoard, se hace fácilmente a través de esta página:  [IdeaBoard Flasher](https://crcibernetica.github.io/ideaboard-terminal/)
+
 
 ## Código
 
