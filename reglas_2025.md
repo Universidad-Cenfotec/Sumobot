@@ -60,7 +60,7 @@ Cada combate inicia con una disposición distinta:
 - Un equipo puede ser descalificado si:
   - Realiza cambios estructurales no autorizados al robot.
   - No se presenta a su partida asignada.
-  - Excede el peso permitido (260 g – 290 g).
+  - Excede el peso permitido (260 g – 295 g).
   - Utiliza baterías, motores o neumáticos distintos a los del kit oficial.
 
 ---
