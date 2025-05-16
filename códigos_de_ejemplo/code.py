@@ -12,12 +12,32 @@ sonar = HCSR04(board.IO26,board.IO25) # Crea una instanciación del sensor ultra
 
 
 ib = IdeaBoard() # Instanciación I/O y funcione sdel Ideboard
-irSensor =  ib.AnalogIn(board.IO36) # Instanciación del sensor infrarojo
 
-def on_white(value = 4000):
-    #Devuelve True si el valor del sensor es menor a value, es decir, está en blanco
-    #Si es mayor a value devuelve False
-    return irSensor.value < value
+# Configura los pines analógicos donde están conectados los sensores infrarrojos
+sen1 = ib.AnalogIn(board.IO36)  # SENSOR 1 (adelante izquierdo) pin IO36
+sen2 = ib.AnalogIn(board.IO39)  # SENSOR 2 (adelante derecho) pin IO39
+sen3 = ib.AnalogIn(board.IO34)  # SENSOR 3 (atrás izquierdo) pin IO34
+sen4 = ib.AnalogIn(board.IO35)  # SENSOR 4 (atrá derecho) pin IO35
+
+# Crea una lista con los sensores infrarrojos para poder recorrerlos fácilmente
+infrarrojos = [sen1, sen2, sen3, sen4]
+
+#funcion que convierte a entero base 10
+# Utiliza desplazamiento de bits
+def arreglo_a_entero(bits):
+    valor = 0
+    for bit in bits:
+        valor = (valor << 1) | bit
+    return valor
+
+# arreglo de 0 y 1s (0-blanco, 1-negro)
+def leer_sensores(infrarrojos,valor_critico=10000):
+    return [int(sen.value > valor_critico) for sen in infrarrojos]
+
+
+def on_white(infrarrojos,valor_critico=10000):
+    sensores = leer_sensores(infrarrojos,valor_critico)
+    return arreglo_a_entero(sensores) > 0
 
 def wiggle(t,n,speed):
 # Hace que el robot se mueva izquierda y derecha
@@ -118,9 +138,9 @@ def forwardCheck(t, speed):
     # Mueve el robot hacia adelante
     # por tiempo t, a velocidad speed = [0,1]
     # Pero revisando el sensor IR para evitar salir del Dojo
-     d = int(t / 0.1)
+     d = int(t / 0.05)
      for i in range(d):
-         if on_white() :
+         if on_white(infrarrojos, 3000):
              forward(0.1,speed)
          else:
              stop()
@@ -133,11 +153,4 @@ def forwardCheck(t, speed):
 sleep(3) # da 3 segundoas para arrancar el código principal
 
 while True:
-    if scan():
-        sleep(0.2)
-        forwardCheck(0.5,0.2)
-    else:
-        sleep(0.2)
-        randomTurn(1,0.2)
-        forwardCheck(0.5,0.2)
-    sleep(0.2)
+    forwardCheck(0.1,0.5)
