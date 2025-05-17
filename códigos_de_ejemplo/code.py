@@ -22,6 +22,9 @@ sen4 = ib.AnalogIn(board.IO35)  # SENSOR 4 (atrá derecho) pin IO35
 # Crea una lista con los sensores infrarrojos para poder recorrerlos fácilmente
 infrarrojos = [sen1, sen2, sen3, sen4]
 
+
+
+
 #funcion que convierte a entero base 10
 # Utiliza desplazamiento de bits
 def arreglo_a_entero(bits):
@@ -138,14 +141,14 @@ def scan():
     else:
         return True
     
-def forwardCheck(t, speed):
+def forwardCheck(t, speed,th):
     # Mueve el robot hacia adelante
     # por tiempo t, a velocidad speed = [0,1]
     # Pero revisando el sensor IR para evitar salir del Dojo
      d = int(t / 0.01)
      for i in range(d):
-         #revisa el estado de los infrerrojos
-         status = line_status(infrarrojos, 3500)
+         status = line_status(infrarrojos, th)
+         print(status)
          if status == 0:
              forward(0.1,speed)
          elif (status >= 1 and status <= 3):
@@ -161,8 +164,10 @@ def forwardCheck(t, speed):
 
 sleep(3) # da 3 segundoas para arrancar el código principal
 
-
+th = 2950 #valor crítico para sensores IR
 while True:
     #print(on_white(infrarrojos,3500))
     #sleep(0.1)
-    forwardCheck(0.1,0.5)
+    forwardCheck(0.1,0.5,th)
+
+
