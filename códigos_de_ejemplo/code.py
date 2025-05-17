@@ -8,7 +8,7 @@ from time import sleep # Para utilizar función que detiene el código
 from hcsr04 import HCSR04 # Librerías para el sensor de Ultrasonido
 import random  # Librerías de números aleatorios
 
-sonar = HCSR04(board.IO26,board.IO25) # Crea una instanciación del sensor ultrasonido
+sonar = HCSR04(board.IO25,board.IO26) # Crea una instanciación del sensor ultrasonido
 
 
 ib = IdeaBoard() # Instanciación I/O y funcione sdel Ideboard
@@ -32,7 +32,7 @@ def arreglo_a_entero(bits):
 
 # arreglo de 0 y 1s (0-blanco, 1-negro)
 def leer_sensores(infrarrojos,valor_critico=10000):
-    return [int(sen.value > valor_critico) for sen in infrarrojos]
+    return [int(sen.value < valor_critico) for sen in infrarrojos]
 
 
 def on_white(infrarrojos,valor_critico=10000):
@@ -138,7 +138,7 @@ def forwardCheck(t, speed):
     # Mueve el robot hacia adelante
     # por tiempo t, a velocidad speed = [0,1]
     # Pero revisando el sensor IR para evitar salir del Dojo
-     d = int(t / 0.05)
+     d = int(t / 0.01)
      for i in range(d):
          if on_white(infrarrojos, 3000):
              forward(0.1,speed)
@@ -154,3 +154,5 @@ sleep(3) # da 3 segundoas para arrancar el código principal
 
 while True:
     forwardCheck(0.1,0.5)
+
+
