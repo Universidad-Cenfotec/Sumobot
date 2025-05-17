@@ -28,12 +28,12 @@ def arreglo_a_entero(bits):
 
 # revisa los cuatro sensores IR, y genera un
 # arreglo de 0 y 1s (0-blanco, 1-negro)
-def leer_sensores(infrarrojos,valor_critico=10000):
-    return [int(sen.value > valor_critico) for sen in infrarrojos]
+def leer_sensores(infrarrojos,valor_critico=3000):
+    return [int(sen.value < valor_critico) for sen in infrarrojos]
 
 # Bucle infinito que lee e imprime los valores de los sensores continuamente
 while True: 
-    estado_sensores =leer_sensores(infrarrojos,10000)
+    estado_sensores =leer_sensores(infrarrojos,3500)
     print(estado_sensores)
     print(arreglo_a_entero(estado_sensores))
     sleep(0.1)
