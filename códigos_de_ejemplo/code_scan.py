@@ -165,7 +165,6 @@ th = 2950
 # Loop principal
 while True:
     distancia = sonar.dist_cm()
-    print(distancia)
     if (distancia >-1 and distancia < 30):
         forwardCheck(0.2,1,th)
         stop()
