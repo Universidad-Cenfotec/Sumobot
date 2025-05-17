@@ -87,14 +87,14 @@ def leer_sensores(infrarrojos, valor_critico=3000):
     return [int(sen.value < valor_critico) for sen in infrarrojos]
 ```
 
-* Si el valor del sensor es **menor que 3000**, se interpreta como **negro** (dentro del dojo), y se pone un **1**.
-* Si es mayor, se interpreta como **blanco** (borde), y se pone un **0**.
+* Si el valor del sensor es **menor que 3000**, se interpreta como **negro** (dentro del dojo), y se pone un **0**.
+* Si es mayor, se interpreta como **blanco** (borde), y se pone un **1**.
 
 Ejemplo:
 Supongamos que los sensores leen:
 `[negro, blanco, blanco, negro]`
 → Esto se convierte en:
-`[1, 0, 0, 1]`
+`[0, 1, 0, 0]`
 
 ---
 
