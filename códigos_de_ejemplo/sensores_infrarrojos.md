@@ -1,10 +1,10 @@
-### 🤖 Explicación del Código: Lectura de 4 Sensores en un Sumobot
+### Explicación del Código: Lectura de 4 Sensores en un Sumobot
 
 Este código permite leer **cuatro sensores infrarrojos (IR)** colocados en las esquinas del sumobot. Estos sensores ayudan a detectar el borde del **dojo**, que normalmente es una superficie **negra con bordes blancos**. La idea es que el robot pueda **reconocer cuándo se está saliendo del área de combate** y reaccionar.
 
 ---
 
-### 🔌 ¿Qué hace cada parte?
+###  ¿Qué hace cada parte?
 
 #### 1. **Inicialización del hardware**
 
