@@ -25,6 +25,8 @@ El código "code.py" está desarrollado en CircuitPython. CircuitPython es un su
 
 El código "hcsr04.mpy" corresponde a la librería para el sensor de distancia, el cual se utiliza para detectar otro robot que esté al frente del Sumobot.
 
+Un buen punto para comenzar es [este código](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/code_scan.py).  En el el robot busca al enemigo, si lo encuentra ataca, y mantiene revisando si se sale del dojo.  Este código tiene mucho para mejorar pero les da un comienzo útil
+
 ### Funciones Básicas
 
 - **wiggle(t, n, speed):** Hace que el bot se mueva de izquierda a derecha durante _t_ segundos, a velocidad _speed_, repitiéndolo _n_ veces.
