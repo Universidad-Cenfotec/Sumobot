@@ -39,6 +39,10 @@ def on_white(infrarrojos,valor_critico=10000):
     sensores = leer_sensores(infrarrojos,valor_critico)
     return arreglo_a_entero(sensores) > 0
 
+def line_status(infrarrojos,valor_critico=10000):
+    sensores = leer_sensores(infrarrojos,valor_critico)
+    return arreglo_a_entero(sensores)    
+
 def wiggle(t,n,speed):
 # Hace que el robot se mueva izquierda y derecha
 # por tiempo t, a velocidad speed = [0,1]
@@ -140,8 +144,13 @@ def forwardCheck(t, speed):
     # Pero revisando el sensor IR para evitar salir del Dojo
      d = int(t / 0.01)
      for i in range(d):
-         if on_white(infrarrojos, 3000):
+         #revisa el estado de los infrerrojos
+         status = line_status(infrarrojos, 3500)
+         if status == 0:
              forward(0.1,speed)
+         elif (status >= 1 and status <= 3):
+             #toca linea blanca atras... Full speed adelante!!!
+             forward(0.5,1)          
          else:
              stop()
              sleep(0.3)
@@ -152,7 +161,8 @@ def forwardCheck(t, speed):
 
 sleep(3) # da 3 segundoas para arrancar el código principal
 
+
 while True:
+    #print(on_white(infrarrojos,3500))
+    #sleep(0.1)
     forwardCheck(0.1,0.5)
-
-
