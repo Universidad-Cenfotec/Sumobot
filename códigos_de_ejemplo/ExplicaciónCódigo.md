@@ -1,3 +1,5 @@
+# Código Base (busca y ataca)
+
 Este código es un script de CircuiPython diseñado para controlar el sumobot de la Universidad CENFOTEC utilizando la placa IdeaBoard, junto con varios sensores y actuadores. Está orientado a estudiantes de secundaria y tiene como objetivo introducirlos en la programación de robots y el manejo de componentes electrónicos.
 
 1. **Librerías e Importaciones**: Se importan varias librerías para interactuar con la placa IdeaBoard, el sensor de ultrasonidos HCSR04, control de tiempo, y generación de números aleatorios.
