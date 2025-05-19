@@ -166,6 +166,7 @@ th = 2950
 while True:
     distancia = sonar.dist_cm()
     if (distancia >-1 and distancia < 30):
+        right(0.1,0.2)
         forwardCheck(0.2,1,th)
         stop()
         sleep(0.3)
