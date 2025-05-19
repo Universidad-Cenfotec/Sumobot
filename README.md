@@ -29,6 +29,9 @@ Puede ver este [video resumen](https://youtu.be/L98O-mApjXQ) de la primera compe
 - [Preguntas frecuentes](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/FAQ.md)
 - [Playlist de Videos de Sumobot](https://www.youtube.com/watch?v=Cxlyzh-E9kE&list=PLySA0noR1JGVZg5L3hGVwRD3PP2ibNYMT)
 
+## Contenidos Avanzados
+- [Control PDI de motores y navegación](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/Control_Movimientos.md)
+
 
 ---
 
