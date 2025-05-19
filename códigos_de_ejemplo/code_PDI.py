@@ -1,6 +1,12 @@
 #Tomás de Camino Beck, Ph.D.
 #Universidad CECNFOTEC
 
+```
+Ver documento explicativo:
+https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/Control_Movimientos.md
+
+```
+
 import board
 import time
 import math
