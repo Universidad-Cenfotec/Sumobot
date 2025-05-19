@@ -5,7 +5,7 @@ Universidad CEFOTEC
 
 **Introducción**
 
-Este documento presenta una explicación del código **`code_PDI.py`**, diseñado como una herramienta educativa para introducir conceptos básicos de teoría de control aplicada a la robótica. Se trata de un código en desarrollo, pensado para ser utilizado como punto de partida en la construcción de robots móviles capaces de navegar de manera más precisa.
+Este documento presenta una explicación del código [**`code_PDI.py`**](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/code_PDI.py), diseñado como una herramienta educativa para introducir conceptos básicos de teoría de control aplicada a la robótica. Se trata de un código en desarrollo, pensado para ser utilizado como punto de partida en la construcción de robots móviles capaces de navegar de manera más precisa.
 
 El objetivo principal es que los estudiantes comprendan cómo ajustar y experimentar con diferentes parámetros de control para lograr un movimiento estable y eficiente. Aunque el código simplifica muchos aspectos del comportamiento real de un robot, ofrece una base sólida para aprender sobre navegación, sensores y sistemas de control como el **PDI (Proporcional, Derivativo e Integral)**.
 
