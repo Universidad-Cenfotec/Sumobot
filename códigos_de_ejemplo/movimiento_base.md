@@ -1,5 +1,8 @@
 # Código Base para el Sumobot
 
+Tomás de Camino BEck, Ph.D  
+Universidad CENFOTEC
+
 Se explica detalladamente ["code_scan.py"](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/code_scan.py) que sirve de base para comenzar a planear más estrategias del sumobot.  A partir de este código pueden ènsar en estrategias de ataque, de defensa, en diferentes posiciones de inicio, etc.
 
 ##  **Explicación general de las funciones (antes del `while True:`)**
