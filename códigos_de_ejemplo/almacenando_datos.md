@@ -5,7 +5,7 @@ Universidad CENFOTEC
 
 **Introducción**
 
-Este documento describe el funcionamiento del programa `code_storage.py`, un ejemplo práctico diseñado para enseñar a estudiantes de colegio cómo **registrar y almacenar datos de sensores en un robot** utilizando un microcontrolador con ESP32.
+Este documento describe el funcionamiento del programa [`code_storage.py`](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/code_storage.py), un ejemplo práctico diseñado para enseñar a estudiantes de colegio cómo **registrar y almacenar datos de sensores en un robot** utilizando un microcontrolador con ESP32.
 
 El objetivo principal de este código es que los estudiantes aprendan a **medir información del entorno** (como la distancia a un objeto usando un sensor ultrasónico) y a **guardar esos datos en un archivo** dentro del robot. Esta técnica es fundamental para:
 
