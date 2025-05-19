@@ -1,3 +1,6 @@
+#Tomás de Camino Beck, Ph.D.
+#Universidad CECNFOTEC
+
 import board
 import time
 import math
