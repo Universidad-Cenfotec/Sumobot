@@ -1,6 +1,15 @@
 # Control de Movimientos Usando PDI y Giroscopio
 
-Este documento explica el uso del código "code_PDI.py". Este es un código de prueba, que e puede utilizar para aprender sombre teoría de control aplicado a robots. Es un código en desarrollo y debe ser ajustado. Es una simplificación de movimiento de robots para navegación. Es necesario ajjustar una serie de parámetros para poder tener un movimiento controlado effectivo, y se debe dejar este reto a estudaintes. este código sirve como punto de partida.
+Creado por Tomás de Camino Beck, Ph.D.  
+Universidad CEFOTEC
+
+**Introducción**
+
+Este documento presenta una explicación del código **`code_PDI.py`**, diseñado como una herramienta educativa para introducir conceptos básicos de teoría de control aplicada a la robótica. Se trata de un código en desarrollo, pensado para ser utilizado como punto de partida en la construcción de robots móviles capaces de navegar de manera más precisa.
+
+El objetivo principal es que los estudiantes comprendan cómo ajustar y experimentar con diferentes parámetros de control para lograr un movimiento estable y eficiente. Aunque el código simplifica muchos aspectos del comportamiento real de un robot, ofrece una base sólida para aprender sobre navegación, sensores y sistemas de control como el **PDI (Proporcional, Derivativo e Integral)**.
+
+Es importante destacar que este programa requiere ajustes para adaptarse a cada robot específico. Parte del aprendizaje consiste en enfrentar este reto, probando, midiendo y afinando el comportamiento del robot. Por ello, se recomienda que los estudiantes participen activamente en la mejora y personalización del código.
 
 ---
 
