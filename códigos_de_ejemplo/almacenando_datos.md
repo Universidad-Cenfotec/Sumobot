@@ -13,7 +13,7 @@ El objetivo principal de este código es que los estudiantes aprendan a **medir 
 * **Estudiar el entorno del robot.**
 * **Diseñar estrategias y planificar comportamientos autónomos.**
 
-El sensor ultrasónico mide la distancia a un objeto, y el programa guarda estas mediciones repetidamente en un archivo llamado `datos.csv`. Esta recopilación de datos puede luego ser descargada y analizada con herramientas como Excel o Python, permitiendo a los estudiantes observar cómo se comporta el robot y cómo reacciona a su entorno.
+Se hace un ejemplo con el sensor ultrasónico que mide la distancia a un objeto, y el programa guarda estas mediciones repetidamente en un archivo llamado `datos.csv`. Esta recopilación de datos puede luego ser descargada y analizada con herramientas como Excel o Python, permitiendo a los estudiantes observar cómo se comporta el robot y cómo reacciona a su entorno.
 
 El código está pensado como punto de partida para desarrollar ideas más avanzadas, como navegación inteligente, reconocimiento de obstáculos o toma de decisiones basada en datos reales. Los estudiantes pueden modificarlo para registrar otras variables, como velocidad, giros o estados internos del robot.
 
