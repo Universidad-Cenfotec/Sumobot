@@ -1,3 +1,12 @@
+# Lectura de Sensores Infrarrojos como Código 4bits
+
+Tomás de Cámino Beck, Ph.D.  
+UNiversidad CENFOTEC
+
+**Introducción**
+
+En el código
+
 ### Explicación del Código: Lectura de 4 Sensores en un Sumobot
 
 Código Ejemplo de lectura de 4 sensores IR:
