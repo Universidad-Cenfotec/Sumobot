@@ -13,9 +13,6 @@ from time import sleep
 # Acceso a los pines físicos del microcontrolador
 import board
 
-# Librería para sensores ultrasónicos HCSR04 (aunque en este código no se usa)
-from hcsr04 import HCSR04
-
 # Inicializa la IdeaBoard
 ib = IdeaBoard()
 
@@ -27,20 +24,6 @@ sen4 = ib.AnalogIn(board.IO35)  # SENSOR 4 (trasero derecho)
 
 # Crea una lista con todos los sensores IR para facilitar su uso
 infrarrojos = [sen1, sen2, sen3, sen4]
-
-# Función que convierte un arreglo de bits (lista de 0 y 1) a un número entero
-# usando desplazamiento de bits
-def arreglo_a_entero(bits):
-    valor = 0
-    for bit in bits:
-        valor = (valor << 1) | bit  # Desplaza a la izquierda y agrega el nuevo bit
-    return valor
-
-# Función para leer los sensores infrarrojos
-# Devuelve una lista de 0s y 1s donde 0 es superficie clara (blanco) y 1 es oscura (negro)
-# El parámetro valor_critico define el umbral entre claro y oscuro
-def leer_sensores(infrarrojos, valor_critico=3000):
-    return [int(sen.value < valor_critico) for sen in infrarrojos]
 
 # Función para guardar datos en un archivo CSV
 # Cada línea es una lista de valores separados por comas
