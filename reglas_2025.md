@@ -38,6 +38,7 @@ El objetivo de cada robot Sumobot es expulsar a su oponente fuera del dojo, ya s
   - Expulsa a su oponente completamente fuera del área negra de juego (el robot queda fuera o encima totalmente de la linea blanca).
   - Su oponente no ejecuta movimientos durante el tiempo límite.
   - Su oponente queda inmovilizado por fallos mecánicos o por efecto del enfrentamiento.
+- SI ninguno de los robots se mueve, se declara un empate.
 
 ---
 
