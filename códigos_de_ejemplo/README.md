@@ -1,3 +1,5 @@
+# Contenidos de este directorio
+
 | Archivo                         | Descripción                                                                 |
 |--------------------------------|-----------------------------------------------------------------------------|
 | [`Libreria HCSR04`](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/Libreria%20HCSR04) | Librería para el sensor ultrasónico HCSR04.                                |
@@ -21,3 +23,4 @@
 | [`movimiento_base.md`](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/movimiento_base.md) | Documento que describe movimientos básicos del robot.                      |
 | [`retroceso.py`](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/retroceso.py) | Movimiento de retroceso programado del Sumobot.                            |
 | [`sensores_infrarrojos.md`](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/sensores_infrarrojos.md) | Explicación del uso y conexión de sensores infrarrojos.                    |
+| [`libreria IdeaBoard.md`](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/libreria%20IdeaBoard.md) | Uso de la librería del IdeaBoard.                    |
