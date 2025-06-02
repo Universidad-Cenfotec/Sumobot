@@ -35,8 +35,9 @@ def calibrar_drift(sensor, segundos=2):
 
 def girar_grados(sensor, grados, drift, velocidad=0.25):
     """Gira el robot cierta cantidad de grados usando el giroscopio"""
+    
     sentido = 1 if grados > 0 else -1
-    grados = abs(grados)
+    grados = abs(grados)-0.8
     acumulado = 0
     t_anterior = time.monotonic()
 
@@ -54,9 +55,9 @@ def girar_grados(sensor, grados, drift, velocidad=0.25):
         acumulado += abs(delta_grados)
 
         # Desacelera si está a menos de 45 grados del objetivo
-        if grados - acumulado <= 45:
-            ib.motor_1.throttle = 0.1 * sentido
-            ib.motor_2.throttle = -0.1 * sentido
+        if grados - acumulado <= grados/2:
+            ib.motor_1.throttle = 0.15 * sentido
+            ib.motor_2.throttle = -0.15 * sentido
 
         time.sleep(0.005)
 
@@ -64,7 +65,7 @@ def girar_grados(sensor, grados, drift, velocidad=0.25):
     ib.motor_1.throttle = 0
     ib.motor_2.throttle = 0
 
-def straight_move(velocidad, duracion, drift, Kp=0.9, Ki=0.3, Kd=0.8):
+def straight_move(velocidad, duracion, drift, Kp=0.05, Ki=0.95, Kd=0.0):
     """
     Mueve el robot en línea recta durante `duracion` segundos con control PDI discreto.
     Corrige desviaciones usando el giroscopio (eje Z) ajustando ambos motores.
@@ -79,7 +80,7 @@ def straight_move(velocidad, duracion, drift, Kp=0.9, Ki=0.3, Kd=0.8):
 
     error_anterior = 0
     error_integral = 0
-    max_correccion = 0.15  # Límite para evitar sobrecorrección
+    max_correccion = 0.3  # Límite para evitar sobrecorrección
 
     t_anterior = time.monotonic()
 
@@ -119,6 +120,9 @@ def straight_move(velocidad, duracion, drift, Kp=0.9, Ki=0.3, Kd=0.8):
 
         error_anterior = error
         time.sleep(0.01)
+        ib.motor_1.throttle = 0
+        ib.motor_2.throttle = 0
+        #time.sleep(0.01)
 
     # Detener motores al final
     ib.motor_1.throttle = 0
@@ -132,13 +136,14 @@ def straight_move(velocidad, duracion, drift, Kp=0.9, Ki=0.3, Kd=0.8):
 # ------------------------------
 
 ib.pixel = (255,0,0)
-drift = calibrar_drift(sensor,5)
+drift = calibrar_drift(sensor,10)
 ib.pixel = (0,0,0)
 
 while True:
     #girar_grados(sensor, 180, drift)
     #time.sleep(1)
     #Avanza recto 2 segundos
-    straight_move(0.3, 5, drift)
+    straight_move(0.5, 5, drift)
+    girar_grados(sensor, 180, drift)
     time.sleep(1)
     
