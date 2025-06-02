@@ -37,7 +37,7 @@ def girar_grados(sensor, grados, drift, velocidad=0.25):
     """Gira el robot cierta cantidad de grados usando el giroscopio"""
     
     sentido = 1 if grados > 0 else -1
-    grados = abs(grados)-0.8
+    grados = abs(grados)-0.8 #ajuste empírico para compensar inercia
     acumulado = 0
     t_anterior = time.monotonic()
 
