@@ -55,6 +55,8 @@ Estas fórmulas estiman la derivada parcial en cada dirección, tomando en cuent
 
 ### 3. Se calcula:
 
+Los valores $dx$ y $dy$ representan las magnitudes de las aristas de un vector que indica la magnitud y dirección del gradiente. Se calcula de la siguiente manera, siguiendo pitágoras y trignometría,
+
 * **Magnitud del gradiente**:
 
 $$
