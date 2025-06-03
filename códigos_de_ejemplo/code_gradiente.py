@@ -13,7 +13,7 @@ def gradient(s1, s2, s3, s4):
     """
     Calcula la magnitud y dirección del gradiente usando cuatro sensores.
     Técnica: Wombling (detección de bordes o gradientes a partir de datos espaciales).
-    Disposición esperada de los sensores:
+    Disposición esperada de los sensores visto desde abajo:
         s2 --- s1   (parte frontal del robot)
          |     |
         s4 --- s3   (parte posterior del robot)
