@@ -116,7 +116,7 @@ Cada sensor devuelve un valor proporcional a la cantidad de **luz reflejada**. S
 
 ---
 
-### 🎯 ¿Qué permite hacer la técnica?
+### ¿Qué permite hacer la técnica?
 
 La técnica de Wombling estima un **vector de gradiente** a partir de los valores de los sensores, el cual indica:
 
