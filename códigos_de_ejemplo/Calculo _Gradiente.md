@@ -94,3 +94,36 @@ Esto da como resultado un vector que indica **dónde y cómo está cambiando má
 * Depende de la **disposición y densidad** de los puntos sensados.
 * Puede requerir técnicas de **suavizado (smoothing)** si los datos son ruidosos.
 
+Claro, aquí tienes una sección dedicada a la **aplicación de la técnica de Wombling en un Sumobot** con sensores infrarrojos (IR) para detección de gradientes en el suelo:
+
+---
+
+## Aplicación de Wombling en un Sumobot con Sensores Infrarrojos
+
+En el contexto de un **Sumobot**, la técnica de **Wombling** permite detectar **cambios de intensidad en el suelo**, que usualmente corresponden a superficies con gradientes de grises. Para esto se aprovechan **sensores infrarrojos (IR) analógicos**, que miden niveles de reflectancia del suelo —es decir, qué tan claro u oscuro es.
+
+### 🔧 Disposición típica de sensores
+
+Los Sumobots utilizan comúnmente **cuatro sensores IR** colocados en las esquinas del chasis, formando una cuadrícula 2x2:
+
+```
+s2 --- s1    ← parte frontal del robot
+ |     |
+s4 --- s3    ← parte trasera del robot
+```
+
+Cada sensor devuelve un valor proporcional a la cantidad de **luz reflejada**. Suelo blanco (reflejante) da valores altos; suelo negro (absorbente) da valores bajos.
+
+---
+
+### 🎯 ¿Qué permite hacer la técnica?
+
+La técnica de Wombling estima un **vector de gradiente** a partir de los valores de los sensores, el cual indica:
+
+* **Magnitud del cambio**: cuán abrupto es el contraste entre zonas del suelo.
+* **Dirección del cambio**: hacia dónde se encuentra la mayor diferencia de tonos (por ejemplo, hacia un borde o línea).
+
+Esto permite al robot navegar por superficies que tengan gradientes de grises, como en una superficie que vaya de negro a blanco, donde el sumobot se puede ubicar en el espacio.
+
+
+
