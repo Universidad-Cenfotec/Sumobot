@@ -102,7 +102,7 @@ Claro, aquí tienes una sección dedicada a la **aplicación de la técnica de W
 
 En el contexto de un **Sumobot**, la técnica de **Wombling** permite detectar **cambios de intensidad en el suelo**, que usualmente corresponden a superficies con gradientes de grises. Para esto se aprovechan **sensores infrarrojos (IR) analógicos**, que miden niveles de reflectancia del suelo —es decir, qué tan claro u oscuro es.
 
-### 🔧 Disposición típica de sensores
+### Disposición típica de sensores
 
 Los Sumobots utilizan comúnmente **cuatro sensores IR** colocados en las esquinas del chasis, formando una cuadrícula 2x2:
 
