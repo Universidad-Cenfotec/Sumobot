@@ -1,6 +1,11 @@
 # Tomás de Camino Beck, Ph.D
 # Universidad CENFOTEC
 
+"""
+Código experimental
+
+"""
+
 import math
 
 # Clase que representa un vector con magnitud y ángulo
