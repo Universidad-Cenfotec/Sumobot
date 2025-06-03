@@ -37,7 +37,7 @@ def girar_grados(sensor, grados, drift, velocidad=0.25):
     """Gira el robot cierta cantidad de grados usando el giroscopio"""
     
     sentido = 1 if grados > 0 else -1
-    grados = abs(grados)-0.8 #ajuste empírico para compensar inercia
+    grados = abs(grados)-1 #correcion leve para eviar sobre giro
     acumulado = 0
     t_anterior = time.monotonic()
 
@@ -65,7 +65,7 @@ def girar_grados(sensor, grados, drift, velocidad=0.25):
     ib.motor_1.throttle = 0
     ib.motor_2.throttle = 0
 
-def straight_move(velocidad, duracion, drift, Kp=0.05, Ki=0.95, Kd=0.0):
+def straight_move(velocidad, duracion, drift, Kp=0.15, Ki=0.8, Kd=0.05):
     """
     Mueve el robot en línea recta durante `duracion` segundos con control PDI discreto.
     Corrige desviaciones usando el giroscopio (eje Z) ajustando ambos motores.
@@ -86,7 +86,7 @@ def straight_move(velocidad, duracion, drift, Kp=0.05, Ki=0.95, Kd=0.0):
 
     while time.monotonic() - t0 < duracion:
         t_actual = time.monotonic()
-        dt = t_actual - t_anterior
+        dt = 1 #t_actual - t_anterior
         t_anterior = t_actual
 
         if dt == 0:
@@ -120,8 +120,8 @@ def straight_move(velocidad, duracion, drift, Kp=0.05, Ki=0.95, Kd=0.0):
 
         error_anterior = error
         time.sleep(0.01)
-        ib.motor_1.throttle = 0
-        ib.motor_2.throttle = 0
+        #ib.motor_1.throttle = 0
+        #ib.motor_2.throttle = 0
         #time.sleep(0.01)
 
     # Detener motores al final
@@ -136,7 +136,7 @@ def straight_move(velocidad, duracion, drift, Kp=0.05, Ki=0.95, Kd=0.0):
 # ------------------------------
 
 ib.pixel = (255,0,0)
-drift = calibrar_drift(sensor,10)
+drift = calibrar_drift(sensor,5)
 ib.pixel = (0,0,0)
 
 while True:
