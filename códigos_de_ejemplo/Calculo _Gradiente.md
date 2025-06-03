@@ -5,7 +5,7 @@ Universidad CENFOTEC
 
 ## ¿Qué es Wombling?
 
-El código [`code_gradiente.py`](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/code_gradiente.py) calcula la magnitud y dirección de un gradiente de grises. **Wombling** es una técnica utilizada en análisis espacial para **detectar gradientes** o **bordes significativos** dentro de un campo escalar continuo, es decir, en regiones donde una variable medida (como temperatura, altitud, concentración, etc.) cambia rápidamente en el espacio.
+El código [`code_gradiente.py`](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/code_gradiente.py) calcula la magnitud y dirección de un gradiente de grises. **Wombling** es una técnica utilizada en análisis espacial para **detectar gradientes** o **bordes significativos** dentro de un campo escalar continuo, es decir, en regiones donde una variable medida (como temperatura, altitud, concentración, cantidad de luz, etc.) cambia rápidamente en el espacio.
 La técnica fue originalmente propuesta por **William H. Womble** en 1951 para identificar zonas de transición en paisajes biológicos, pero se ha aplicado en una amplia variedad de disciplinas: geografía, ecología, epidemiología, robótica y análisis de sensores.
 
 ---
