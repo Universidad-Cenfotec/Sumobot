@@ -35,6 +35,16 @@ Puede ver este [video resumen](https://youtu.be/L98O-mApjXQ) de la primera compe
 - [Almacenamiento de datos en el robot para análisis posterior](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/almacenando_datos.md)
 
 
+## Retos
+
+- Hacer una estrategia de "scan" del contrincante más eficiente
+- Hace movimientos oscilatorios para tratar de levantar al oponente
+- Utilizar giroscopios para movimientos exactos ([ver este código](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/Control_Movimientos.md))
+- Utilizar el "botón 0" para que arranque el robot a penas suelten el botón ([ver este código](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/code_boton0.py))
+- Entender que cada combate inicia diferente y aprovechar esas posiciones
+- Estudiar comportameinto de sensores almacenando los datos ([ver este cñodigo](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/almacenando_datos.md))
+
+
 ---
 
 # Licencia
