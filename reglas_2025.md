@@ -10,7 +10,21 @@
 7. **Ronda:** Sistema en torneos en el que el perdedor de un encuentro queda inmediatamente eliminado de la competición, mientras que el ganador avanza a la siguiente fase. Se juegan rondas y, en cada una de ellas, se elimina a la mitad de los participantes hasta dejar un único competidor que se corona como campeón.
 
 ## ESPECIFICACIONES DEL ROBOT
-- En Construcción
+
+1. **Peso máximo:**
+   El robot no debe pesar más de **295 gramos**, incluyendo las baterías.
+2. **Fuente de energía:**
+   El robot debe utilizar **exactamente 4 baterías AA** como fuente de energía.
+3. **Contacto con el oponente:**
+   No se permite ninguna modificación que **genere contacto físico con el robot contrincante**. Esto incluye extensiones, accesorios o mecanismos de cualquier tipo.
+4. **Modificaciones para sensores:**
+   Se permite hacer agujeros o adaptaciones en la estructura del robot para instalar sensores **siempre que no hagan contacto con el robot oponente**.
+5. **Sensores adicionales:**
+   Se pueden añadir sensores adicionales, **siempre y cuando el peso total del robot no exceda los 295 gramos**.
+6. **Modificaciones estéticas:**
+   El robot puede ser pintado, decorado con calcomanías u otras modificaciones estéticas, **siempre que estas no impliquen contacto físico con el robot contrincante**.
+
+
 
 ## Objetivo del Juego
 El objetivo de cada robot Sumobot es expulsar a su oponente fuera del dojo, ya sea empujándolo, arrastrándolo o inmovilizándolo. Los combates se desarrollan de forma autónoma, basados en la programación del robot.
@@ -61,7 +75,7 @@ Cada combate inicia con una disposición distinta:
 - Un equipo puede ser descalificado si:
   - Realiza cambios estructurales no autorizados al robot.
   - No se presenta a su partida asignada.
-  - Excede el peso permitido (260 g – 295 g).
+  - Excede el peso permitido (260 g – 295 g incluyendo baterías).
   - Utiliza baterías, motores o neumáticos distintos a los del kit oficial.
 
 ---
