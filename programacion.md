@@ -14,9 +14,11 @@ Para programar el Sumobot se utiliza Thonny, el cual se puede descargar desde es
 - ¡Listo!
 - [Video con detalles](https://youtu.be/Zc3oaAbVAdc)
 
-##  Resetear el IdeaBoard
+##  Resetear (Flashear) el IdeaBoard
 
-Para resetear el IdeaBoard, se hace fácilmente a través de esta página:  [IdeaBoard Flasher](https://crcibernetica.github.io/ideaboard-terminal/) En [este link hay un video que explica como hacerlo](https://youtu.be/sa7HqL8b7Vo?si=5yNcEPUFerEBaM1g)
+Para resetear el IdeaBoard, se hace fácilmente a través de esta página:  [IdeaBoard Flasher](https://crcibernetica.github.io/ideaboard-terminal/) Asegurese que Thonny esté CERRADO, cuando intente reflashear o el flasher no va a encontrar el puerto cn el IdeaBoard.
+
+En [este link hay un video que explica como hacerlo](https://youtu.be/sa7HqL8b7Vo?si=5yNcEPUFerEBaM1g)
 
 
 ## Código
