@@ -14,7 +14,7 @@
 1. **Peso máximo:**
    El robot no debe pesar más de **295 gramos**, incluyendo las baterías.
 2. **Fuente de energía:**
-   El robot debe utilizar **exactamente 4 baterías AA** como fuente de energía.
+   El robot debe utilizar **exactamente 4 baterías AA** como fuente de energía.Se pueden utilizar baterías AA recargables, pero deben tener en cuenta que estas pueden afectar el peso del robot. Adicionalmente baterías recargables tienen por lo general una carga de 1.2V lo que puede afectar la potencia de los motores.
 3. **Contacto con el oponente:**
    No se permite ninguna modificación que **genere contacto físico con el robot contrincante**. Esto incluye extensiones, accesorios o mecanismos de cualquier tipo.
 4. **Modificaciones para sensores:**
