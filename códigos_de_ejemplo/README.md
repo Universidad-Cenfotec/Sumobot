@@ -25,6 +25,6 @@
 | [`libreria IdeaBoard.md`](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/libreria%20IdeaBoard.md) | Uso de la librería del IdeaBoard.                    |
 | [`Calculo _Gradiente.md`](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/Calculo%20_Gradiente.md) | Explicación de Librería que permite calcular magnitud y dirección de gradiente con los 4 sensores IR en una superficie de grises                |
 | [`code_gradiente.py`](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/code_gradiente.py) | Librería para calculo de gradientes                |
-| [`code_gradiente.py`](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/Pixel_colores.py) | Permite probar la proyección de colores de píxeles según la elección del usuario.         |
+| [`Pixel_colores.py`](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/Pixel_colores.py) | Permite probar la proyección de colores de píxeles según la elección del usuario.         |
 
 
