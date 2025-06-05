@@ -22,7 +22,9 @@
 5. **Sensores adicionales:**
    Se pueden añadir sensores adicionales, **siempre y cuando el peso total del robot no exceda los 295 gramos**.
 6. **Modificaciones estéticas:**
-   El robot puede ser pintado, decorado con calcomanías u otras modificaciones estéticas, **siempre que estas no impliquen contacto físico con el robot contrincante**.
+   El robot puede ser pintado, decorado con calcomanías u otras modificaciones estéticas, **siempre que estas no impliquen contacto físico con el robot contrincante**
+7. **Modificaciones Físicas:**
+   El robot no se puede modificar físicamente agregando extensiones, que hagan contacto con el oponente.  Tampoco se puede reducir la altura de los soportes que se encuentran abajo a los lados de los sensores infrerrojos. La razón es porque los sensores pueden fallar en su lectura al estar tan cerca del piso, y porque le da ventaja al robot más bajo en choques de frente.
 
 
 
