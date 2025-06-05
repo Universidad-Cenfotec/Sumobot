@@ -8,6 +8,8 @@ import board
 import keypad
 
 # Configura un objeto 'Keys' que monitorea el pin IO0 como entrada de botón.
+# IO0 está conectado al botón que dice "BOOT" al lado del "reset". 
+# Este botón queda libre una vez iniciado el ideaboard.
 # value_when_pressed=False indica que el pin se activa cuando está en bajo (LOW)
 # pull=True activa la resistencia de pull-up interna del pin
 keys = keypad.Keys((board.IO0,), value_when_pressed=False, pull=True)
