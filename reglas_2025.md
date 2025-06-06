@@ -65,8 +65,8 @@ El objetivo de cada robot Sumobot es expulsar a su oponente fuera del dojo, ya s
 Cada combate inicia con una disposición distinta:
 
 1. **Frente a frente** a 10 cm de distancia.
-2. **Espalda con espalda**.
-3. **Lado a lado**, en direcciones opuestas.
+2. **Lado a lado**, en direcciones opuestas.
+3. **Espalda con espalda**.
 
 ---
 
