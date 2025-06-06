@@ -7,3 +7,4 @@ Para programar el ideaboard con C/C++ puede utilizar el Arduino IDE. [En este vi
 
 ## DIrección de Pines del IdeaBoard
 
+![pinout](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/Ideaboard_pinout.png)
