@@ -17,7 +17,7 @@
 | [`code_pixel.py`](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/code_pixel.py) | Control o visualización con LED tipo neopixel del IdeaBoard.                             |
 | [`code_scan.py`](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/code_scan.py) | Escaneo de sensores para detección del entorno, buena case para el Sumobot.                            |
 | [`code_storage.py`](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/code_storage.py) | Lectura y almacenamiento de datos en memoria del IdeaBoard.              |
-| [`code_storage_IR.py`](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/code_storage_IR.py) | Almacenamiento de datos específicos de sensores infrarrojos.               |
+| [`code_storage_IR.py`](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/code_storage_IR.py) | Almacenamiento de datos específicos de sensores infrarrojos. [Pueden ver un video en este link] (https://youtu.be/5G9ZTyPEq5s?si=Cqf4HQZEF9e04VTD)              |
 | [`code_ultrasonic.py`](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/code_ultrasonic.py) | Lectura del sensor ultrasónico para detección de obstáculos.               |
 | [`movimiento_base.md`](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/movimiento_base.md) | Documento que describe movimientos básicos del robot.                      |
 | [`retroceso.py`](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/retroceso.py) | Movimiento de retroceso programado del Sumobot.                            |
