@@ -26,8 +26,11 @@ def calibrar_drift(sensor, segundos=2):
     muestras = 0
     t0 = time.monotonic()
     while time.monotonic() - t0 < segundos:
-        suma += sensor.gyro[2]
-        muestras += 1
+        data = sensor.gyro[2]
+        #evita promediar saltos que son error
+        if abs(data)< 0.008:
+            suma += sensor.gyro[2]
+            muestras += 1
         time.sleep(0.005)
     drift = suma / muestras
     print(f"Drift promedio: {drift:.4f} rad/s")
@@ -37,7 +40,7 @@ def girar_grados(sensor, grados, drift, velocidad=0.25):
     """Gira el robot cierta cantidad de grados usando el giroscopio"""
     
     sentido = 1 if grados > 0 else -1
-    grados = abs(grados)-1 #correcion leve para eviar sobre giro
+    grados = abs(grados)-2 #correcion leve para eviar sobregiro
     acumulado = 0
     t_anterior = time.monotonic()
 
