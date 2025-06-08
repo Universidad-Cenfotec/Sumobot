@@ -43,6 +43,20 @@ Puede ver este [video resumen](https://youtu.be/L98O-mApjXQ) de la primera compe
 - Entender que cada combate inicia diferente y aprovechar esas posiciones
 - Estudiar comportameinto de sensores almacenando los datos ([ver este código](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/almacenando_datos.md))
 
+## Saberes Escenciales qe se aprenden con el Sumobot
+
+
+| Área de Conocimiento                     | Saberes Esenciales                                                                     | Ejemplos desde el Kit Sumobot                                                                              |
+| ---------------------------------------- | -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| **1. Pensamiento Computacional**         | - Estructuras de control<br>- Modularidad<br>- Algoritmos<br>- Programación de eventos | `code.py`, `retroceso.py`, `code_boton0.py`, `code_set_pixel_to.py`, uso de funciones en todos los scripts |
+| **2. Robótica y Electrónica**            | - Lectura de sensores<br>- Control de motores<br>- Interacción hardware-software       | `code_ultrasonic.py`, `code_acc_motor_move.py`, `Control_Movimientos.md`, `Pixel_colores.py`               |
+| **3. Ciencia de Datos**                  | - Registro de datos<br>- Análisis y visualización<br>- Experimentación                 | `code_storage.py`, `code_storage_IR.py`, `almacenando_datos.md`, ejemplo de uso con Google Sheets          |
+| **4. Matemáticas Aplicadas**             | - Lógica binaria<br>- Cálculo de gradientes<br>- Estimación de distancia               | `code_lecturaIR_4Bit.py`, `code_gradiente.py`, `Calculo _Gradiente.md`, `code_ultrasonic.py`               |
+| **5. Ingeniería de Sistemas**            | - Diseño e integración de componentes<br>- Diagnóstico y prueba de sistemas            | `code_diagnostic.py`, `SumoBot_Device_Files.zip`, `movimiento_base.md`, `libreria IdeaBoard.md`            |
+| **6. Habilidades Transversales (STEAM)** | - Resolución de problemas<br>- Trabajo en equipo<br>- Comunicación técnica             | Uso de Markdown (`*.md`), documentación clara, posibilidad de trabajo colaborativo y creativo con el robot |
+
+
+
 
 ---
 
