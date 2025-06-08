@@ -43,7 +43,7 @@ Puede ver este [video resumen](https://youtu.be/L98O-mApjXQ) de la primera compe
 - Entender que cada combate inicia diferente y aprovechar esas posiciones
 - Estudiar comportameinto de sensores almacenando los datos ([ver este código](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/almacenando_datos.md))
 
-## Saberes Escenciales qe se aprenden con el Sumobot
+## Algunos Saberes Escenciales de el Sumobot
 
 
 | Área de Conocimiento                     | Saberes Esenciales                                                                     | Ejemplos desde el Kit Sumobot                                                                              |
@@ -54,8 +54,6 @@ Puede ver este [video resumen](https://youtu.be/L98O-mApjXQ) de la primera compe
 | **4. Matemáticas Aplicadas**             | - Lógica binaria<br>- Cálculo de gradientes<br>- Estimación de distancia               | `code_lecturaIR_4Bit.py`, `code_gradiente.py`, `Calculo _Gradiente.md`, `code_ultrasonic.py`               |
 | **5. Ingeniería de Sistemas**            | - Diseño e integración de componentes<br>- Diagnóstico y prueba de sistemas            | `code_diagnostic.py`, `SumoBot_Device_Files.zip`, `movimiento_base.md`, `libreria IdeaBoard.md`            |
 | **6. Habilidades Transversales (STEAM)** | - Resolución de problemas<br>- Trabajo en equipo<br>- Comunicación técnica             | Uso de Markdown (`*.md`), documentación clara, posibilidad de trabajo colaborativo y creativo con el robot |
-
-
 
 
 ---
