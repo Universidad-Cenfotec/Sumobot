@@ -1,6 +1,7 @@
-
-# fuzzy_sumobot_recto.py
-# Ejemplo: Control difuso para mantener movimiento recto con Sumobot
+# Tomás de Camino BEck
+# fuzzy_sumobot_recto_v2.py
+# Control difuso para mantener trayectoria recta en el Sumobot
+# EXPERIMENTAL REQUIERE REVISION
 
 import time
 import board
@@ -17,6 +18,7 @@ sensor = LSM6DS3TRC(i2c, 0x6b)
 RAD_A_GRADOS = 180 / math.pi
 
 def calibrar_drift(sensor, segundos=2):
+    print("Calibrando drift del giroscopio...")
     suma = 0
     muestras = 0
     t0 = time.monotonic()
@@ -26,9 +28,11 @@ def calibrar_drift(sensor, segundos=2):
             suma += data
             muestras += 1
         time.sleep(0.005)
-    return suma / muestras if muestras > 0 else 0
+    drift = suma / muestras if muestras > 0 else 0
+    print(f"Drift estimado: {drift:.5f} rad/s")
+    return drift
 
-# Dominio difuso para error angular [-90, 90]
+# Dominio difuso del error de orientación
 error_domain = FuzzyDomain(nset=3)
 error_domain.set_domain(-90, 90)
 
@@ -36,29 +40,29 @@ def correccion_difusa(error_grados):
     error_domain.truth_degree(error_grados)
     return error_domain.defuzzify_weighted_average()
 
-# Movimiento recto con corrección difusa continua
-def avanzar_recto(sensor, tiempo=5):
-    drift = calibrar_drift(sensor)
-    print("Drift:", drift)
-    t0 = time.monotonic()
-    orientacion = 0
-    sensor.reset()
+def avanzar_recto(sensor, drift, duracion=0.1, base_speed=0.5):
+    global orientacion
+    giro_z = sensor.gyro[2] - drift
+    orientacion += giro_z * duracion * RAD_A_GRADOS  # estimación de orientación acumulada
+    error = orientacion
+    correccion = correccion_difusa(error)
 
-    while time.monotonic() - t0 < tiempo:
-        giro_z = sensor.gyro[2] - drift
-        orientacion += giro_z * 0.1 * RAD_A_GRADOS  # estimación orientada (simplificada)
+    # Normalizamos la corrección dentro del rango [-1, 1]
+    delta = (correccion / 90.0) * base_speed
+    velocidad_izq = max(min(base_speed - delta, 1.0), -1.0)
+    velocidad_der = max(min(base_speed + delta, 1.0), -1.0)
 
-        error = orientacion
-        correccion = correccion_difusa(error)
+    ib.motor_1.throttle = velocidad_izq
+    ib.motor_2.throttle = velocidad_der
 
-        # Aplicar corrección proporcional a velocidad
-        base_speed = 0.3
-        delta = (correccion / 90) * base_speed
+    print(f"Error: {error:.2f}°, Corrección: {correccion:.2f}°, Velocidades: {velocidad_izq:.2f}, {velocidad_der:.2f}")
+    time.sleep(duracion)
 
-        ib.motores(base_speed - delta, base_speed + delta)
-        time.sleep(0.1)
+# Programa principal
+drift = calibrar_drift(sensor)
+orientacion = 0
 
-    ib.motores(0, 0)
+print("Iniciando movimiento recto...")
+while True:
+    avanzar_recto(sensor, drift)
 
-# Ejecutar el ejemplo
-avanzar_recto(sensor)
