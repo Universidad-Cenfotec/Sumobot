@@ -1,6 +1,9 @@
 # fuzzy.py - Módulo de lógica difusa para CircuitPython (Sumobot)
-# Autor: Tomás de Camino Beck, adaptado por ChatGPT
+# Autor: Tomás de Camino Beck, traducción de C/C++ a Python asistida con ChatGPT
 # Licencia: MIT
+
+# Este módulo es experimental y requiere ejemplos
+# Fue traducido de una librería que construí en C/C++
 
 from typing import Callable, List
 
