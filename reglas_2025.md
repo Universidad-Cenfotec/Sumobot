@@ -8,7 +8,6 @@
 5. **Mesa de arbitraje:** Persona o grupo de personas con autoridad, responsables de presidir el juego desde un punto de vista neutral y de tomar decisiones sobre la marcha que hagan cumplir las reglas de este reglamento.
 6. **Dojo:** Área de combate, el espacio formado por la tarima circular y un espacio circundante denominado "área exterior de seguridad".
 7. **Ronda:** Sistema en torneos en el que el perdedor de un encuentro queda inmediatamente eliminado de la competición, mientras que el ganador avanza a la siguiente fase. Se juegan rondas y, en cada una de ellas, se elimina a la mitad de los participantes hasta dejar un único competidor que se corona como campeón.
-8. Para el 2025, solo puede combatir el modelo de Sumobot de este año
 
 ## ESPECIFICACIONES DEL ROBOT
 
@@ -26,6 +25,7 @@
    El robot puede ser pintado, decorado con calcomanías u otras modificaciones estéticas, **siempre que estas no impliquen contacto físico con el robot contrincante**
 7. **Modificaciones Físicas:**
    El robot no se puede modificar físicamente agregando extensiones, que hagan contacto con el oponente.  Tampoco se puede reducir la altura de los soportes que se encuentran abajo a los lados de los sensores infrerrojos. La razón es porque los sensores pueden fallar en su lectura al estar tan cerca del piso, y porque le da ventaja al robot más bajo en choques de frente.
+8.  Para el 2025, solo puede combatir el modelo de Sumobot de este año
 
 
 
