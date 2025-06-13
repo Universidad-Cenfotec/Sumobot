@@ -27,5 +27,5 @@
 | [`code_gradiente.py`](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/code_gradiente.py) | Librería para calculo de gradientes                |
 | [`Pixel_colores.py`](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/Pixel_colores.py) | Permite probar la proyección de colores de píxeles según la elección del usuario.         |
 | [`code_set_pixel_to.py`](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/code_set_pixel_to.py) | Cambia el color del LED NeoPixel del IdeaBoard según texto ingresado, recorriendo varios colores con pausas.        |
-| [`code_line_follow.py`](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/code_line_follow.py) | Seguidro de lineas (mucho espacio para mejorarlo)        |
+| [`code_line_follow.py`](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/code_line_follow.py) | Seguidor de lineas (mucho espacio para mejorarlo)        |
 
