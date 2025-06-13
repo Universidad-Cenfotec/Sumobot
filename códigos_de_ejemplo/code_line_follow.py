@@ -165,7 +165,7 @@ def forwardCheck(t, speed,th):
 ###### CODIGO PRINCIPAL – SEGUIDOR DE LÍNEAS #######
 
 th = 2950  # Umbral para sensores IR (ajustable según el entorno)
-speed = 0.3
+speed = 0.5
 corr = 0.1  # velocidad de corrección
 
 while True:
@@ -181,15 +181,15 @@ while True:
 
     elif izq == 1 and der == 0:
         # Solo el izquierdo ve blanco: girar suavemente a la derecha
-        ib.motor_1.throttle = corr  # frena motor izq
-        ib.motor_2.throttle = -corr   # acelera motor der
+        ib.motor_1.throttle =speed + corr  # acelera motor izq
+        #ib.motor_2.throttle =speed - corr   # frena motor der
         sleep(0.05)
         stop()
 
     elif izq == 0 and der == 1:
         # Solo el derecho ve blanco: girar suavemente a la izquierda
-        ib.motor_1.throttle = -corr
-        ib.motor_2.throttle = corr
+        #ib.motor_1.throttle =speed - corr
+        ib.motor_2.throttle =speed + corr
         sleep(0.05)
         stop()
 
