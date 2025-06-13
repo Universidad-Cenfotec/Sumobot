@@ -22,6 +22,13 @@
 - **Formato:** STL (STereoLithography)
 - Modelo 3D del chasis para impresión 3D.
 
+### 🔹 6. **MOTOR_BRACKET.stl**
+- **Formato:** STL (STereoLithography)
+- Modelo 3D de los soportes para los micro motores para impresión 3D. utilizan tornillos estandar #2 para fijación, también puede conseguir los soportes y tornillos en [CRCibernética.](https://www.crcibernetica.com/micro-gearmotor-support-bracket/?searchid=2426159&search_query=bracket)
+- **Atribución:** Este modelo 3D fue creado por Bruce Bell y publicado en [Thingiverse.](https://www.thingiverse.com/thing:252470)
+
+---
+
 ![Imagen Corte](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/corte_chasis.jpg?raw=true)
 
 ---
