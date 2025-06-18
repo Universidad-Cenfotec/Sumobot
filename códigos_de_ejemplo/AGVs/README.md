@@ -115,7 +115,7 @@ def straight_move(velocidad, duracion, drift, Kp=0.15, Ki=0.8, Kd=0.05):
     ...
 ```
 
-Mantiene el robot moviéndose en línea recta usando un **controlador PDI** que corrige desviaciones detectadas por el giroscopio.
+Mantiene el robot moviéndose en línea recta usando un **controlador PDI** que corrige desviaciones detectadas por el giroscopio. Esta función no se utiliza directamente en el código, pero se deja allí para posibilidar funcionalidades de mayor precisión
 
 ---
 
