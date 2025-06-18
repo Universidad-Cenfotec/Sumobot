@@ -1,5 +1,8 @@
 # Introducción a los AGV y al código de navegación con Sumobot
 
+Tomás de Camino Beck, Ph.D.  
+Universidad CENFOTEC  
+
 ![agv1](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/AGVs/Sumobot%20AGV1.png)
 
 
