@@ -13,7 +13,7 @@ En este proyecto, el robot **Sumobot de CENFOTEC** simula un AGV sencillo que se
 
 ## ¿Qué hace este código?
 
-Este código permite que un **Sumobot navegue por una cuadrícula negra**:
+El código [`code_grid.py`](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/AGVs/code_grid.py) permite que un **Sumobot navegue por una cuadrícula negra**:
 
 - **Sigue una línea negra** utilizando sensores infrarrojos delanteros.
 - **Detecta intersecciones** con sensores traseros.
