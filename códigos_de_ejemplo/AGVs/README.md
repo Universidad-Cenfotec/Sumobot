@@ -21,7 +21,7 @@ Este código permite que un **Sumobot navegue por una cuadrícula negra**:
 - **Gira 90 grados** utilizando un giroscopio, manteniéndose en el centro de la intersección.
 - **Repite una secuencia de movimientos** definida en el loop principal.
 
-![agv2](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/AGVs/Sumobot%20AGV4.png)
+![agv2](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/AGVs/Sumobot%20AGV4.JPG)
 
 ---
 
