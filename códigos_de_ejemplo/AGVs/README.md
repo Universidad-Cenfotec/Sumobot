@@ -1,5 +1,8 @@
 # Introducción a los AGV y al código de navegación con Sumobot
 
+![agv1](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/AGVs/Sumobot%20AGV1.png)
+
+
 ## ¿Qué es un AGV?
 
 Un **AGV** (Automated Guided Vehicle o Vehículo de Guiado Automático) es un robot móvil diseñado para moverse de manera autónoma por un espacio físico siguiendo una guía externa. Esta guía puede ser una **línea negra**, un **cable enterrado**, un **patrón magnético** o una **ruta programada**. Los AGV se utilizan comúnmente en fábricas, almacenes o laboratorios para transportar objetos o recorrer rutas definidas sin intervención humana.
