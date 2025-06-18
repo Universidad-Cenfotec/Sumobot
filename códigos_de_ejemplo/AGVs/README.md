@@ -12,6 +12,8 @@ Un **AGV** (Automated Guided Vehicle o Vehículo de Guiado Automático) es un ro
 
 En este proyecto, el robot **Sumobot de CENFOTEC** simula un AGV sencillo que se mueve sobre una **cuadrícula de líneas negras** trazadas en el suelo. Para hacerlo, utiliza sensores infrarrojos para detectar las líneas y un giroscopio que le permite girar con precisión en las intersecciones.
 
+[![agv3](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/AGVs/Sumobot%20AGV5.JPG)](https://drive.google.com/file/d/1jkeH9_rlwJXOZw-MmuL7ObS06lNQ4z1Q/view?usp=sharing)
+
 ---
 
 ## ¿Qué hace este código?
