@@ -163,4 +163,6 @@ while True:
 
 ---
 
+[![agv](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/AGVs/Sumobot%20AGV5.JPG)](https://drive.google.com/file/d/1jkeH9_rlwJXOZw-MmuL7ObS06lNQ4z1Q/view?usp=drive_link)
+
 Este proyecto enseña cómo un **robot puede tomar decisiones de movimiento** usando sensores e información de orientación. La abstracción por comandos, el uso del giroscopio y el seguimiento de líneas permiten implementar **algoritmos básicos de navegación autónoma en entornos estructurados**, lo que es una excelente introducción práctica al mundo de los AGVs.
