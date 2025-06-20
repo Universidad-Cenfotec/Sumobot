@@ -5,193 +5,158 @@ Universidad CENFOTEC
 
 ![agv1](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/AGVs/Sumobot%20AGV1.png)
 
-
 ## ¿Qué es un AGV?
 
-Un **AGV** (Automated Guided Vehicle o Vehículo de Guiado Automático) es un robot móvil diseñado para moverse de manera autónoma por un espacio físico siguiendo una guía externa. Esta guía puede ser una **línea negra**, un **cable enterrado**, un **patrón magnético** o una **ruta programada**. Los AGV se utilizan comúnmente en fábricas, almacenes o laboratorios para transportar objetos o recorrer rutas definidas sin intervención humana.
+Un **AGV** (*Automated Guided Vehicle*) es un vehículo autónomo que se mueve por un entorno utilizando alguna forma de guía externa, como:
 
-En este proyecto, el robot **Sumobot de CENFOTEC** se programa un AGV sencillo que se mueve sobre una **cuadrícula de líneas negras** trazadas en el suelo. Para hacerlo, utiliza sensores infrarrojos para detectar las líneas y un giroscopio que le permite girar con precisión en las intersecciones.
+* Líneas en el suelo (pintadas o magnéticas),
+* Sensores ópticos o infrarrojos,
+* Balizas láser, GPS, o visión artificial.
 
-[![agv3](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/AGVs/Sumobot%20AGV5.JPG)](https://drive.google.com/file/d/1jkeH9_rlwJXOZw-MmuL7ObS06lNQ4z1Q/view?usp=sharing)
-
----
-
-## ¿Qué hace este código?
-
-El código [`code_grid.py`](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/AGVs/code_grid.py) permite que un **Sumobot navegue por una cuadrícula negra**:
-
-- **Sigue una línea negra** utilizando sensores infrarrojos delanteros.
-- **Detecta intersecciones** con sensores traseros.
-- **Se detiene en cada intersección**.
-- **Gira 90 grados** utilizando un giroscopio, manteniéndose en el centro de la intersección.
-- **Repite una secuencia de movimientos** definida en el loop principal.
-
-![agv2](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/AGVs/Sumobot%20AGV4.JPG)
+Estos sistemas son comunes en fábricas, almacenes y laboratorios educativos, donde permiten transporte automatizado y navegación precisa sin intervención humana.
 
 ---
 
-## Explicación paso a paso del código
+## Saberes que cubre este proyecto de Sumobot
 
-### 1. Inicialización del hardware
+Este proyecto de **Sumobot que se mueve sobre una cuadrícula** cubre los siguientes saberes clave:
 
-```python
-ib = IdeaBoard()
-i2c = board.I2C()
-sensor = LSM6DS3TRC(i2c, address=0x6B)
-````
-
-Se crea una instancia de la placa `IdeaBoard`, se inicializa el bus I2C y se conecta el sensor giroscópico `LSM6DS3TRC`.
-
-También se definen los sensores infrarrojos (IR):
-
-```python
-sen1 = ib.AnalogIn(board.IO36)  # Delantero izquierdo
-sen2 = ib.AnalogIn(board.IO39)  # Delantero derecho
-sen3 = ib.AnalogIn(board.IO34)  # Trasero izquierdo
-sen4 = ib.AnalogIn(board.IO35)  # Trasero derecho
-```
+* **Electrónica básica**: sensores IR, motores DC, LED RGB.
+* **Programación en CircuitPython**: definición de funciones, bucles, estructuras de decisión.
+* **Control de movimiento**: velocidad, giro, avance, retroceso.
+* **Interpretación de sensores**: lectura binaria según umbrales.
+* **Uso de giroscopio**: integración de velocidad angular para medir ángulos.
+* **Estrategias de navegación**: detección de intersecciones, seguimiento de líneas.
+* **Abstracción funcional**: comandos simplificados y ejecución dinámica.
 
 ---
 
-### 2. Lectura de sensores infrarrojos
+## Explicación por partes del código
+
+### 1. Funciones de utilidad
 
 ```python
 def leer_sensores(sensores, umbral=10000):
-    return [int(sensor.value < umbral) for sensor in sensores]
 ```
 
-Convierte las lecturas analógicas de los sensores IR en valores binarios:
+* Lee el valor de cada sensor IR.
+* Devuelve una lista binaria indicando si detecta línea negra (valor menor al umbral).
 
-* `1` si el sensor detecta una línea negra (valor bajo).
-* `0` si detecta fondo blanco (valor alto).
+```python
+def stop():
+```
+
+* Detiene ambos motores y apaga el LED RGB.
+
+```python
+def execute(commandlist: list, commands: dict):
+```
+
+* Ejecuta una lista de comandos (en forma de texto) mapeados a funciones.
+* Permite diseñar secuencias de navegación dinámicas como `["F", "L", "F"]`.
+
+```python
+def str_to_list(secuencia: str) -> list:
+```
+
+* Convierte un string como `"F,L,R"` en `["F", "L", "R"]`.
 
 ---
 
-### 3. Funciones de movimiento
-
-Funciones básicas para moverse hacia adelante, atrás o girar:
+#### ⚙️ 2. Movimientos básicos
 
 ```python
-def forward(t, speed):
-    ib.motor_1.throttle = speed
-    ib.motor_2.throttle = speed
-    time.sleep(t)
-    stop()
+def forward(t, speed)
+def backward(t, speed)
+def left(t, speed)
+def right(t, speed)
 ```
 
-Funciones similares existen para `backward`, `left` y `right`, simplemente ajustando el sentido de los motores.
+* Controlan el movimiento de los motores para avanzar, retroceder o girar.
+* Usan LED RGB para indicar el estado (verde, amarillo, etc).
 
 ---
 
-### 4. Control de giro con giroscopio
-
-#### Calibración del drift:
+### 3. Control con giroscopio
 
 ```python
-def calibrar_drift(sensor, segundos=2):
-    ...
-    drift = suma / muestras
-    return drift
+def calibrar_drift(sensor, segundos=2)
 ```
 
-Calcula un promedio del movimiento natural (drift) del giroscopio en reposo para mejorar la precisión del giro.
-
-#### Giro controlado:
+* Mide el sesgo (drift) del eje Z del giroscopio para compensarlo al girar.
 
 ```python
-def girar_grados(sensor, grados, drift, velocidad=0.25):
-    ...
-    while acumulado < grados:
-        vel_angular = sensor.gyro[2] - drift
-        ...
+def girar_grados(sensor, grados, drift, velocidad=0.25)
 ```
 
-Esta función gira el robot exactamente una cantidad determinada de grados (por ejemplo, 90°), usando el giroscopio para medir la rotación acumulada.
+* Gira el robot una cantidad específica de grados.
+* Integra la velocidad angular del giroscopio para medir cuánto ha rotado.
 
 ---
 
-### 5. Movimiento recto con corrección PDI
+### 4. Seguimiento de línea con parada
 
 ```python
-def straight_move(velocidad, duracion, drift, Kp=0.15, Ki=0.8, Kd=0.05):
-    ...
+def forward_line_stop(th=2950, speed=0.5, corr=0.1)
 ```
 
-Mantiene el robot moviéndose en línea recta usando un **controlador PDI** que corrige desviaciones detectadas por el giroscopio. Esta función no se utiliza directamente en el código, pero se deja allí para posibilidar funcionalidades de mayor precisión
+* Sigue la línea usando sensores delanteros.
+* Se detiene cuando ambos sensores traseros detectan fondo blanco (intersección).
+* Usa lógica de corrección para girar ligeramente si el robot se desvía.
 
 ---
 
-### 6. Seguidor de línea con parada en intersección
+### 5. Funciones de envoltura ("wrappers")
 
 ```python
-def forward_line_stop(th=2950, speed=0.5, corr=0.1):
-    ...
-    front = leer_sensores([sen1, sen2], th)
-    back = leer_sensores([sen3, sen4], th)
-
-    if tras_izq == 0 and tras_der == 0:
-        forward(0.15, speed)
-        stop()
-        return
+def f(): forward_line_stop(...)
+def l(): girar_grados(..., -90, ...)
+def r(): girar_grados(..., 90, ...)
 ```
 
-Esta es la función principal de navegación:
-
-* El robot avanza mientras los sensores delanteros detecten línea negra.
-* Si pierde alineación, corrige el rumbo ajustando los motores.
-* Si los sensores traseros **no detectan línea** (es decir, detectan blanco), el robot ha llegado a una intersección y se detiene.
+* Simplifican la ejecución de comandos al ser llamadas desde `execute()`.
 
 ---
 
-### 7. Funciones simplificadas para el loop principal
+## Programa principal
 
-```python
-def f():
-    forward_line_stop(th, speed, corr)
-
-def l():
-    girar_grados(sensor, -90, drift)
-
-def r():
-    girar_grados(sensor, 90, drift)
-```
-
-Estas funciones se utilizan en el programa principal para definir una secuencia de navegación legible.
-
----
-
-### 8. Programa principal
+1. **Calibración**
 
 ```python
 drift = calibrar_drift(sensor, 5)
-th = 2950
-speed = 0.3
-corr = 0.1
-
-while True:
-    f()
-    f()
-    l()
 ```
 
-El programa:
+* Mide y guarda el "drift" del giroscopio.
 
-* Calibra el giroscopio.
-* Avanza dos intersecciones.
-* Gira a la izquierda.
-* Repite indefinidamente.
+2. **Parámetros de navegación**
+
+```python
+th = 2950       # Umbral para sensores IR
+speed = 0.3     # Velocidad base
+corr = 0.1      # Corrección para giros leves
+```
+
+3. **Diccionario de comandos**
+
+```python
+comandos = {
+    "F": f,
+    "L": l,
+    "R": r
+}
+```
+
+4. **Bucle principal**
+
+```python
+while True:
+    com = str_to_list("F,L")
+    execute(com, comandos)
+```
+
+* Ejecuta la secuencia: avanzar hasta la siguiente intersección (`F`), girar a la izquierda (`L`).
+* Este ciclo se repite indefinidamente, moviéndose de intersección en intersección.
 
 ---
 
-## Conclusión: aprendizajes al trabajar con este código
-
-Este proyecto permite a los estudiantes:
-
-* **Comprender cómo funciona un AGV** y cómo puede orientarse por guías físicas.
-* **Aplicar sensores infrarrojos** para interpretar el entorno físico.
-* **Utilizar un giroscopio** para movimientos precisos en un entorno estructurado.
-* **Aplicar controladores como el PDI** para estabilizar el movimiento.
-* **Desarrollar pensamiento lógico y estructurado** a través de programación por funciones y condicionales.
-* **Explorar conceptos de robótica móvil**, navegación autónoma y sistemas embebidos, de forma práctica y tangible.
-
-Este tipo de actividades refuerza tanto el aprendizaje técnico como el pensamiento computacional en jóvenes interesados en ciencia y tecnología.
+Este proyecto enseña cómo un **robot puede tomar decisiones de movimiento** usando sensores e información de orientación. La abstracción por comandos, el uso del giroscopio y el seguimiento de líneas permiten implementar **algoritmos básicos de navegación autónoma en entornos estructurados**, lo que es una excelente introducción práctica al mundo de los AGVs.
