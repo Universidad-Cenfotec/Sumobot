@@ -45,6 +45,54 @@ def stop():
     ib.motor_1.throttle = 0
     ib.motor_2.throttle = 0
     ib.pixel = (0, 0, 0)
+    
+def execute(commandlist: list, commands: dict):
+    """
+    Ejecuta una lista de comandos utilizando un diccionario que mapea nombres de comandos a funciones.
+
+    Parámetros:
+    -----------
+    commandlist : list
+        Lista de strings, donde cada string representa el nombre de un comando a ejecutar.
+
+    commands : dict
+        Diccionario que asocia nombres de comandos (strings) con funciones de Python (callables) que no reciben argumentos.
+
+    Ejemplo:
+    --------
+    def saludar():
+        print("Hola")
+
+    def despedir():
+        print("Adiós")
+
+    comandos = {
+        "hola": saludar,
+        "adios": despedir
+    }
+
+    execute(["hola", "adios", "otro"], comandos)
+
+    # Salida esperada:
+    # Hola
+    # Adiós
+    # Comando 'otro' no encontrado.
+    """
+    for cmd in commandlist:
+        if cmd in commands:
+            try:
+                commands[cmd]()
+            except Exception as e:
+                print(f"Error al ejecutar '{cmd}': {e}")
+        else:
+            print(f"Comando '{cmd}' no encontrado.")
+
+def str_to_list(secuencia: str) -> list:
+    """
+    Convierte una cadena de texto con palabras separadas por comas en una lista de strings.
+    """
+    return [palabra.strip() for palabra in secuencia.split(',')]
+
 
 # -------------------------------
 # MOVIMIENTOS BÁSICOS
@@ -136,40 +184,6 @@ def girar_grados(sensor, grados, drift, velocidad=0.25):
 
     stop()
 
-# -------------------------------
-# MOVIMIENTO RECTO CON PDI
-# -------------------------------
-
-def straight_move(velocidad, duracion, drift, Kp=0.15, Ki=0.8, Kd=0.05):
-    """
-    Mantiene movimiento recto por `duracion` segundos usando control PDI.
-    """
-    t0 = time.monotonic()
-    velocidad_base = abs(velocidad)
-    direccion = 1 if velocidad > 0 else -1
-
-    error_anterior = 0
-    error_integral = 0
-    max_correccion = 0.3
-
-    while time.monotonic() - t0 < duracion:
-        error = sensor.gyro[2] - drift
-        error_integral += error
-        error_derivativo = error - error_anterior
-
-        correccion = Kp * error + Ki * error_integral + Kd * error_derivativo
-        correccion = max(-max_correccion, min(max_correccion, correccion))
-
-        v1 = max(-1, min(1, velocidad_base * direccion + correccion))
-        v2 = max(-1, min(1, velocidad_base * direccion - correccion))
-
-        ib.motor_1.throttle = v1
-        ib.motor_2.throttle = v2
-
-        error_anterior = error
-        time.sleep(0.01)
-
-    stop()
 
 # -------------------------------
 # SEGUIDOR DE LÍNEA CON DETENCIÓN
@@ -235,6 +249,7 @@ def r():
 # PROGRAMA PRINCIPAL
 # -------------------------------
 
+# definiciones
 ib.pixel = (255, 0, 0)  # LED rojo durante calibración
 drift = calibrar_drift(sensor, 5)
 ib.pixel = (0, 0, 0)    # Apaga LED
@@ -243,7 +258,15 @@ th = 2950       # Umbral para sensores IR
 speed = 0.3     # Velocidad base
 corr = 0.1      # Corrección de dirección
 
+#Asocia comandos con funciones
+comandos = {
+    "F": f,
+    "L": l,
+    "R": r
+}
+
+#ciclo pricipal
+
 while True:
-    f()
-    f()
-    l()
+    com = str_to_list("F,L")
+    execute(com, comandos)
