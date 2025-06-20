@@ -33,6 +33,10 @@ Este proyecto de **Sumobot que se mueve sobre una cuadrícula** cubre los siguie
 
 ## Explicación por partes del código
 
+El código [`code_grid.py`](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/AGVs/code_grid.py) permite al sumobot seguir lineas negras y detenerse en intersecciones, girar, para mantenerse navegando en una cuadrñicula de líneas negras.
+
+![agv](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/AGVs/Sumobot%20AGV4.JPG)
+
 ### 1. Funciones de utilidad
 
 ```python
