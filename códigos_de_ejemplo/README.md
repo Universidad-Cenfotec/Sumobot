@@ -30,3 +30,5 @@
 | [`code_line_follow.py`](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/code_line_follow.py) | Seguidor de lineas (mucho espacio para mejorarlo)        |
 | [`test_motores.py`](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/test_motores.py) | Código sencillo para prueba básica para motores        |
 | [Directorio AGVs](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/AGVs/README.md) | Explica como hacer un sistema guiado para que el sumobot navegue por una cuadrícula de lineas negras        |
+| [Directorio LLM in the Loop](https://github.com/Universidad-Cenfotec/Sumobot/tree/main/c%C3%B3digos_de_ejemplo/LLM_in_the_Loop_Robotics) | Este es un tema avanzado. Permite que el Sumobot obtenga el plan para movimiento para llegar a un punto, pidiendo istrucciones a un modelo de lenguaje, en este caso Gemini        |
+
