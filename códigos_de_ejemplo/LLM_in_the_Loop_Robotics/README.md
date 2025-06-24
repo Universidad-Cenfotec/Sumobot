@@ -23,6 +23,8 @@ Para este ejercicio, se utiliza el [Sumobot de CENFOTEC](https://github.com/Univ
 
 Detalles de como conectar el ESP32 a Gemini lo spueden ver en [este video](https://youtu.be/rFI_8TIMCNI?si=_rteSFMyBVmcoIL1). Este código utiliza ese ejemplo de base.
 
+> [Para una explicación en video, visitar este link](https://youtu.be/nR-znfcsztA?si=6d5RbID28Ob6g3B9)
+
 ---
 
 ## Componentes clave del sistema
