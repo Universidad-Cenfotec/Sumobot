@@ -5,6 +5,8 @@ Universidad CENFOTEC
 
 ![sumobotLLM](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/LLM_in_the_Loop_Robotics/ArqSumobotGemini.png)
 
+> [Para una explicación en video, visitar este link](https://youtu.be/nR-znfcsztA?si=6d5RbID28Ob6g3B9)
+
 Robótica LLM-in-the-Loop o planificación autónoma con LLM, describe un sistema en el cual un modelo de lenguaje grande (LLM) está en el ciclo de control o decisión de un robot. El robot no solo ejecuta instrucciones, sino que consulta al LLM en tiempo real para:
 
 - Interpretar situaciones del entorno
