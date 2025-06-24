@@ -182,4 +182,4 @@ Este ciclo de acción-validación-repetición convierte al LLM en un **colaborad
 
 Este patrón de colaboración es una de las características más prometedoras del paradigma *LLM-in-the-loop Robotics*, donde la inteligencia no reside en un solo componente, sino en la **interacción adaptativa** entre máquina física y modelo generativo.
 
-
+[![sg2](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/LLM_in_the_Loop_Robotics/SumoBotGemini2.png)](https://drive.google.com/file/d/1kL0SJKNS8wsGxF-HW5phEjKsV_7HkVeU/view?usp=drive_link)
