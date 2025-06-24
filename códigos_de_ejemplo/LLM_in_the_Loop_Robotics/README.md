@@ -3,6 +3,8 @@
 Tomás de Camino Beck, Ph.D.  
 Universidad CENFOTEC  
 
+> [Para una explicación en video, visitar este link](https://youtu.be/nR-znfcsztA?si=6d5RbID28Ob6g3B9)
+
 ![sumobotLLM](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/LLM_in_the_Loop_Robotics/ArqSumobotGemini.png)
 
 > [Para una explicación en video, visitar este link](https://youtu.be/nR-znfcsztA?si=6d5RbID28Ob6g3B9)
