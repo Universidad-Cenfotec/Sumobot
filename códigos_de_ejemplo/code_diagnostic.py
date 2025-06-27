@@ -115,7 +115,7 @@ if len(errores) > 0:
   
 # Inicializamos la IdeaBoard, el sensor ultrasónico y los sensores infrarrojos (analógicos)
 ib = IdeaBoard()
-sonar = HCSR04(board.IO26, board.IO25)
+sonar = HCSR04(board.IO25, board.IO26)
 sen1 = ib.AnalogIn(board.IO36)
 sen2 = ib.AnalogIn(board.IO39)
 sen3 = ib.AnalogIn(board.IO34)
