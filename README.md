@@ -4,6 +4,8 @@
 
 El Sumobot es un robot simple, 100% desarrollado en Costa Rica, para competencias colegiales de Sumobot. Fue diseñado por el profesor Tomás de Camino Beck para la Universidad Cenfotec como parte de un programa de transformación educativa, con el objetivo de ampliar las capacidades de pensamiento computacional tanto en estudiantes de colegio como en estudiantes universitarios.
 
+> [En este enlace puede leer sobre la historia del Sumobot en sus 3 primeros años](https://crhoy.com/sumobot-una-historia-de-tecnologia-hecha-en-costa-rica/)
+
 El Sumobot utiliza la placa [IdeaBoard](https://github.com/CRCibernetica/circuitpython-ideaboard/wiki), desarrollada por CrCibernética. Esta placa de código abierto (Open Source) incorpora un microcontrolador ESP32 y permite la conexión sencilla de sensores y motores, así como su programación mediante USB o Wi‑Fi.
 
 Para el montaje del robot, se emplea un *shield* de robótica especialmente diseñado por la Universidad CENFOTEC (por el profesor Tomás de Camino Beck) en colaboración con CrCibernética. Este componente puede [adquirirse en este enlace](https://www.crcibernetica.com/sumobot-shield/).
