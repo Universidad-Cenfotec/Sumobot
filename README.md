@@ -37,6 +37,10 @@ Puede ver este [video resumen](https://youtu.be/L98O-mApjXQ) de la primera compe
 - [Ejemplo de automatización de vehiculos asistidos](https://github.com/Universidad-Cenfotec/Sumobot/tree/main/c%C3%B3digos_de_ejemplo/AGVs)
 - [Sumobot con planificación autónoma con Modelos de Lenguajes (Gemini)](https://github.com/Universidad-Cenfotec/Sumobot/tree/main/c%C3%B3digos_de_ejemplo/LLM_in_the_Loop_Robotics)
 
+## Asistente IA para programar el Sumobot
+
+- [GPT entrenado para programación Sumobot](https://chatgpt.com/g/g-6863f71f27b8819192a51ed05df367b0-asistente-de-programacion-sumobot-cenfotec)
+
 
 ## Retos
 
