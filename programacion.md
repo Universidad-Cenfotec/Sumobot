@@ -23,6 +23,8 @@ En [este link hay un video que explica como hacerlo](https://youtu.be/sa7HqL8b7V
 
 ## Código
 
+> [Puede utilizar este asistente IA para ayudar a programar el Sumobot](https://chatgpt.com/g/g-6863f71f27b8819192a51ed05df367b0-asistente-de-programacion-sumobot-cenfotec)
+
 El código "code.py" está desarrollado en CircuitPython. CircuitPython es un subconjunto de Python desarrollado para microcontroladores y facilita la portabilidad y programabilidad de dispositivos como el ESP32, entre otros. El Sumobot ya viene preparado para trabajar con CircuitPython y no es necesario cargar archivos adicionales. Si por alguna razón se debe "reflashear" el IdeaBoard, siga las instrucciones en este [enlace](https://github.com/CRCibernetica/circuitpython-ideaboard/wiki/3.-Installation).
 
 El código "hcsr04.mpy" corresponde a la librería para el sensor de distancia, el cual se utiliza para detectar otro robot que esté al frente del Sumobot.
