@@ -20,8 +20,6 @@ Claro, aquí tienes una **versión ordenada y clara, paso a paso**, del **ensamb
 ### **Materiales necesarios antes de comenzar**
 
 * Desatornillador pequeño
-* Cables jumper (mínimo 10)
-* Gasillas (bridas plásticas)
 * Soldador y estaño (ver video anterior para instrucciones)
 * Pinzas o tijera
 * Componentes del kit (motores, llantas, placa inferior y superior, sensores, caja de baterías, tornillos, tuercas, soportes, IdeaBoard)
