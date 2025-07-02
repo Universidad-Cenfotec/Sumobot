@@ -39,10 +39,14 @@ Claro, aquí tienes una **versión ordenada y clara, paso a paso**, del **ensamb
 
 ### **2. Conexión de los sensores y cables**
 
+![qwiic](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/conectQwiic.png)
+
 7. Usa el cable Qwiic para conectar el **acelerómetro** a la placa IdeaBoard.
 8. Inserta los cables (conectores Dupont) del **sensor de infrarrojo** (cuatro sensores + GND + VCC) con mucho cuidado.
 9. Usa **seis cables jumper (Dupont)** en total para conectar sensores y acelerómetro.
 10. Conecta los motores a la placa usando **dos cables jumper** para cada motor (Motor 1 y Motor 2).
+
+![IR](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/conectIR.jpg)
 
 ---
 
