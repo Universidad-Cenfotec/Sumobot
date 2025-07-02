@@ -91,6 +91,8 @@ Claro, aquí tienes una **versión ordenada y clara, paso a paso**, del **ensamb
 27. Conecta los cables a la **placa IdeaBoard**, siguiendo la guía del GitHub o el archivo “Guía de Conexiones” ([puedes ponerle pausa al video o descargar el PDF](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/Conexiones%20SumoBot.pdf)).
 28. Asegúrate de no forzar los pines al insertar.
 
+![ultra](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/conectUltra.png)
+
 ---
 
 ### **8. Conexión de la caja de baterías**
@@ -101,6 +103,7 @@ Claro, aquí tienes una **versión ordenada y clara, paso a paso**, del **ensamb
 32. Inserta la **caja de baterías** dentro del chasis, organizando bien los cables para que no estorben.
 33. Verifica que el **interruptor de encendido** esté accesible.
 
+![https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/conectBat.png](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/conectBat.png)
 ---
 
 ### **9. Revisión final**
