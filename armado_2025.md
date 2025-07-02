@@ -122,17 +122,4 @@ Has terminado de armar el **Sumobot CENFOTEC**. Ahora puedes continuar con la pr
 
 Una guia completa de las conexiones del SumoBot ls pueden encontrar en [este documento](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/Conexiones%20SumoBot.pdf)
 
-## **IMPORTANTE** Conexiones de las baterías a la IdeaBoard
-
-Para darle energía a tu IdeaBoard del SumoBot, seguí estos pasos:
-
-1. **Usá un portabaterías** con **4 baterías AA**.
-2. **Cable rojo (+)** del portabaterías:
-   - Conectalo al **terminal positivo (+)** de la placa IdeaBoard (marcado con un símbolo + en verde).
-3. **Cable negro (-)** del portabaterías:
-   - Conectalo al **terminal negativo (-)** de la placa IdeaBoard (marcado con un símbolo - en verde).
-4. **Puente de energía (jumper)**:
-   - Colocá el pequeño puente (jumper) rojo en el conector señalado en la imagen para **dar energía a los motores y al sensor ultrasónico**.
-
-![Chasis](imagenes/baterias2025.png)
 
