@@ -26,7 +26,7 @@ Claro, aquí tienes una **versión ordenada y clara, paso a paso**, del **ensamb
 
 ---
 
-### **Armado de la parte inferior (placa sumobot)**
+### **1. Armado de la parte inferior (placa sumobot)**
 
 1. Saca todas las piezas pequeñas del empaque con cuidado (tornillos, tuercas, motores, llantas, etc.).
 2. Coloca los **motores** sobre la **placa inferior** en la posición adecuada.
@@ -37,7 +37,7 @@ Claro, aquí tienes una **versión ordenada y clara, paso a paso**, del **ensamb
 
 ---
 
-### 🔌 **Conexión de los sensores y cables**
+### **2. Conexión de los sensores y cables**
 
 7. Usa el cable Qwiic para conectar el **acelerómetro** a la placa IdeaBoard.
 8. Inserta los cables (conectores Dupont) del **sensor de infrarrojo** (cuatro sensores + GND + VCC) con mucho cuidado.
