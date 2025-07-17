@@ -95,3 +95,40 @@ Puede ejecutar el Web App directamente en [este link](https://universidad-cenfot
 2. Ábrelo en tu navegador **Chrome** o **Edge** (solo requiere doble clic).
 3. Asegúrate de que el robot esté encendido.
 4. Conéctate, crea la secuencia y ejecuta.
+
+Perfecto. Aquí tienes una sección para agregar al manual, explicando cómo preparar la superficie de la cuadrícula que utilizará el Sumobot:
+
+---
+
+## Superficie de Navegación: Cuadrícula de Líneas Negras
+
+Para que el **Sumobot** pueda navegar correctamente y detectar intersecciones, necesita una superficie de fondo blanco con **líneas negras bien definidas**, al estilo de los **vehículos AGV**.
+
+### ¿Cómo es la cuadrícula?
+
+La cuadrícula que utiliza el Sumobot es similar al archivo `cuadricula_lineas_negras.svg` incluido en el repositorio. Esta cuadrícula:
+
+* Tiene un fondo **blanco**.
+* Presenta una malla de **líneas negras horizontales y verticales** que forman intersecciones.
+* Está diseñada para que el robot avance en línea recta hasta una intersección, la detecte con sensores infrarrojos, y pueda girar 90° con precisión.
+
+### Dimensiones recomendadas
+
+Puedes construir esta superficie fácilmente con materiales accesibles:
+
+* **Material base:** cartulina blanca o cartón blanco.
+* **Líneas negras:** cinta eléctrica negra (tape aislante).
+* **Espaciado entre líneas:** **20 cm** entre centros.
+* **Ancho de las líneas negras:** **2 cm**.
+* **Tamaño recomendado de la cuadrícula:** al menos de **80 cm x 80 cm** (una cuadrícula de 4x4 líneas es ideal para comenzar).
+
+### Instrucciones para hacerla en casa o en el aula
+
+1. Coloca una cartulina blanca o una plancha blanca rígida sobre una superficie plana.
+2. Con una regla y lápiz, marca líneas horizontales y verticales separadas cada 20 cm.
+3. Pega cuidadosamente cinta eléctrica negra sobre las líneas marcadas.
+4. Asegúrate de que las intersecciones queden limpias y perpendiculares.
+
+> Las líneas deben tener buen contraste con el fondo para que los sensores IR funcionen correctamente.
+
+
