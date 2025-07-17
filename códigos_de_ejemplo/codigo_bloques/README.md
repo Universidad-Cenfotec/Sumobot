@@ -2,6 +2,8 @@
 Tomás de Camino Beck, Ph.D.  
 Universidad CENFOTEC
 
+![icon](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/codigo_bloques/icono_sumobot.jpeg)
+
 
 ## ¿Qué es esta aplicación?
 
