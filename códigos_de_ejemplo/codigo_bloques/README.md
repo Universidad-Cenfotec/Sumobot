@@ -96,8 +96,6 @@ Puede ejecutar el Web App directamente en [este link](https://universidad-cenfot
 3. Asegúrate de que el robot esté encendido.
 4. Conéctate, crea la secuencia y ejecuta.
 
-Perfecto. Aquí tienes una sección para agregar al manual, explicando cómo preparar la superficie de la cuadrícula que utilizará el Sumobot:
-
 ---
 
 ## Superficie de Navegación: Cuadrícula de Líneas Negras
