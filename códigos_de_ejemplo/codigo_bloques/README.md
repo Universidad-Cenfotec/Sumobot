@@ -89,6 +89,8 @@ Es la interfaz gráfica en la que el usuario arma las secuencias de comandos y s
 
 ### Paso 2: Ejecutar la Web App
 
+Puede ejecutar el Web App directamente en [este link](https://universidad-cenfotec.github.io/SumoBlock.github.io/), o puede usar la siguiente opción si quiere correr desde su computadora,
+
 1. Descarga el archivo `coding_blocks_spanish.html` del repositorio.
 2. Ábrelo en tu navegador **Chrome** o **Edge** (solo requiere doble clic).
 3. Asegúrate de que el robot esté encendido.
