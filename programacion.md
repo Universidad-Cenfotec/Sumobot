@@ -12,7 +12,11 @@ Para programar el Sumobot se utiliza Thonny, el cual se puede descargar desde es
 - Una vez instalado, ir al menú "Herramientas > Opciones" o "Tools > Options" en inglés.
 - En la pestaña "Intérprete" (o "Interpreter" en inglés), seleccionar "CircuitPython (Generic)".
 - ¡Listo!
-- [Video con detalles](https://youtu.be/Zc3oaAbVAdc) o [seguir intrucciones acá](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/uso_thonny.md)
+- [Video con detalles](https://youtu.be/Zc3oaAbVAdc)
+
+### Iniciar Thonny
+- [seguir intrucciones acá](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/uso_thonny.md)
+- [Ver video explicativo](https://youtu.be/EOnnslZhL2c?si=IYAHV_utJocjeJvx)
 
 ##  Resetear (Flashear) el IdeaBoard
 
