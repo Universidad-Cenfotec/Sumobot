@@ -6,13 +6,16 @@
 
 Para programar el Sumobot se utiliza Thonny, el cual se puede descargar desde este [enlace](https://thonny.org/).
 
-### Instrucciones:
+### Instrucciones Rápidas:
 - Descargar la última versión de Thonny.
 - Instalar.
 - Una vez instalado, ir al menú "Herramientas > Opciones" o "Tools > Options" en inglés.
 - En la pestaña "Intérprete" (o "Interpreter" en inglés), seleccionar "CircuitPython (Generic)".
 - ¡Listo!
 - [Video con detalles](https://youtu.be/Zc3oaAbVAdc)
+
+### Instruciones más detalladas:
+- [Ver este enlace](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/instala_thonny.md)
 
 ### Iniciar Thonny
 - [Seguir intrucciones acá](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/uso_thonny.md)
