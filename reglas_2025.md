@@ -1,4 +1,4 @@
-# Reglas del Juego e Indicaciones del Torneo – SumoBot 2025
+# Reglas del Juego e Indicaciones del Torneo 
 
 ## DEFINICIONES:
 1. **Sumobot:** El robot Sumobot es un robot de combate autónomo programado por el usuario, que deberá sacar a su rival del área de combate (dojo), ya sea empujándolo, arrastrándolo o dejándolo inhabilitado.
