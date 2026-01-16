@@ -33,7 +33,7 @@ uint32_t Wheel(byte WheelPos) {
 }
 
 void setup() {
-  Serial.begin(9600);        // Inicia la comunicación con el monitor serial a 9600 baudios
+  Serial.begin(115200);        // Inicia la comunicación con el monitor serial a 9600 baudios
   strip.begin();             // Inicializa el LED NeoPixel
   strip.show();              // Apaga el LED al comenzar (pone el color a negro)
   Serial.println("Escribe STOP para detener el programa."); // Instrucción para el usuario

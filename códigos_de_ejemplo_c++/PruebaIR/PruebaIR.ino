@@ -1,9 +1,9 @@
 #include <Adafruit_NeoPixel.h>
 
 // Pines analógicos conectados a los sensores infrarrojos
-const int sen1 = 27;
-const int sen2 = 33;
-const int sen3 = 32;
+const int sen1 = 36;
+const int sen2 = 39;
+const int sen3 = 34;
 const int sen4 = 35;
 
 // Arreglo para facilitar el manejo de los sensores
@@ -22,7 +22,7 @@ Adafruit_NeoPixel strip(NUM_LEDS, LED_PIN, NEO_GRB + NEO_KHZ800);
 bool detenido = false;
 
 void setup() {
-  Serial.begin(9600);  // Inicia la comunicación serial
+  Serial.begin(115200);  // Inicia la comunicación serial
   delay(1000);         // Breve pausa para estabilidad
 
   strip.begin();       // Inicializa el LED NeoPixel
