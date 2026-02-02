@@ -1,36 +1,58 @@
 # Reglas del Juego e Indicaciones del Torneo 
 
-## DEFINICIONES:
-1. **Sumobot:** El robot Sumobot es un robot de combate autónomo programado por el usuario, que deberá sacar a su rival del área de combate (dojo), ya sea empujándolo, arrastrándolo o dejándolo inhabilitado.
-2. **Partida:** Enfrentamiento entre 2 robots de diferentes equipos, dividido en 3 combates.
-3. **Maker Space:** Laboratorio de innovación de la Universidad CENFOTEC.
-4. **GitHub:** Plataforma para crear proyectos abiertos de herramientas y aplicaciones, caracterizada, sobre todo, por sus funciones colaborativas que ayudan a que todos puedan aportar su granito de arena para mejorar el código.
-5. **Mesa de arbitraje:** Persona o grupo de personas con autoridad, responsables de presidir el juego desde un punto de vista neutral y de tomar decisiones sobre la marcha que hagan cumplir las reglas de este reglamento.
-6. **Dojo:** Área de combate, el espacio formado por la tarima circular y un espacio circundante denominado "área exterior de seguridad".
-7. **Ronda:** Sistema en torneos en el que el perdedor de un encuentro queda inmediatamente eliminado de la competición, mientras que el ganador avanza a la siguiente fase. Se juegan rondas y, en cada una de ellas, se elimina a la mitad de los participantes hasta dejar un único competidor que se corona como campeón.
+## Definiciones
 
-## ESPECIFICACIONES DEL ROBOT
+- **Cenfobot:** Robot de combate autónomo programado por el equipo participante, cuyo objetivo es sacar a su oponente del área de combate (dojo), ya sea empujándolo, arrastrándolo o dejándolo inhabilitado.
+- **Equipo:** Conjunto de estudiantes inscritos oficialmente en la competencia.
+- **Partida:** Enfrentamiento oficial entre dos (2) equipos distintos, compuesto por tres (3) combates.
+- **Combate:** Enfrentamiento individual entre dos Cenfobots dentro del dojo, correspondiente a una de las instancias que conforman una partida.
+- **Dojo:** Área donde se desarrollan los combates.
+- **Mesa de arbitraje:** Persona o grupo de personas designadas por la organización con autoridad para supervisar los combates, aplicar el reglamento y tomar decisiones durante el desarrollo del torneo.
+- **Fases:** Etapa del torneo en la cual los equipos compiten según el formato establecido. Dependiendo de la fase, el perdedor de una partida puede quedar eliminado, mientras que el ganador avanza a la siguiente etapa.
+- **Empate:** Situación en la que ninguno de los Cenfobots logra la victoria bajo las condiciones establecidas para un combate o para una partida, según corresponda.
+- **Maker Space:** Laboratorio de innovación de la Universidad CENFOTEC donde se desarrollan actividades y talleres relacionados con la competencia.
+- **GitHub:** Plataforma de desarrollo colaborativo utilizada por la organización para publicar documentación, código base y recursos oficiales de la competencia.
 
-1. **Peso máximo:**
-   El robot no debe pesar más de **295 gramos**, incluyendo las baterías.
-2. **Fuente de energía:**
-   El robot debe utilizar **exactamente 4 baterías AA** como fuente de energía.Se pueden utilizar baterías AA recargables, pero deben tener en cuenta que estas pueden afectar el peso del robot. Adicionalmente baterías recargables tienen por lo general una carga de 1.2V lo que puede afectar la potencia de los motores. NO se pueden colocar baterías de 9V, pues además los motores aunque inicialmente funcionan con 9V, soportan solo 6V, y terminarán quemados.
-3. **Contacto con el oponente:**
-   No se permite ninguna modificación que **genere contacto físico con el robot contrincante**. Esto incluye extensiones, accesorios o mecanismos de cualquier tipo.
-4. **Modificaciones para sensores:**
-   Se permite hacer agujeros o adaptaciones en la estructura del robot para instalar sensores **siempre que no hagan contacto con el robot oponente**.
-5. **Sensores adicionales:**
-   Se pueden añadir sensores adicionales, **siempre y cuando el peso total del robot no exceda los 295 gramos**.
-6. **Modificaciones estéticas:**
-   El robot puede ser pintado, decorado con calcomanías u otras modificaciones estéticas, **siempre que estas no impliquen contacto físico con el robot contrincante**
-7. **Modificaciones Físicas:**
-   El robot no se puede modificar físicamente agregando extensiones, que hagan contacto con el oponente.  Tampoco se puede reducir la altura de los soportes que se encuentran abajo a los lados de los sensores infrerrojos. La razón es porque los sensores pueden fallar en su lectura al estar tan cerca del piso, y porque le da ventaja al robot más bajo en choques de frente.
-8.  Para el 2025, solo puede combatir el modelo de Sumobot de este año
+
+## Especificaciones del Cenfobot
+
+- **Peso máximo:** El Cenfobot no deberá pesar más de **315 gramos**, incluyendo baterías y cualquier sensor o componente adicional.
+- **Fuente de energía:** El Cenfobot debe utilizar **exactamente cuatro (4) baterías AA** como fuente de energía.  
+  - Se permite el uso de baterías AA recargables; sin embargo, debe considerarse que estas pueden afectar el peso total del Cenfobot.  
+  - Adicionalmente, las baterías recargables suelen tener un voltaje nominal de **1.2 V**, lo cual puede afectar la potencia de los motores.  
+  - **No se permite el uso de baterías de 9 V**, ya que, aunque los motores pueden funcionar inicialmente con este voltaje, están diseñados para soportar únicamente hasta **6 V**, lo que podría provocar daños permanentes.
+- **Contacto con el oponente:** No se permite ninguna modificación que genere **contacto físico intencional** con el Cenfobot contrincante. Esto incluye extensiones, accesorios, armas, mecanismos de empuje artificiales o cualquier otro elemento diseñado para tocar directamente al oponente.
+- **Modificaciones para sensores:** Se permite realizar agujeros o adaptaciones en la estructura del Cenfobot **únicamente para la instalación de sensores**, siempre que dichas modificaciones:
+  - No generen contacto físico con el Cenfobot oponente.
+  - No representen un riesgo durante el combate.
+    
+  Todo orificio o adaptación visible deberá contar obligatoriamente con un **sensor funcional instalado**. En caso contrario, el Cenfobot será considerado **no apto para la competencia** y no podrá participar hasta que la situación sea corregida y validada por la mesa de arbitraje.
+
+- **Sensores adicionales:** Se podrán añadir sensores adicionales siempre y cuando:
+  - El peso total del Cenfobot no exceda los **315 gramos**.
+  - Las modificaciones cumplan con todas las demás especificaciones técnicas establecidas en este reglamento.
+
+- **Modificaciones estéticas:** El Cenfobot podrá ser pintado, decorado o personalizado mediante calcomanías u otros elementos **exclusivamente estéticos**.
+
+- **Modificaciones físicas:**  
+  - No se permite modificar físicamente el Cenfobot agregando extensiones que hagan contacto con el oponente.  
+  - No se permite reducir la altura de los soportes ubicados en la parte inferior, a los lados de los sensores infrarrojos.  
+    - Esto se debe a que los sensores pueden fallar en su lectura al estar demasiado cerca del piso.
+    - Además, reducir esta altura otorga una ventaja indebida al Cenfobot más bajo en choques frontales.
+
+- **Cenfobots oficiales:**  
+  Todos los equipos competirán utilizando **Cenfobots oficiales** suministrados por la Universidad CENFOTEC.  
+  Se aceptarán Cenfobots de versiones anteriores **únicamente si han sido actualizados** y son técnicamente equivalentes al modelo oficial **2025–2026**. Estos deberán ser validados y aprobados previamente por la organización.
+
+- **Cumplimiento del reglamento:**  
+  Cualquier Cenfobot que **no cumpla estrictamente** con las especificaciones del modelo **2025–2026** no será autorizado para competir.  
+  En caso de dudas, se recomienda comunicarse con los organizadores **lo antes posible**.
+
 
 
 
 ## Objetivo del Juego
-El objetivo de cada robot Sumobot es expulsar a su oponente fuera del dojo, ya sea empujándolo, arrastrándolo o inmovilizándolo. Los combates se desarrollan de forma autónoma, basados en la programación del robot.
+El objetivo de cada robot Cenfobot es expulsar a su oponente fuera del dojo, ya sea empujándolo, arrastrándolo o inmovilizándolo. Los combates se desarrollan de forma autónoma, basados en la programación del Cenfobot.
 
 ---
 
