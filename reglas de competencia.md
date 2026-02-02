@@ -20,13 +20,13 @@
 
 - **Fuente de energía:** El Cenfobot debe utilizar exactamente 4 baterías AA como fuente de energía.Se pueden utilizar baterías AA recargables, pero deben tener en cuenta que estas pueden afectar el peso del Cenfobot. Adicionalmente baterías recargables tienen por lo general una carga de 1.2V lo que puede afectar la potencia de los motores. NO se pueden colocar baterías de 9V, pues además los motores aunque inicialmente funcionan con 9V, soportan solo 6V, y terminarán quemados.
 
-- **Contacto con el oponente:**No se permite ninguna modificación que genere contacto físico intencional con el Cenfobot contrincante. Esto incluye extensiones, accesorios, armas, mecanismos de empuje artificiales o cualquier otro elemento diseñado para tocar directamente al oponente.
+- **Contacto con el oponente:** No se permite ninguna modificación que genere contacto físico intencional con el Cenfobot contrincante. Esto incluye extensiones, accesorios, armas, mecanismos de empuje artificiales o cualquier otro elemento diseñado para tocar directamente al oponente.
 
 - **Modificaciones para sensores:** Se permite realizar agujeros o adaptaciones en la estructura del Cenfobot únicamente para la instalación de sensores, siempre que dichas modificaciones no generen contacto físico con el Cenfobot oponente ni representen un riesgo durante el combate. Todo orificio o adaptación visible deberá contar obligatoriamente con un sensor funcional instalado; en caso contrario, el Cenfobot será considerado no apto para la competencia y no podrá participar hasta que la situación sea corregida y validada por la mesa de arbitraje.
 
 - **Sensores adicionales:** Se podrán añadir sensores adicionales, siempre y cuando el peso total del Cenfobot no exceda los 315 gramos y las modificaciones cumplan con las demás especificaciones técnicas establecidas en este reglamento.
 
-- **Modificaciones estéticas:**El Cenfobot podrá ser pintado, decorado o personalizado mediante calcomanías u otros elementos estéticos.
+- **Modificaciones estéticas:** El Cenfobot podrá ser pintado, decorado o personalizado mediante calcomanías u otros elementos estéticos.
 
 - **Modificaciones Físicas:** El Cenfobot no se puede modificar físicamente agregando extensiones, que hagan contacto con el oponente. Tampoco se puede reducir la altura de los soportes que se encuentran abajo a los lados de los sensores infrarrojos. La razón es porque los sensores pueden fallar en su lectura al estar tan cerca del piso, y porque le da ventaja al Cenfobot más bajo en choques de frente.
 
