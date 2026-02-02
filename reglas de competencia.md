@@ -47,7 +47,7 @@ El objetivo de cada robot Cenfobot es expulsar a su oponente fuera del dojo, ya 
 
 - Cada encuentro entre dos Cenfobots se denomina partida (encuentro entre dos equipos) y consta de 3 combates (luchas entre los Cenfobot).
 
-- Cada combate tiene una duración máxima de 1 minuto y 30 segundos.
+- Cada combate tiene una duración máxima de **1 minuto y 30 segundos.**
 
 - El ganador de un combate recibirá 3 puntos y el perdedor obtendrá 0 puntos, en caso de empate se otorgará 1 punto a cada equipo, Si ninguno de los participantes se presenta al combate, ambos recibirán 0 puntos.
 
