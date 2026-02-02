@@ -14,38 +14,27 @@
 - **GitHub:** Plataforma de desarrollo colaborativo utilizada por la organización para publicar documentación, código base y recursos oficiales de la competencia.
 
 
-## Especificaciones del Cenfobot
+## ESPECIFICACIONES DEL CENFOBOT
 
-- **Peso máximo:** El Cenfobot no deberá pesar más de **315 gramos**, incluyendo baterías y cualquier sensor o componente adicional.
-- **Fuente de energía:** El Cenfobot debe utilizar **exactamente cuatro (4) baterías AA** como fuente de energía.  
-  - Se permite el uso de baterías AA recargables; sin embargo, debe considerarse que estas pueden afectar el peso total del Cenfobot.  
-  - Adicionalmente, las baterías recargables suelen tener un voltaje nominal de **1.2 V**, lo cual puede afectar la potencia de los motores.  
-  - **No se permite el uso de baterías de 9 V**, ya que, aunque los motores pueden funcionar inicialmente con este voltaje, están diseñados para soportar únicamente hasta **6 V**, lo que podría provocar daños permanentes.
-- **Contacto con el oponente:** No se permite ninguna modificación que genere **contacto físico intencional** con el Cenfobot contrincante. Esto incluye extensiones, accesorios, armas, mecanismos de empuje artificiales o cualquier otro elemento diseñado para tocar directamente al oponente.
-- **Modificaciones para sensores:** Se permite realizar agujeros o adaptaciones en la estructura del Cenfobot **únicamente para la instalación de sensores**, siempre que dichas modificaciones:
-  - No generen contacto físico con el Cenfobot oponente.
-  - No representen un riesgo durante el combate.
-    
-  Todo orificio o adaptación visible deberá contar obligatoriamente con un **sensor funcional instalado**. En caso contrario, el Cenfobot será considerado **no apto para la competencia** y no podrá participar hasta que la situación sea corregida y validada por la mesa de arbitraje.
+- **Peso máximo:** El Cenfobot no deberá pesar más de 315 gramos, incluyendo baterías y cualquier sensor o componente adicional.
 
-- **Sensores adicionales:** Se podrán añadir sensores adicionales siempre y cuando:
-  - El peso total del Cenfobot no exceda los **315 gramos**.
-  - Las modificaciones cumplan con todas las demás especificaciones técnicas establecidas en este reglamento.
+- **Fuente de energía:** El Cenfobot debe utilizar exactamente 4 baterías AA como fuente de energía.Se pueden utilizar baterías AA recargables, pero deben tener en cuenta que estas pueden afectar el peso del Cenfobot. Adicionalmente baterías recargables tienen por lo general una carga de 1.2V lo que puede afectar la potencia de los motores. NO se pueden colocar baterías de 9V, pues además los motores aunque inicialmente funcionan con 9V, soportan solo 6V, y terminarán quemados.
 
-- **Modificaciones estéticas:** El Cenfobot podrá ser pintado, decorado o personalizado mediante calcomanías u otros elementos **exclusivamente estéticos**.
+- **Contacto con el oponente:**No se permite ninguna modificación que genere contacto físico intencional con el Cenfobot contrincante. Esto incluye extensiones, accesorios, armas, mecanismos de empuje artificiales o cualquier otro elemento diseñado para tocar directamente al oponente.
 
-- **Modificaciones físicas:**  
-  - No se permite modificar físicamente el Cenfobot agregando extensiones que hagan contacto con el oponente.  
-  - No se permite reducir la altura de los soportes ubicados en la parte inferior, a los lados de los sensores infrarrojos.  
-    - Esto se debe a que los sensores pueden fallar en su lectura al estar demasiado cerca del piso.
-    - Además, reducir esta altura otorga una ventaja indebida al Cenfobot más bajo en choques frontales.
+- **Modificaciones para sensores:** Se permite realizar agujeros o adaptaciones en la estructura del Cenfobot únicamente para la instalación de sensores, siempre que dichas modificaciones no generen contacto físico con el Cenfobot oponente ni representen un riesgo durante el combate. Todo orificio o adaptación visible deberá contar obligatoriamente con un sensor funcional instalado; en caso contrario, el Cenfobot será considerado no apto para la competencia y no podrá participar hasta que la situación sea corregida y validada por la mesa de arbitraje.
 
-- **Cenfobots oficiales:** Todos los equipos competirán utilizando **Cenfobots oficiales** suministrados por la Universidad CENFOTEC.  
-  Se aceptarán Cenfobots de versiones anteriores **únicamente si han sido actualizados** y son técnicamente equivalentes al modelo oficial **2025–2026**. Estos deberán ser validados y aprobados previamente por la organización.
+- **Sensores adicionales:** Se podrán añadir sensores adicionales, siempre y cuando el peso total del Cenfobot no exceda los 315 gramos y las modificaciones cumplan con las demás especificaciones técnicas establecidas en este reglamento.
 
-- **Cumplimiento del reglamento:** Cualquier Cenfobot que **no cumpla estrictamente** con las especificaciones del modelo **2025–2026** no será autorizado para competir.  
-  En caso de dudas, se recomienda comunicarse con los organizadores **lo antes posible**.
+- **Modificaciones estéticas:**El Cenfobot podrá ser pintado, decorado o personalizado mediante calcomanías u otros elementos estéticos.
 
+- **Modificaciones Físicas:** El Cenfobot no se puede modificar físicamente agregando extensiones, que hagan contacto con el oponente. Tampoco se puede reducir la altura de los soportes que se encuentran abajo a los lados de los sensores infrarrojos. La razón es porque los sensores pueden fallar en su lectura al estar tan cerca del piso, y porque le da ventaja al Cenfobot más bajo en choques de frente.
+
+- Todos los equipos competirán utilizando Cenfobots oficiales suministrados por la Universidad CENFOTEC. Asimismo, se aceptarán Cenfobots de versiones anteriores únicamente si han sido actualizados y son técnicamente equivalentes al modelo oficial 2025–2026, estos serán validados y previamente aprobados por la organización.
+
+- Cualquier Cenfobot que no cumpla estrictamente con las especificaciones del modelo 2025–2026 no será autorizado para competir. Si tiene dudas, comuníquese con los organizadores lo antes posible.
+
+---
 
 ## Objetivo del Juego
 El objetivo de cada robot Cenfobot es expulsar a su oponente fuera del dojo, ya sea empujándolo, arrastrándolo o inmovilizándolo. Los combates se desarrollan de forma autónoma, basados en la programación del Cenfobot.
