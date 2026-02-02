@@ -40,15 +40,11 @@
     - Esto se debe a que los sensores pueden fallar en su lectura al estar demasiado cerca del piso.
     - Además, reducir esta altura otorga una ventaja indebida al Cenfobot más bajo en choques frontales.
 
-- **Cenfobots oficiales:**  
-  Todos los equipos competirán utilizando **Cenfobots oficiales** suministrados por la Universidad CENFOTEC.  
+- **Cenfobots oficiales:** Todos los equipos competirán utilizando **Cenfobots oficiales** suministrados por la Universidad CENFOTEC.  
   Se aceptarán Cenfobots de versiones anteriores **únicamente si han sido actualizados** y son técnicamente equivalentes al modelo oficial **2025–2026**. Estos deberán ser validados y aprobados previamente por la organización.
 
-- **Cumplimiento del reglamento:**  
-  Cualquier Cenfobot que **no cumpla estrictamente** con las especificaciones del modelo **2025–2026** no será autorizado para competir.  
+- **Cumplimiento del reglamento:** Cualquier Cenfobot que **no cumpla estrictamente** con las especificaciones del modelo **2025–2026** no será autorizado para competir.  
   En caso de dudas, se recomienda comunicarse con los organizadores **lo antes posible**.
-
-
 
 
 ## Objetivo del Juego
@@ -56,13 +52,19 @@ El objetivo de cada robot Cenfobot es expulsar a su oponente fuera del dojo, ya 
 
 ---
 
-## Formato de Competencia
+## Formato del Torneo
 
-- El torneo se organiza en formato de eliminación directa.
-- Cada encuentro entre dos robots se denomina **partida** y consta de **3 combates**.
-- Cada combate tiene una duración máxima de **1 minuto y 30 segundos**.
-- La primera ronda, el ganador recibe 3 puntos por ganar y 1 punto en caso de empate. En las rondas eliminatorias, el equipo que gane **al menos 2 de los 3 combates** avanza a la siguiente ronda.
-- Entre cada combate hay **1 minuto de pausa** para ajustes técnicos o de estrategia.
+- El torneo se organiza en dos fases, fase inicial que es la fase de grupos y la segunda fase que puede ser de eliminación directa y/o triangulares.
+
+- Cada encuentro entre dos Cenfobots se denomina partida (encuentro entre dos equipos) y consta de 3 combates (luchas entre los Cenfobot).
+
+- Cada combate tiene una duración máxima de 1 minuto y 30 segundos.
+
+- El ganador de un combate recibirá 3 puntos y el perdedor obtendrá 0 puntos, en caso de empate se otorgará 1 punto a cada equipo, Si ninguno de los participantes se presenta al combate, ambos recibirán 0 puntos.
+
+- Entre cada combate hay 1 minuto de pausa para ajustes técnicos o de estrategia.
+
+- En cada partida, únicamente un (1) integrante del equipo podrá ingresar al área de competencia (Dojo); el resto de los miembros deberá permanecer fuera de dicha área durante el desarrollo de los combates.
 
 ---
 
@@ -70,14 +72,23 @@ El objetivo de cada robot Cenfobot es expulsar a su oponente fuera del dojo, ya 
 
 ![ganador](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/ganador2025.JPG)
 
-- Los robots deben iniciar su comportamiento autónomo en la posición indicada por el juez.  
-- Una vez que el juez indica que el combate inicia, ningún participante puede tocar el robot.
-- Se consideran válidas tres acciones: **atacar**, **defender** y **buscar**.
-- Cada robot gana un combate si:
-  - Expulsa a su oponente completamente fuera del área negra de juego (el robot queda fuera o encima totalmente de la linea blanca).
-  - Su oponente no ejecuta movimientos durante el tiempo límite.
-  - Su oponente queda inmovilizado por fallos mecánicos o por efecto del enfrentamiento.
-- SI ninguno de los robots se mueve, se declara un empate.
+Los Cenfobots deberán iniciar su comportamiento de forma totalmente autónoma, ubicados en la posición indicada por el juez.
+
+Una vez que el juez declare el inicio del combate, ningún participante podrá tocar, manipular o intervenir el Cenfobot bajo ninguna circunstancia. En caso de incumplimiento, el juez determinará la sanción correspondiente, la cual podrá incluir la pérdida del combate.
+
+### Condiciones de un combate
+
+Un Cenfobot será declarado ganador del combate si se cumple cualquiera de las siguientes condiciones:
+
+- Expulsa a su oponente completamente fuera del círculo negro interno del dojo.
+- El Cenfobot oponente sale por su cuenta completamente fuera del círculo negro interno del dojo.
+- El Cenfobot oponente no ejecuta ningún movimiento durante el tiempo límite del combate.
+- El Cenfobot oponente queda inmovilizado debido a fallos mecánicos o como resultado del enfrentamiento.
+
+### Condiciones de empate
+
+- Si ninguno de los Cenfobot ejecuta movimiento alguno durante el tiempo de combate.
+- Si, al finalizar el tiempo límite, ninguno de losCenfobot ha salido ni ha sido expulsado del círculo negro interno del dojo.
 
 ---
 
@@ -95,34 +106,66 @@ Cada combate inicia con una disposición distinta:
 
 ## Revisión y Arbitraje
 
-- Cada robot será inspeccionado antes del combate para asegurar que cumple con las **especificaciones técnicas**.
-- La **mesa de arbitraje** será la autoridad principal y podrá tomar decisiones sobre disputas o situaciones no previstas.
-- Un equipo puede ser descalificado si:
-  - Realiza cambios estructurales no autorizados al robot.
-  - No se presenta a su partida asignada.
-  - Excede el peso permitido (260 g – 295 g incluyendo baterías).
-  - Utiliza baterías, motores o neumáticos distintos a los del kit oficial.
+Previo a cada partida, todos los Cenfobots deberán someterse a una inspección técnica, con el fin de verificar el cumplimiento de las especificaciones establecidas en este reglamento. La organización se reserva el derecho de repetir la inspección en cualquier momento de la partida y cuando el equipo realice cambio de Cenfobot.
+
+La mesa de arbitraje constituye la autoridad máxima durante la competencia y tendrá la potestad de:
+
+- Interpretar y hacer cumplir el presente reglamento.
+- Resolver disputas, incidencias técnicas o situaciones no previstas.
+- Tomar decisiones inmediatas durante los combates.
+
+Las decisiones de la mesa de arbitraje serán definitivas e inapelables.
+
+## Causales de Penalización
+
+Un equipo podrá ser penalizado en la competencia si incurre en cualquiera de las siguientes faltas:
+
+- Realizar modificaciones estructurales no autorizadas al Cenfobot.
+- No presentarse a una partida en el horario asignado.
+- Exceder el peso máximo permitido del Cenfobot (315 gramos, incluyendo baterías).
+- Utilizar baterías, motores, neumáticos u otros componentes distintos a los incluidos en el kit oficial autorizado.
+- Incumplir de forma reiterada las instrucciones de la mesa de arbitraje o las normas de conducta establecidas.
+
+La penalización será impuesta por el juez de partida y, en caso de una descalificación, deberá ser ratificada por el juez de mesa.
 
 ---
 
 ## Progreso del Torneo
 
-- El torneo comienza con una **fase de grupos**.
-- A partir de la segunda ronda, la competición es de eliminación directa.
-- En caso de empate total en una partida, el ganador será decidido por **lanzamiento de moneda**.
-- Se podrá seleccionar un número determinado de **"mejores segundos lugares"** para avanzar en el torneo, si así lo definen los organizadores.
+El torneo se desarrollará en las siguientes etapas:
+
+- La competencia iniciará con una **fase de grupos**, en la cual los equipos serán distribuidos mediante un **sorteo público**, realizado en una reunión virtual en vivo, organizada por la Universidad CENFOTEC.
+
+- El procedimiento del sorteo será comunicado previamente a los equipos inscritos. La conformación final de los grupos será anunciada y validada oficialmente por la organización una vez realizado el sorteo.
+
+- Una vez concluida la fase de grupos, los equipos clasificados avanzarán a una **segunda fase**, cuyo formato podrá ser de **eliminación directa, triangular u otro sistema competitivo**, según la cantidad de equipos clasificados y criterios definidos por la organización.
+
+- En caso de empate en una partida que impida definir un ganador, este será determinado mediante **lanzamiento de moneda**, realizado por la mesa de arbitraje u otra forma que se defina entre los equipos y el juez de mesa.
+
+- La organización podrá habilitar la clasificación de un número determinado de **“mejores segundos lugares”** para avanzar a la siguiente fase, de acuerdo con la cantidad de equipos inscritos y la estructura del torneo.
+
+- Las decisiones relacionadas con la conformación de grupos, criterios de clasificación y ajustes al formato serán responsabilidad exclusiva de la organización.
+
 
 ---
 
-##  Sanciones y Ausencias
+## Sanciones y Ausencias
 
-- Si un equipo no se presenta a un combate, el equipo contrario gana automáticamente.
-- Si ningún equipo se presenta, se escogerán equipos sustitutos de entre los mejores perdedores.
-- Un equipo que llegue tarde pierde automáticamente su primer combate, pero puede competir en los siguientes.
+- Si un equipo no se presenta a un combate en el horario establecido, el equipo contrario será declarado ganador automático de dicho combate.
+
+- Durante la segunda fase, si ningún equipo se presenta a la partida en el horario establecido, la organización podrá designar equipos sustitutos, seleccionados entre los mejores segundos lugares, de acuerdo con los criterios definidos por el comité organizador.
+
+- Un equipo que llegue tarde a la partida perderá automáticamente su primer combate de la partida; sin embargo, podrá participar en los combates restantes, siempre que se presente antes de la hora estipulada para el combate respectivo.
+
+- La mesa de arbitraje y el comité organizador tendrán la potestad de evaluar situaciones excepcionales y aplicar sanciones adicionales si lo consideran necesario.
+
 
 ---
 
-##  Espíritu del Torneo
+## Espíritu del Torneo
 
-Este torneo busca fomentar el aprendizaje, la creatividad y el trabajo en equipo. Se permite el apoyo entre equipos y la colaboración con docentes, siempre motivando a que sean los estudiantes quienes lideren el diseño, armado y programación del robot.
+La Competencia Sumobot tiene como objetivo principal fomentar el aprendizaje, la creatividad, la innovación y el trabajo en equipo.
+
+Se promueve un ambiente de respeto, colaboración y sana competencia, permitiendo el apoyo entre equipos y la orientación por parte de docentes o tutores. No obstante, se enfatiza que el liderazgo en el diseño, armado y programación del Cenfobot debe recaer en los estudiantes, como parte fundamental del proceso formativo.
+
 
