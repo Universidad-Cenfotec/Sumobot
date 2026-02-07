@@ -1,8 +1,8 @@
 ![componentes](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/componentes_2025.JPG)
 
-# Componentes del Sumobot 2025
+# Componentes del Sumobot 
 
-¡Descubrí el nuevo SumoBot 2025!
+¡Descubrí el nuevo SumoBot !
 
 El SumoBot de 2025 trae muchas mejoras respecto al modelo del 2024. Ahora tiene una nueva placa base especialmente diseñada para su chasis, lo que le da más fuerza y estabilidad. Además, el robot cuenta con cuatro sensores infrarrojos que le permiten detectar la línea blanca del dojo en diferentes posiciones, un acelerómetro y un giroscopio que mejoran su navegación y precisión.
 
@@ -33,7 +33,7 @@ El kit incluye:
 ![Chasis](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/chasis2025.png)
 
 
-## Chasis del Sumobot 2025
+## Chasis del Sumobot 
 
 ¿Cómo es el chasis del SumoBot?
 

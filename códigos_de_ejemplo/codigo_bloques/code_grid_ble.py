@@ -171,7 +171,7 @@ def calibrar_drift(sensor, segundos=2):
     print(f"Drift promedio: {drift:.4f} rad/s")
     return drift
 
-def girar_grados(sensor, grados, drift, velocidad=0.25):
+def girar_grados(sensor, grados, drift, velocidad=0.3):
     """
     Gira `grados` usando el giroscopio para medir la rotación acumulada.
     """
@@ -194,19 +194,82 @@ def girar_grados(sensor, grados, drift, velocidad=0.25):
         acumulado += abs(delta)
 
         if grados - acumulado <= grados / 2:
-            ib.motor_1.throttle = 0.15 * sentido
-            ib.motor_2.throttle = -0.15 * sentido
+            ib.motor_1.throttle = 0.2 * sentido
+            ib.motor_2.throttle = -0.2 * sentido
 
         time.sleep(0.005)
 
     stop()
 
 
+def straight_move(velocidad, duracion, drift, Kp=0.15, Ki=0.8, Kd=0.05):
+    """
+    Mueve el robot en línea recta durante `duracion` segundos con control PDI discreto.
+    Corrige desviaciones usando el giroscopio (eje Z) ajustando ambos motores.
+    
+    Kp: Ganancia proporcional
+    Ki: Ganancia integral
+    Kd: Ganancia derivativa
+    """
+    t0 = time.monotonic()
+    velocidad_base = abs(velocidad)
+    direccion = 1 if velocidad > 0 else -1
+
+    error_anterior = 0
+    error_integral = 0
+    max_correccion = 0.2  # Límite para evitar sobrecorrección
+
+    t_anterior = time.monotonic()
+
+    while time.monotonic() - t0 < duracion:
+        t_actual = time.monotonic()
+        dt = 1 #t_actual - t_anterior
+        t_anterior = t_actual
+
+        if dt == 0:
+            continue  # Evita división por cero
+
+        # Error actual: velocidad angular corregida
+        error = sensor.gyro[2] - drift
+
+        # Término integral acumulado
+        error_integral += error * dt
+
+        # Término derivativo
+        error_derivativo = (error - error_anterior) / dt
+
+        # Control PDI discreto
+        correccion = Kp * error + Ki * error_integral + Kd * error_derivativo
+
+        # Límite de corrección
+        correccion = max(-max_correccion, min(max_correccion, correccion))
+
+        # Ajuste de velocidades
+        v1 = velocidad_base * direccion + correccion
+        v2 = velocidad_base * direccion - correccion
+
+        # Saturación entre -1 y 1
+        v1 = max(-1, min(1, v1))
+        v2 = max(-1, min(1, v2))
+
+        ib.motor_1.throttle = v1
+        ib.motor_2.throttle = v2
+
+        error_anterior = error
+        time.sleep(0.01)
+        #ib.motor_1.throttle = 0
+        #ib.motor_2.throttle = 0
+        #time.sleep(0.01)
+
+    # Detener motores al final
+    ib.motor_1.throttle = 0
+    ib.motor_2.throttle = 0
+
 # -------------------------------
 # SEGUIDOR DE LÍNEA CON DETENCIÓN
 # -------------------------------
 
-def forward_line_stop(th=2950, speed=0.5, corr=0.1):
+def forward_line_stop(th=2950, speed=0.5, corr=0.1,drift=0):
     """
     Sigue una línea con sensores delanteros. Se detiene si sensores traseros detectan fondo blanco.
     """
@@ -220,14 +283,14 @@ def forward_line_stop(th=2950, speed=0.5, corr=0.1):
         print(f"Front: {izq, der} | Back: {tras_izq, tras_der}")
 
         if tras_izq == 0 and tras_der == 0:
-            forward(0.15, speed)
+            straight_move(speed,0.1, drift)
             stop()
             ib.pixel = (255, 0, 0)  # LED rojo: detenido
             print("¡Intersección detectada! Salida de función.")
             return
 
         if izq == 1 and der == 1:
-            forward(0.05, speed)
+            straight_move( speed, 0.05, drift)
         elif izq == 1 and der == 0:
             ib.motor_1.throttle = speed + corr
             ib.motor_2.throttle = speed - corr
@@ -239,7 +302,7 @@ def forward_line_stop(th=2950, speed=0.5, corr=0.1):
             time.sleep(0.05)
             stop()
         else:
-            forward(0.05, speed)
+            straight_move(speed,0.05, drift)
             stop()
 
 #------------------------------------------
@@ -247,7 +310,7 @@ def forward_line_stop(th=2950, speed=0.5, corr=0.1):
 
 def f():
     #forward
-    forward_line_stop(th, speed, corr)
+    forward_line_stop(th, speed, corr,drift)
     ib.pixel = (0, 200, 200)
 
 def l():
@@ -271,8 +334,8 @@ ib.pixel = (255, 0, 0)  # LED rojo durante calibración
 drift = calibrar_drift(sensor, 5)
 ib.pixel = (0, 0, 0)    # Apaga LED
 
-th = 2950       # Umbral para sensores IR
-speed = 0.3     # Velocidad base
+th = 3500       # Umbral para sensores IR
+speed = 0.25     # Velocidad base
 corr = 0.1      # Corrección de dirección
 
 #Asocia comandos con funciones
@@ -309,3 +372,5 @@ while True:
 
     # we no longer have a connection, so we'll go back to the top of the loop
     print("BLE disconnected")
+
+
