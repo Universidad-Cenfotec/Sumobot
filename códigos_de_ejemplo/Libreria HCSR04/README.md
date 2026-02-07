@@ -11,10 +11,15 @@ Sin embargo, debido a su naturaleza, presentan ciertas **limitaciones e incompat
 
 ### **CircuitPython**
 
-En CircuitPython existen dos versiones mayores al momento de escribir esto: **8.x y 9.x**.  
-Un archivo `.mpy` compilado para una versión **no** funcionará en la otra.  
-Si intentas ejecutar un código que importa un archivo `.mpy` incompatible, aparecerá el siguiente error:
+En CircuitPython existen dos versiones mayores al momento de escribir esto: **9.x y 10.x**.
+El bytecode entre estas dos versiones es igual, por lo que una libreria `.mpy` para **Circuitpython 9.x** funcionará de la misma forma y sin problemas en una instalación de **Circuitpython 10.x**.
 
+##### Versiones de Legado, Circuitpython
+Algunas placas pueden estar usando una versión de legado de Circuitpython, como las versiones **8.x**
+Un archivo `.mpy` compilado para una versión **8.x**, **no** funcionará en una instalación de **9.x** o superior. 
+Recomendamos actualizar el firmware de la placa a una versión mas reciente.
+
+Si intentas ejecutar un código que importa un archivo `.mpy` incompatible, aparecerá el siguiente error:
 
 ```
 incompatible .mpy file
@@ -54,7 +59,7 @@ Adafruit CircuitPython 8.2.0 on 2023-07-05; CRCibernetica IdeaBoard with ESP32
 ```
 
 En este caso, la versión es **8.2.0**, por lo que se debe usar un archivo `.mpy` compatible con **8.x**.  
-Lo importante es el primer número: por ejemplo, si la versión fuera **9.1.1**, se necesitaría un archivo `.mpy` de **9.x**.
+Lo importante es el primer número: por ejemplo, si la versión fuera **10.0.3**, se necesitaría un archivo `.mpy` de **9.x** o **10.x**.
 
 ## **MicroPython**
 Cuando accedas al REPL de micropython escribe el siguiente código y presiona *Enter*.
@@ -64,7 +69,7 @@ import os
 print(os.uname())
 ```
 
-una vez hecho hecho esto un mensaje como este deberá aparecer:
+Una vez hecho esto un mensaje como este deberá aparecer:
 
 ```python
 (sysname='esp32', nodename='esp32', release='1.25.0-preview', version='8987b39e0 on 2025-02-18', machine="CRCibernetica's IdeaBoard with ESP32-WROOM-32E")

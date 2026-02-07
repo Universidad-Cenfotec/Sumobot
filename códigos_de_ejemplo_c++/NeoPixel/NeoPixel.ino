@@ -11,7 +11,7 @@ Adafruit_NeoPixel strip(NUM_LEDS, LED_PIN, NEO_GRB + NEO_KHZ800);
 String comando = "";          // Variable para guardar lo que escribe el usuario
 
 void setup() {
-  Serial.begin(9600);         // Inicia la comunicación serial
+  Serial.begin(115200);         // Inicia la comunicación serial
   strip.begin();              // Inicializa la tira de LEDs
   strip.show();               // Apaga todos los LEDs al inicio
 
