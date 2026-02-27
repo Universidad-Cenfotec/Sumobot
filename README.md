@@ -11,7 +11,9 @@ El Sumobot utiliza la placa [IdeaBoard](https://github.com/CRCibernetica/circuit
 Para el montaje del robot, se emplea un *shield* de robótica especialmente diseñado por la Universidad CENFOTEC (por el profesor Tomás de Camino Beck) en colaboración con CrCibernética. Este componente puede [adquirirse en este enlace](https://www.crcibernetica.com/sumobot-shield/).
 
 
-Puede ver este [video resumen](https://youtu.be/L98O-mApjXQ) de la primera competencia de Sumobot de Costa Rica, celebrada en el Maker Faire San José 2023. Y acá pueden ver un [video resumen](https://youtu.be/9zarR0cKY90?si=D4UTzPx91h4megWT) de la segunda edición en el 2024
+Puede ver este [video resumen](https://youtu.be/L98O-mApjXQ) de la primera competencia de Sumobot de Costa Rica, celebrada en el Maker Faire San José 2023. Y acá pueden ver un [video resumen](https://youtu.be/9zarR0cKY90?si=D4UTzPx91h4megWT) de la segunda edición en el 2024, y de la [tercera edición 2025](https://youtu.be/qRWDWPndxq8?si=iimM-hLvY60RDaJC)
+
+[Documento técnico explicando los elementos pedagógicos del Sumobot](https://www.researchgate.net/publication/400625563_El_Sumobot_como_herramienta_de_aprendizaje_tecnologico_diseno_implementacion_y_evaluacion_en_torneos_colegiales)
 
 ---
 
