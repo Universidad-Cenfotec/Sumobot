@@ -57,3 +57,94 @@ Patrón detectado:
 ⬜ ⬜ ⬛ ⬛
 
 Código generado:
+  **1100**
+
+# Interpretación de códigos binarios
+
+Cada combinación de bits corresponde a una **acción del robot**.
+
+Los sensores infrarrojos detectan blanco o negro y generan un código de **4 bits**, el cual se interpreta como una instrucción.
+
+## Códigos utilizados en este ejemplo
+
+| Código | Acción |
+|------|------|
+| 1100 | Avanzar |
+| 0011 | Retroceder |
+| 1001 | Girar derecha |
+| 0110 | Girar izquierda |
+| 1110 | Giro 180° |
+| 0101 | LED verde |
+| 0010 | LED rojo |
+| 0001 | LED azul |
+| 0111 | Celebración |
+| 0000 | Detener |
+| 1111 | Iniciar programación |
+
+---
+
+# Posibles combinaciones no utilizadas
+
+Un sistema de **4 bits permite 16 combinaciones posibles**.
+
+En este ejemplo no todas las combinaciones se utilizan, lo que permite **extender el sistema con nuevas funciones**.
+
+| Código | Posible uso futuro |
+|------|------|
+| 1010 | Cambiar velocidad |
+| 1011 | Repetir instrucción |
+| 0100 | Pausa programada |
+| 1101 | Ejecutar bucle |
+
+Estas combinaciones podrían utilizarse para **agregar nuevas capacidades al robot en futuras versiones del proyecto**.
+
+---
+
+# Archivos principales del proyecto
+
+El sistema se compone de tres archivos principales.
+
+| Archivo | Descripción |
+|------|------|
+| `README.md` | Documentación del proyecto y explicación del sistema |
+| `robot_programable.py` | Código principal del robot con programación física |
+| `prueba_sensores_ir.py` | Programa de prueba para calibrar sensores infrarrojos |
+
+El archivo de prueba de sensores genera automáticamente un archivo llamado:
+  **datos_bits.txt**
+Este archivo guarda registros de lectura de sensores para **ajustar correctamente los umbrales de detección de blanco y negro**.
+
+### Ejemplo de contenido generado en `datos_bits.txt`
+
+```txt
+------ Lectura de sensores ------
+Sensor 1 (Delantero izquierdo) : valor=2581 -> bit=1
+Sensor 2 (Delantero derecho)   : valor=62655 -> bit=0
+Sensor 3 (Trasero izquierdo)   : valor=31357 -> bit=0
+Sensor 4 (Trasero derecho)     : valor=2819 -> bit=1
+Combinación binaria detectada: 1001
+---------------------------------
+
+------ Lectura de sensores ------
+Sensor 1 (Delantero izquierdo) : valor=2561 -> bit=1
+Sensor 2 (Delantero derecho)   : valor=62655 -> bit=0
+Sensor 3 (Trasero izquierdo)   : valor=31218 -> bit=0
+Sensor 4 (Trasero derecho)     : valor=2819 -> bit=1
+Combinación binaria detectada: 1001
+---------------------------------
+
+------ Lectura de sensores ------
+Sensor 1 (Delantero izquierdo) : valor=2541 -> bit=1
+Sensor 2 (Delantero derecho)   : valor=62377 -> bit=0
+Sensor 3 (Trasero izquierdo)   : valor=2819 -> bit=1
+Sensor 4 (Trasero derecho)     : valor=2819 -> bit=1
+Combinación binaria detectada: 1011
+---------------------------------
+
+------ Lectura de sensores ------
+Sensor 1 (Delantero izquierdo) : valor=2541 -> bit=1
+Sensor 2 (Delantero derecho)   : valor=62417 -> bit=0
+Sensor 3 (Trasero izquierdo)   : valor=2819 -> bit=1
+Sensor 4 (Trasero derecho)     : valor=2819 -> bit=1
+Combinación binaria detectada: 1011
+---------------------------------
