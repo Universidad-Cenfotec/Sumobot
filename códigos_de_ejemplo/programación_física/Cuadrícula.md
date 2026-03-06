@@ -35,8 +35,3 @@ El código binario generado es:
 ```
 
 Ese código es interpretado por el programa del robot como una **instrucción específica**, por ejemplo avanzar.
-
-## Imagen de la cuadrícula utilizada
-
-![Cuadrícula de programación](img/Cuadricula.jpeg)
-
