@@ -79,8 +79,6 @@ En robótica educativa es fundamental que los estudiantes no solo usen la tecnol
 
 Además, un diseño abierto reduce las barreras de acceso. Las instituciones educativas pueden reproducir el robot localmente utilizando componentes accesibles, lo que facilita su adopción en escuelas y colegios.
 
----
-
 ## ¿Por qué el diseño open source?
 
 El diseño mecánico del robot también es abierto para que pueda ser reproducido mediante fabricación digital. Esto incluye archivos de diseño que permiten imprimir o fabricar las piezas del robot en impresoras 3D, cortadoras láser u otros métodos de fabricación.
@@ -94,8 +92,6 @@ Esto tiene varias ventajas educativas y técnicas:
 
 Un robot de competencia no es solo software; el diseño físico influye directamente en su desempeño en el dojo. Tener el diseño abierto permite explorar estas decisiones de ingeniería.
 
----
-
 ## ¿Por qué el código open source?
 
 El comportamiento del robot es controlado por software. Hacer el código open source permite que los estudiantes y participantes del torneo puedan estudiar cómo se toman las decisiones dentro del robot.
@@ -108,8 +104,6 @@ Esto permite:
 * Desarrollar nuevas versiones del comportamiento del robot.
 
 El objetivo no es que todos los robots ejecuten exactamente el mismo programa, sino que cada equipo pueda desarrollar su propia estrategia a partir de una base común.
-
----
 
 ## ¿Por qué un torneo open source?
 
@@ -125,7 +119,6 @@ Esto genera varios beneficios:
 El objetivo del torneo no es solo competir, sino aprender robótica de forma práctica. Cada edición del torneo genera nuevas mejoras en el robot, en el código y en las estrategias de control.
 
 De esta manera, el Sumobot no es solo un robot ni solo una competencia. Es una plataforma abierta de aprendizaje en robótica.
-
 
 
 ---
