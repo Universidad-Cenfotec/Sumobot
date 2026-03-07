@@ -67,6 +67,66 @@ Puede ver este [video resumen](https://youtu.be/L98O-mApjXQ) de la primera compe
 | **5. Ingeniería de Sistemas**            | - Diseño e integración de componentes<br>- Diagnóstico y prueba de sistemas <br>- Verificación de errores <br>- Interacción humano máquina <br>- Sistemas complejos  <br>- Programación Asistida IA <br>- Inteligencia Artificial         | `code_diagnostic.py`, `SumoBot_Device_Files.zip`, `movimiento_base.md`, `libreria IdeaBoard.md`            |
 | **6. Habilidades Transversales (STEAM)** | - Resolución de problemas<br>- Trabajo en equipo<br>- Comunicación técnica <br>- Autodeterminación            | Uso de Markdown (`*.md`), documentación clara, posibilidad de trabajo colaborativo y creativo con el robot |
 
+---
+
+# Una plataforma Open Source
+
+## ¿Por qué un robot open source?
+
+El Sumobot fue diseñado como una plataforma educativa abierta para el aprendizaje de robótica, programación y sistemas autónomos. Un robot open source permite que cualquier persona —estudiantes, docentes, clubes de robótica o investigadores— pueda construirlo, modificarlo y adaptarlo a sus propias necesidades.
+
+En robótica educativa es fundamental que los estudiantes no solo usen la tecnología, sino que puedan comprender cómo funciona. Un robot abierto permite estudiar todos sus componentes: electrónica, sensores, control de motores, algoritmos de comportamiento y diseño mecánico. Esto convierte al robot en un laboratorio completo de aprendizaje.
+
+Además, un diseño abierto reduce las barreras de acceso. Las instituciones educativas pueden reproducir el robot localmente utilizando componentes accesibles, lo que facilita su adopción en escuelas y colegios.
+
+---
+
+## ¿Por qué el diseño open source?
+
+El diseño mecánico del robot también es abierto para que pueda ser reproducido mediante fabricación digital. Esto incluye archivos de diseño que permiten imprimir o fabricar las piezas del robot en impresoras 3D, cortadoras láser u otros métodos de fabricación.
+
+Esto tiene varias ventajas educativas y técnicas:
+
+* Permite que los estudiantes comprendan cómo el diseño físico afecta el comportamiento del robot.
+* Facilita modificaciones y mejoras en la estructura del robot.
+* Permite adaptar el robot a diferentes materiales o tecnologías de fabricación.
+* Promueve la cultura *maker* y la experimentación.
+
+Un robot de competencia no es solo software; el diseño físico influye directamente en su desempeño en el dojo. Tener el diseño abierto permite explorar estas decisiones de ingeniería.
+
+---
+
+## ¿Por qué el código open source?
+
+El comportamiento del robot es controlado por software. Hacer el código open source permite que los estudiantes y participantes del torneo puedan estudiar cómo se toman las decisiones dentro del robot.
+
+Esto permite:
+
+* Aprender algoritmos de control para robots autónomos.
+* Experimentar con diferentes estrategias de combate.
+* Comprender cómo se integran sensores, actuadores y lógica de decisión.
+* Desarrollar nuevas versiones del comportamiento del robot.
+
+El objetivo no es que todos los robots ejecuten exactamente el mismo programa, sino que cada equipo pueda desarrollar su propia estrategia a partir de una base común.
+
+---
+
+## ¿Por qué un torneo open source?
+
+El torneo también se basa en una filosofía abierta. En lugar de esconder las tecnologías o estrategias, se promueve compartir conocimiento entre equipos, docentes y estudiantes.
+
+Esto genera varios beneficios:
+
+* acelera el aprendizaje colectivo
+* permite mejorar el robot y el torneo con el tiempo
+* fomenta la colaboración entre instituciones
+* convierte el torneo en una comunidad de aprendizaje
+
+El objetivo del torneo no es solo competir, sino aprender robótica de forma práctica. Cada edición del torneo genera nuevas mejoras en el robot, en el código y en las estrategias de control.
+
+De esta manera, el Sumobot no es solo un robot ni solo una competencia. Es una plataforma abierta de aprendizaje en robótica.
+
+
 
 ---
 
