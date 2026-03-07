@@ -967,8 +967,3 @@ Eso simplifica el código, pero hace que el robot sea menos reactivo.
 En una frase:
 
 **Este código implementa un Sumobot que espera una señal de inicio con el botón BOOT, busca oponentes con ultrasonido y evita salir del dojo usando 4 sensores infrarrojos.**
-
----
-
-Si quieres, en el siguiente mensaje te hago una **explicación aún más detallada línea por línea**, como si fuera una clase de laboratorio.
-
