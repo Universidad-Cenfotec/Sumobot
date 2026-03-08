@@ -1,6 +1,6 @@
 # Código de Combate
 
-Este código es un buen punto de partida para el Sumobot. Permite entender la maoría de funcionalidades, y cambiando parámetros o combinaciones de funciones, permite tener diferentes estrategias de comabte.
+Este código (`code.py`) es un buen punto de partida para el Sumobot. Permite entender la mayoría de funcionalidades, y cambiando parámetros o combinaciones de funciones, permite tener diferentes estrategias de combate.
 
 
 # 1. Encabezado e importaciones
