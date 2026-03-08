@@ -24,7 +24,6 @@ Puede ver este [video resumen](https://youtu.be/L98O-mApjXQ) de la primera compe
 - [Conexiones del Sumobot](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/conecciones.md)
 - [Programación del Sumobot](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/programacion.md)
 - [Un buen código de inicio con explicaciones](https://github.com/Universidad-Cenfotec/Sumobot/tree/main/c%C3%B3digos_de_ejemplo/codigo%20inicio)
-- [Programación en C/C++ (Avanzado)](https://github.com/Universidad-Cenfotec/Sumobot/tree/main/c%C3%B3digos_de_ejemplo_c%2B%2B/sumobot)
 - [Códigos de ejemplo y códigos IdeaBoard](https://github.com/Universidad-Cenfotec/Sumobot/tree/main/c%C3%B3digos_de_ejemplo)
 - [Sobre los 4 sensores infrarrojos](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/sensores_infrarrojos.md)
 - [Explicación de un código base del Sumobot (buen inicio para programar)](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/movimiento_base.md)
@@ -35,6 +34,7 @@ Puede ver este [video resumen](https://youtu.be/L98O-mApjXQ) de la primera compe
 - [Playlist de Videos de Sumobot](https://www.youtube.com/watch?v=Cxlyzh-E9kE&list=PLySA0noR1JGVZg5L3hGVwRD3PP2ibNYMT)
 
 ## Contenidos Avanzados
+- [Programación en C/C++ (Avanzado)](https://github.com/Universidad-Cenfotec/Sumobot/tree/main/c%C3%B3digos_de_ejemplo_c%2B%2B/sumobot)
 - [Control PDI de motores y navegación](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/Control_Movimientos.md)
 - [Almacenamiento de datos en el robot para análisis posterior](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/c%C3%B3digos_de_ejemplo/almacenando_datos.md)
 - [Ejemplo de automatización de vehiculos asistidos](https://github.com/Universidad-Cenfotec/Sumobot/tree/main/c%C3%B3digos_de_ejemplo/AGVs)
