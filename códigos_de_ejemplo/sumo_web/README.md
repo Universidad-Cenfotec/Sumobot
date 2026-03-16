@@ -52,6 +52,12 @@ La página se encuentra publicada mediante **GitHub Pages**, lo que permite acce
 
 https://aggy2025.github.io/cenfobot-control/
 
+## 📱 Controla el robot desde tu celular
+
+Escanea este código QR para abrir la interfaz web del Sumobot.
+
+![QR Control Sumobot](qr_sumobot_control.png)
+
 No es necesario instalar ninguna aplicación.  
 El control se realiza directamente desde el navegador.
 
