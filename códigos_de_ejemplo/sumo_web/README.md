@@ -118,3 +118,101 @@ El sistema se compone de tres componentes principales.
 - conecta la interfaz web con el robot
 - transmite instrucciones de movimiento en tiempo real
 - utiliza el servicio **BLE UART**
+
+
+# Comandos enviados al robot
+
+Los comandos enviados desde la interfaz siguen el formato:
+
+COMANDO,VELOCIDAD
+
+Ejemplo:
+F,0.5
+
+Esto indica que el robot debe **avanzar con una velocidad del 50%**.
+
+---
+
+# Instrucciones disponibles
+
+| Comando | Acción |
+|--------|------|
+| F | Avanzar |
+| B | Retroceder |
+| L | Girar izquierda |
+| R | Girar derecha |
+| S | Detener |
+
+Ejemplo enviado al robot:
+
+Ejemplo enviado al robot:
+
+
+Esto indica que el robot debe **retroceder al 70% de velocidad**.
+
+---
+
+# Control de movimiento con giroscopio
+
+El robot utiliza un **sensor IMU con giroscopio**, el cual permite detectar la rotación del robot mientras se mueve.
+
+Para mantener una trayectoria recta se utiliza un **controlador PDI (Proporcional-Derivativo-Integral)**.
+
+Este controlador ajusta dinámicamente la velocidad de los motores utilizando una corrección basada en el error de orientación.
+
+
+Esto indica que el robot debe **retroceder al 70% de velocidad**.
+
+---
+
+# Control de movimiento con giroscopio
+
+El robot utiliza un **sensor IMU con giroscopio**, el cual permite detectar la rotación del robot mientras se mueve.
+
+Para mantener una trayectoria recta se utiliza un **controlador PDI (Proporcional-Derivativo-Integral)**.
+
+Este controlador ajusta dinámicamente la velocidad de los motores utilizando una corrección basada en el error de orientación.
+
+Si el robot comienza a desviarse hacia un lado, el sistema compensa automáticamente ajustando la velocidad de cada motor.
+
+Esto permite:
+
+- avanzar en línea recta  
+- retroceder con estabilidad  
+- reducir errores de trayectoria  
+
+---
+
+# Indicadores visuales
+
+El robot utiliza un **LED NeoPixel** para indicar su estado.
+
+| Color | Estado |
+|------|------|
+| Verde | Avanzando |
+| Rojo | Retrocediendo |
+| Cian | Girando |
+| Amarillo | Detenido |
+| Naranja | Calibración inicial |
+
+La interfaz web incluye un **LED virtual sincronizado** que representa visualmente el estado del robot.
+
+# Archivos principales del proyecto
+
+El proyecto utiliza los siguientes archivos.
+
+| Archivo | Descripción |
+|------|------|
+| index.html | Interfaz web de control publicada en GitHub Pages |
+| sumobot_ble.py | Código principal del robot con comunicación BLE |
+| README.md | Documentación del proyecto |
+
+# Conclusión
+
+Este proyecto demuestra cómo es posible integrar **robótica, comunicación inalámbrica y desarrollo web** para crear un sistema de control remoto accesible desde cualquier navegador compatible.
+
+El uso de **BLE y Web Bluetooth** permite eliminar la necesidad de aplicaciones adicionales, facilitando la interacción entre el usuario y el robot.
+
+Además, el uso de **control PDI con giroscopio** mejora la estabilidad del movimiento del robot, permitiendo trayectorias más precisas durante su operación.
+
+Este tipo de sistemas representa una forma moderna de conectar **hardware físico con interfaces web interactivas**, abriendo nuevas posibilidades para proyectos educativos y de investigación en robótica.
