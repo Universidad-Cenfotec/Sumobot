@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Sumobot BLE Control</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+
+button{
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+button:active{
+transform:scale(0.95);
+transition:0.1s;
+}
+
+#led-virtual{
+width:70px;
+height:70px;
+border-radius:50%;
+border:3px solid #444;
+margin-bottom:10px;
+transition:background-color 0.2s, box-shadow 0.2s;
+box-shadow:0 0 10px rgba(0,0,0,0.4);
+}
+
+#emoji-container{
+pointer-events:none;
+position:absolute;
+inset:0;
+z-index:50;
+}
+
+.emoji{
+position:absolute;
+font-size:2.2rem;
+opacity:1;
+transform-origin:center;
+pointer-events:none;
+filter: drop-shadow(0px 2px 3px rgba(0,0,0,0.3));
+}
+
+#log{
+font-family:monospace;
+}
+
+</style>
+</head>
+
+<body class="bg-gradient-to-br from-green-200 via-blue-300 to-purple-400 min-h-screen flex justify-center items-center p-4">
+
+<div class="bg-white shadow-2xl p-6 rounded-3xl flex flex-col items-center gap-4 w-full max-w-md relative">
+
+<h1 class="text-3xl font-extrabold text-gray-900 text-center">
+🤖 Control del Sumobot por BLE
+</h1>
+
+<div id="led-virtual" style="background-color:black;"></div>
+
+<p id="ble-status" class="text-red-600 font-bold text-center">
+BLE Desconectado
+</p>
+
+
+<div class="flex flex-col items-center gap-3 w-full">
+
+<button onclick="send('F', this)"
+class="bg-green-500 hover:bg-green-600 text-white p-4 rounded-xl w-full md:w-32 text-xl font-bold">
+↑
+</button>
+
+<div class="flex gap-3 w-full">
+
+<button onclick="send('L', this)"
+class="bg-blue-500 hover:bg-blue-600 text-white p-4 rounded-xl flex-1 text-xl font-bold">
+←
+</button>
+
+<button onclick="send('S', this)"
+class="bg-yellow-500 hover:bg-yellow-600 text-white p-4 rounded-xl flex-1 text-xl font-bold">
+STOP
+</button>
+
+<button onclick="send('R', this)"
+class="bg-blue-500 hover:bg-blue-600 text-white p-4 rounded-xl flex-1 text-xl font-bold">
+→
+</button>
+
+</div>
+
+<button onclick="send('B', this)"
+class="bg-red-500 hover:bg-red-600 text-white p-4 rounded-xl w-full md:w-32 text-xl font-bold">
+↓
+</button>
+
+</div>
+
+
+<div class="w-full flex flex-col items-center">
+
+<label class="text-gray-800 font-semibold">
+Velocidad: <span id="vel-label">50%</span>
+</label>
+
+<input
+id="speed"
+type="range"
+min="0.1"
+max="1"
+step="0.1"
+value="0.5"
+class="w-full">
+
+</div>
+
+
+<div class="flex gap-2 w-full">
+
+<button onclick="clearLog()"
+class="bg-yellow-400 hover:bg-yellow-500 text-white p-2 rounded-lg flex-1 font-semibold">
+Limpiar log
+</button>
+
+<button id="ble-btn"
+class="bg-indigo-600 hover:bg-indigo-700 text-white p-2 rounded-lg flex-1 font-semibold">
+Conectar BLE
+</button>
+
+</div>
+
+
+<div id="log"
+class="bg-gray-900 text-white p-3 w-full h-40 overflow-y-auto text-sm mt-2 rounded-xl">
+</div>
+
+<div id="emoji-container"></div>
+
+</div>
+
+<script>
+
+const UART_SERVICE='6e400001-b5a3-f393-e0a9-e50e24dcca9e'
+const UART_TX='6e400002-b5a3-f393-e0a9-e50e24dcca9e'
+
+let bleDevice=null
+let bleTx=null
+
+const bleStatus=document.getElementById("ble-status")
+const logDiv=document.getElementById("log")
+const speedSlider=document.getElementById("speed")
+const velLabel=document.getElementById("vel-label")
+const ledVirtual=document.getElementById("led-virtual")
+const emojiContainer=document.getElementById("emoji-container")
+
+speedSlider.oninput=()=>{
+velLabel.textContent=`${Math.round(speedSlider.value*100)}%`
+}
+
+function logMsg(msg,color='white'){
+
+const p=document.createElement('p')
+p.textContent=`> ${msg}`
+p.style.color=color
+
+logDiv.appendChild(p)
+
+if(logDiv.children.length>60)
+logDiv.removeChild(logDiv.firstChild)
+
+logDiv.scrollTop=logDiv.scrollHeight
+
+}
+
+function clearLog(){
+logDiv.innerHTML=''
+logMsg("Log limpiado","lime")
+}
+
+function setLED(color){
+
+ledVirtual.style.backgroundColor=color
+
+if(color==='lime') ledVirtual.style.boxShadow='0 0 25px lime'
+else if(color==='red') ledVirtual.style.boxShadow='0 0 25px red'
+else if(color==='cyan') ledVirtual.style.boxShadow='0 0 25px cyan'
+else if(color==='yellow') ledVirtual.style.boxShadow='0 0 25px yellow'
+else ledVirtual.style.boxShadow='0 0 10px rgba(0,0,0,0.4)'
+
+}
+
+function showEmoji(emoji){
+
+for(let i=0;i<3;i++){
+
+const span=document.createElement('span')
+span.textContent=emoji
+span.className='emoji'
+
+emojiContainer.appendChild(span)
+
+const rect=ledVirtual.getBoundingClientRect()
+const containerRect=emojiContainer.getBoundingClientRect()
+
+span.style.left=`${rect.left-containerRect.left+rect.width/2-10+(Math.random()*20-10)}px`
+span.style.top=`${rect.top-containerRect.top-10}px`
+
+let posY=0
+let rotation=0
+let scale=1
+
+const interval=setInterval(()=>{
+
+posY-=2+Math.random()*1
+rotation+=6
+scale+=0.01
+
+span.style.transform=
+`translateY(${posY}px) rotate(${rotation}deg) scale(${scale})`
+
+span.style.opacity-=0.02
+
+if(span.style.opacity<=0){
+
+clearInterval(interval)
+span.remove()
+
+}
+
+},20)
+
+}
+
+}
+
+async function reconnectBLE(){
+
+if(!bleDevice) return
+
+try{
+
+const server=await bleDevice.gatt.connect()
+const service=await server.getPrimaryService(UART_SERVICE)
+bleTx=await service.getCharacteristic(UART_TX)
+
+bleStatus.textContent=`Conectado a ${bleDevice.name}`
+bleStatus.className='text-green-600 font-bold'
+
+logMsg("BLE reconectado","lime")
+
+}catch(e){
+
+logMsg("Error reconectando BLE","red")
+
+}
+
+}
+
+document.getElementById("ble-btn").onclick=async()=>{
+
+try{
+
+bleDevice=await navigator.bluetooth.requestDevice({
+filters:[{services:[UART_SERVICE]}]
+})
+
+bleDevice.addEventListener('gattserverdisconnected',()=>{
+
+bleStatus.textContent="BLE Desconectado"
+bleStatus.className='text-red-600 font-bold'
+
+logMsg("BLE desconectado","yellow")
+setLED('black')
+
+setTimeout(reconnectBLE,2000)
+
+})
+
+const server=await bleDevice.gatt.connect()
+const service=await server.getPrimaryService(UART_SERVICE)
+bleTx=await service.getCharacteristic(UART_TX)
+
+bleStatus.textContent=`Conectado a ${bleDevice.name}`
+bleStatus.className='text-green-600 font-bold'
+
+logMsg("BLE conectado","lime")
+
+}catch(e){
+
+logMsg("Error BLE","red")
+
+}
+
+}
+
+async function send(cmd,btn=null){
+
+if(!bleTx){
+
+logMsg("BLE no conectado",'red')
+return
+
+}
+
+let vel=speedSlider.value
+
+const data=new TextEncoder().encode(`${cmd},${vel}`)
+
+try{
+
+await bleTx.writeValueWithoutResponse(data)
+
+let color='white'
+let emoji=null
+
+switch(cmd){
+
+case 'F':
+color='lime'
+emoji='🟢'
+break
+
+case 'B':
+color='red'
+emoji='🔴'
+break
+
+case 'L':
+case 'R':
+color='cyan'
+emoji='🔵'
+break
+
+case 'S':
+color='yellow'
+break
+
+}
+
+setLED(color)
+
+logMsg(`Enviado: ${cmd} (${Math.round(vel*100)}%)`,color)
+
+if(emoji) showEmoji(emoji)
+
+if(btn){
+
+btn.classList.add('scale-95')
+
+setTimeout(()=>{
+btn.classList.remove('scale-95')
+},100)
+
+}
+
+}catch(e){
+
+logMsg("Error enviando",'red')
+
+}
+
+}
+
+</script>
+
+</body>
+</html>
