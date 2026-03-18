@@ -5,7 +5,7 @@ Hay dos manera de programar el Sumobot, una es con una interfáz de bloques, y o
 
 ## Interfaz de programación con bloques
 
-<img src="https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/IdeaScratch.png" width="400">
+<img src="https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/IdeaScratch.png" width="500">
 
 [En este link, pueden utilizar la plataforma web de programación con bloques del Sumobot](https://ideascratch.crcibernetica.com/).  No requiere instalación. Pronto publicaremos una guía básica
 
