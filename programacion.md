@@ -9,7 +9,7 @@ Hay tres manera de programar el Sumobot, una es con una interfáz de bloques, un
 
 [En este link, pueden utilizar la plataforma web de programación con bloques del Sumobot](https://ideascratch.crcibernetica.com/).  No requiere instalación. Pronto publicaremos una guía básica
 
-## Plataforma para programar en CircuitPython el Sumobot
+## Plataforma web para programar en CircuitPython el Sumobot
 
 <img src="https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/IdeaCode.png" width="600">  
 
