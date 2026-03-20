@@ -1,7 +1,7 @@
 
 # Programación del Sumobot
 
-Hay dos manera de programar el Sumobot, una es con una interfáz de bloques, y ota es directamente en Python con un software que se llama Thonny (recomendada)
+Hay tres manera de programar el Sumobot, una es con una interfáz de bloques, una interfaz web que no requiere instalación, y otra es directamente en Python con un software que se llama Thonny (recomendada)
 
 ## Interfaz de programación con bloques
 
@@ -9,8 +9,13 @@ Hay dos manera de programar el Sumobot, una es con una interfáz de bloques, y o
 
 [En este link, pueden utilizar la plataforma web de programación con bloques del Sumobot](https://ideascratch.crcibernetica.com/).  No requiere instalación. Pronto publicaremos una guía básica
 
+## Plataforma para programar en CircuitPython el Sumobot
 
-## Software para programar en CircuitPython el Sumobot
+<img src="https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/IdeaCode.png" width="600">  
+
+[En este link, pueden utilizar la plataforma web de programación en CircuitPython del Sumobot](https://ideacode.crcibernetica.com/).  No requiere instalación. Pronto publicaremos una guía básica
+
+## Software para programar en CircuitPython el Sumobot y otras placas
 
 <img src="https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/Thonny_Sumobot.png" width="600">
 
