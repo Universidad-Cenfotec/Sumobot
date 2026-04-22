@@ -20,6 +20,7 @@ Puede ver este [video resumen](https://youtu.be/L98O-mApjXQ) de la primera compe
 
 ## Contenidos de este Repositorio
 
+- [EL espíritu del Torneo Sumobot](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/espiritu_sumobot.md)
 - [Componentes del Sumobot](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/componentes2025.md)
 - [Armado del Sumobot](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/Armado%20paso%20a%20paso.md)
 - [Conexiones del Sumobot](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/conexiones.md)
