@@ -109,7 +109,7 @@ Claro, aquí tienes una **versión ordenada y clara, paso a paso**, del **ensamb
 
 Las baterías se colocan dentro del Sumobot. Asegúrese de que los cables queden pegados a la placa, de modo que permitan el paso adecuado de las baterías, tal como se observa en la imagen.
 
-<img src="https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/baterias_sumobot.jpeg" width="400">
+<img src="https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/baterias_sumobot.jpeg" width="600">
 
 Para fijar las baterías, puede utilizar una tira de plástico que las presione lateralmente, o bien sujetarlas con un elástico, como se muestra en la fotografía.
 
