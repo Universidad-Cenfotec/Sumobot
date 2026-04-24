@@ -105,8 +105,16 @@ Claro, aquí tienes una **versión ordenada y clara, paso a paso**, del **ensamb
 
 ![https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/conectBat.png](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/conectBat.png)
 ---
+### **9. Acomodando Baterías**
 
-### **9. Revisión final**
+Las baterías se colocan dentro del Sumobot. Asegúrese de que los cables queden pegados a la placa, de modo que permitan el paso adecuado de las baterías, tal como se observa en la imagen.
+
+<img src="https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/baterias_sumobot.jpeg" width="400">
+
+Para fijar las baterías, puede utilizar una tira de plástico que las presione lateralmente, o bien sujetarlas con un elástico, como se muestra en la fotografía.
+
+---
+### **10. Revisión final**
 
 34. Conecta el cable USB-C a la placa IdeaBoard para verificar que la luz de encendido funcione.
 35. Asegúrate de que todas las conexiones estén firmes y bien organizadas.
