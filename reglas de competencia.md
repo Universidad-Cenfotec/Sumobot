@@ -121,40 +121,93 @@ La penalización será impuesta por el juez de partida y, en caso de una descali
 
 ## Progreso del Torneo
 
-### 2. Clasificación a la Segunda Fase
+### 1. Formato General del Torneo
 
-5. El equipo que ocupe el primer lugar de cada grupo clasificará automáticamente a la segunda fase.
+1. Los equipos participantes serán distribuidos en grupos mediante un sorteo aleatorio realizado el día del evento.
 
-6. La posición de los equipos dentro de cada grupo se determinará según la cantidad total de puntos obtenidos.
+2. La cantidad de grupos y el número de equipos por grupo serán definidos por la organización según la cantidad total de equipos inscritos. Los grupos podrán estar conformados por tres (3) o cuatro (4) equipos.
 
-7. Cada partida entre dos equipos estará compuesta por tres (3) combates.
+3. Durante la fase de grupos, cada equipo disputará una partida contra todos los demás equipos de su grupo.
+
+4. Cada partida estará compuesta por tres (3) combates.
+
+5. La puntuación de la fase de grupos será la siguiente:
+
+   - Victoria en la partida: 3 puntos
+   - Empate en la partida: 1 punto
+   - Derrota en la partida: 0 puntos
+
+###  2. Clasificación a la Segunda Fase
+
+6. El equipo que ocupe el primer lugar de cada grupo clasificará automáticamente a la segunda fase.
+
+7. La posición de los equipos dentro de cada grupo se determinará según la cantidad total de puntos obtenidos.
 
 8. Si dos o más equipos finalizan con la misma cantidad de puntos, el desempate se realizará aplicando los siguientes criterios, en el orden indicado:
 
-   a. Mayor diferencia de combates, calculada como: Diferencia de combates = Total de combates ganados − Total de combates perdidos. Para este cálculo se considerarán todos los combates disputados durante la fase de grupos.
+   a. Mayor diferencia de combates, calculada como:
 
-   b. Si el empate persiste, se comparará la cantidad total de combates ganados.
+   Diferencia de combates = Combates ganados − Combates perdidos
 
-   c. Si el empate aún persiste, la organización podrá definir el clasificado mediante:
+   b. Mayor cantidad total de combates ganados.
 
-   * Un combate de desempate, si el cronograma lo permite, o
-   * Un sorteo realizado por la mesa de arbitraje.
+   c. Resultado directo entre los equipos empatados.
 
-### 3. Clasificación de Mejores Segundos Lugares
+   d. Si el empate persiste, la organización podrá definir el clasificado mediante un combate de desempate o un sorteo realizado por la mesa de arbitraje.
+
+###  3. Clasificación de Mejores Segundos Lugares
 
 9. Cuando sea necesario completar el cuadro de la segunda fase, la organización podrá clasificar equipos adicionales entre los segundos lugares de cada grupo.
 
 10. La clasificación de los segundos lugares se realizará utilizando el porcentaje de rendimiento, calculado de la siguiente forma:
 
-Porcentaje de rendimiento = (Puntos obtenidos / Puntos máximos posibles en el grupo) × 100
+   Porcentaje de rendimiento = (Puntos obtenidos / Puntos máximos posibles) × 100
 
-11. En caso de empate en porcentaje de rendimiento, se aplicarán sucesivamente los siguientes criterios:
+11. Los puntos máximos posibles corresponden a ganar todas las partidas de la fase de grupos:
 
-a. Mayor diferencia de combates.
+   - Grupo de 3 equipos: 6 puntos máximos.
+   - Grupo de 4 equipos: 9 puntos máximos.
 
-b. Mayor cantidad total de combates ganados.
+12. Los equipos con mayor porcentaje de rendimiento ocuparán las plazas disponibles para la segunda fase.
 
-c. Sorteo o combate de desempate, según determine la organización.
+13. En caso de empate en porcentaje de rendimiento, se aplicarán sucesivamente los siguientes criterios:
+
+   a. Mayor diferencia de combates.
+
+   b. Mayor cantidad total de combates ganados.
+
+   c. Resultado directo entre los equipos empatados, cuando corresponda.
+
+   d. Combate de desempate o sorteo, según determine la organización.
+
+###  4. Segunda Fase
+
+14. Una vez concluida la fase de grupos, los equipos clasificados avanzarán a una segunda fase.
+
+15. El formato de esta fase será definido por la organización según la cantidad de equipos clasificados y podrá consistir en eliminación directa, grupos triangulares, todos contra todos o cualquier otro formato competitivo equivalente.
+
+16. La organización anunciará el formato antes del inicio de la segunda fase.
+
+## 5. Empates en las Partidas
+
+17. Una partida se considerará empatada cuando, al concluir los tres (3) combates reglamentarios, ninguno de los equipos haya obtenido ventaja suficiente para ser declarado ganador según las reglas de competencia.
+
+18. Cuando el reglamento requiera determinar un ganador para efectos de clasificación o eliminación, el desempate podrá resolverse mediante un combate adicional, lanzamiento de moneda o cualquier otro mecanismo previamente anunciado por la organización y aplicado de forma uniforme a todos los participantes.
+
+## 6. Disposiciones Generales
+
+19. La organización tendrá la potestad de definir:
+
+   - La cantidad y composición de los grupos.
+   - El número de equipos que avanzan a la segunda fase.
+   - La cantidad de mejores segundos lugares clasificados.
+   - El formato de la segunda fase.
+   - Los mecanismos de desempate no contemplados expresamente en este reglamento.
+
+20. Todas las decisiones de la organización y de la mesa de arbitraje serán definitivas e inapelables.
+
+21. La participación en el torneo implica la aceptación total de este reglamento por parte de todos los equipos y sus integrantes.
+
 
 
 
