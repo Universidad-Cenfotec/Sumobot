@@ -133,9 +133,9 @@ La penalización será impuesta por el juez de partida y, en caso de una descali
 
 5. La puntuación de la fase de grupos será la siguiente:
 
-   - Victoria en la partida: 3 puntos
-   - Empate en la partida: 1 punto
-   - Derrota en la partida: 0 puntos
+   - Victoria en el comabte: 3 puntos
+   - Empate en el comabte: 1 punto
+   - Derrota en el comabte: 0 puntos
 
 ###  2. Clasificación a la Segunda Fase
 
@@ -145,9 +145,7 @@ La penalización será impuesta por el juez de partida y, en caso de una descali
 
 8. Si dos o más equipos finalizan con la misma cantidad de puntos, el desempate se realizará aplicando los siguientes criterios, en el orden indicado:
 
-   a. Mayor diferencia de combates, calculada como:
-
-   Diferencia de combates = Combates ganados − Combates perdidos
+   a. Mayor diferencia de combates, calculada como: Diferencia de combates = Combates ganados − Combates perdidos
 
    b. Mayor cantidad total de combates ganados.
 
@@ -159,14 +157,12 @@ La penalización será impuesta por el juez de partida y, en caso de una descali
 
 9. Cuando sea necesario completar el cuadro de la segunda fase, la organización podrá clasificar equipos adicionales entre los segundos lugares de cada grupo.
 
-10. La clasificación de los segundos lugares se realizará utilizando el porcentaje de rendimiento, calculado de la siguiente forma:
-
-   Porcentaje de rendimiento = (Puntos obtenidos / Puntos máximos posibles) × 100
+10. La clasificación de los segundos lugares se realizará utilizando el porcentaje de rendimiento, calculado de la siguiente forma: Porcentaje de rendimiento = (Puntos obtenidos / Puntos máximos posibles) × 100
 
 11. Los puntos máximos posibles corresponden a ganar todas las partidas de la fase de grupos:
 
-   - Grupo de 3 equipos: 6 puntos máximos.
-   - Grupo de 4 equipos: 9 puntos máximos.
+   - Grupo de 3 equipos: 18 puntos máximos.
+   - Grupo de 4 equipos: 27 puntos máximos.
 
 12. Los equipos con mayor porcentaje de rendimiento ocuparán las plazas disponibles para la segunda fase.
 
