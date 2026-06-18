@@ -131,11 +131,7 @@ La penalización será impuesta por el juez de partida y, en caso de una descali
 
 8. Si dos o más equipos finalizan con la misma cantidad de puntos, el desempate se realizará aplicando los siguientes criterios, en el orden indicado:
 
-   a. Mayor diferencia de combates, calculada como:
-
-   Diferencia de combates = Total de combates ganados − Total de combates perdidos
-
-   Para este cálculo se considerarán todos los combates disputados durante la fase de grupos.
+   a. Mayor diferencia de combates, calculada como: Diferencia de combates = Total de combates ganados − Total de combates perdidos. Para este cálculo se considerarán todos los combates disputados durante la fase de grupos.
 
    b. Si el empate persiste, se comparará la cantidad total de combates ganados.
 
