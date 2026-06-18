@@ -133,9 +133,9 @@ La penalización será impuesta por el juez de partida y, en caso de una descali
 
 5. La puntuación de la fase de grupos será la siguiente:
 
-   - Victoria en el comabte: 3 puntos
-   - Empate en el comabte: 1 punto
-   - Derrota en el comabte: 0 puntos
+   - Victoria en el combate: 3 puntos
+   - Empate en el combate: 1 punto
+   - Derrota en el combate: 0 puntos
 
 ###  2. Clasificación a la Segunda Fase
 
