@@ -121,19 +121,45 @@ La penalización será impuesta por el juez de partida y, en caso de una descali
 
 ## Progreso del Torneo
 
-El torneo se desarrollará en las siguientes etapas:
+### 2. Clasificación a la Segunda Fase
 
-- La competencia iniciará con una **fase de grupos**, en la cual los equipos serán distribuidos mediante un **sorteo público**, realizado en una reunión virtual en vivo, organizada por la Universidad CENFOTEC.
+5. El equipo que ocupe el primer lugar de cada grupo clasificará automáticamente a la segunda fase.
 
-- El procedimiento del sorteo será comunicado previamente a los equipos inscritos. La conformación final de los grupos será anunciada y validada oficialmente por la organización una vez realizado el sorteo.
+6. La posición de los equipos dentro de cada grupo se determinará según la cantidad total de puntos obtenidos.
 
-- Una vez concluida la fase de grupos, los equipos clasificados avanzarán a una **segunda fase**, cuyo formato podrá ser de **eliminación directa, triangular u otro sistema competitivo**, según la cantidad de equipos clasificados y criterios definidos por la organización.
+7. Cada partida entre dos equipos estará compuesta por tres (3) combates.
 
-- En caso de empate en una partida que impida definir un ganador, este será determinado mediante **lanzamiento de moneda**, realizado por la mesa de arbitraje u otra forma que se defina entre los equipos y el juez de mesa.
+8. Si dos o más equipos finalizan con la misma cantidad de puntos, el desempate se realizará aplicando los siguientes criterios, en el orden indicado:
 
-- La organización podrá habilitar la clasificación de un número determinado de **“mejores segundos lugares”** para avanzar a la siguiente fase, de acuerdo con la cantidad de equipos inscritos y la estructura del torneo.
+   a. Mayor diferencia de combates, calculada como:
 
-- Las decisiones relacionadas con la conformación de grupos, criterios de clasificación y ajustes al formato serán responsabilidad exclusiva de la organización.
+   Diferencia de combates = Total de combates ganados − Total de combates perdidos
+
+   Para este cálculo se considerarán todos los combates disputados durante la fase de grupos.
+
+   b. Si el empate persiste, se comparará la cantidad total de combates ganados.
+
+   c. Si el empate aún persiste, la organización podrá definir el clasificado mediante:
+
+   * Un combate de desempate, si el cronograma lo permite, o
+   * Un sorteo realizado por la mesa de arbitraje.
+
+### 3. Clasificación de Mejores Segundos Lugares
+
+9. Cuando sea necesario completar el cuadro de la segunda fase, la organización podrá clasificar equipos adicionales entre los segundos lugares de cada grupo.
+
+10. La clasificación de los segundos lugares se realizará utilizando el porcentaje de rendimiento, calculado de la siguiente forma:
+
+Porcentaje de rendimiento = (Puntos obtenidos / Puntos máximos posibles en el grupo) × 100
+
+11. En caso de empate en porcentaje de rendimiento, se aplicarán sucesivamente los siguientes criterios:
+
+a. Mayor diferencia de combates.
+
+b. Mayor cantidad total de combates ganados.
+
+c. Sorteo o combate de desempate, según determine la organización.
+
 
 
 ---
