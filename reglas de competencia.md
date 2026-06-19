@@ -69,10 +69,10 @@ Una vez que el juez declare el inicio del combate, ningún participante podrá t
 
 Un Cenfobot será declarado ganador del combate si se cumple cualquiera de las siguientes condiciones:
 
-- Expulsa a su oponente completamente fuera del **círculo negro** interno del dojo.
-- El Cenfobot oponente sale por su cuenta completamente fuera del círculo negro interno del dojo.
-- El Cenfobot oponente no ejecuta ningún movimiento durante el tiempo límite del combate.
-- El Cenfobot oponente queda inmovilizado debido a fallos mecánicos o como resultado del enfrentamiento (robot volcado por ejemplo).
+1. Expulsa a su oponente completamente fuera del **círculo negro** interno del dojo.
+2. El Cenfobot oponente queda inmovilizado debido a fallos mecánicos o como resultado del enfrentamiento (robot volcado por ejemplo). El combate se detiene en ese momento.
+3. El Cenfobot oponente sale por su cuenta completamente fuera del círculo negro interno del dojo.
+4. El Cenfobot oponente no ejecuta ningún movimiento (se queda en la posición inical) durante el tiempo límite del combate.
 
 ### Condiciones de empate
 
