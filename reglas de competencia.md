@@ -63,16 +63,16 @@ El objetivo de cada robot Cenfobot es expulsar a su oponente fuera del dojo, ya 
 
 Los Cenfobots deberán iniciar su comportamiento de forma totalmente autónoma, ubicados en la posición indicada por el juez.
 
-Una vez que el juez declare el inicio del combate, ningún participante podrá tocar, manipular o intervenir el Cenfobot bajo ninguna circunstancia. En caso de incumplimiento, el juez determinará la sanción correspondiente, la cual podrá incluir la pérdida del combate.
+Una vez que el juez declare el inicio del combate, ningún participante podrá tocar, manipular o intervenir el Cenfobot bajo ninguna circunstancia. En caso de incumplimiento, el juez indicará la pérdida del combate.
 
 ### Condiciones de un combate
 
 Un Cenfobot será declarado ganador del combate si se cumple cualquiera de las siguientes condiciones:
 
-- Expulsa a su oponente completamente fuera del círculo negro interno del dojo.
+- Expulsa a su oponente completamente fuera del **círculo negro** interno del dojo.
 - El Cenfobot oponente sale por su cuenta completamente fuera del círculo negro interno del dojo.
 - El Cenfobot oponente no ejecuta ningún movimiento durante el tiempo límite del combate.
-- El Cenfobot oponente queda inmovilizado debido a fallos mecánicos o como resultado del enfrentamiento.
+- El Cenfobot oponente queda inmovilizado debido a fallos mecánicos o como resultado del enfrentamiento (robot volcado por ejemplo).
 
 ### Condiciones de empate
 
