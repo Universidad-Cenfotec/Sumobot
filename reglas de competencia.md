@@ -143,7 +143,7 @@ La penalización será impuesta por el juez de partida y, en caso de una descali
 
 7. La posición de los equipos dentro de cada grupo se determinará según la cantidad total de puntos obtenidos.
 
-8. Si dos o más equipos finalizan con la misma cantidad de puntos, el desempate se realizará aplicando los siguientes criterios, en el orden indicado:
+8. Si dos o más equipos finalizan con la misma cantidad de puntos en el mismo grupo, el desempate se realizará aplicando los siguientes criterios, en el orden indicado:
 
          a. Mayor diferencia de combates, calculada como: Diferencia de combates = Combates ganados − Combates perdidos
 
