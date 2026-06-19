@@ -168,13 +168,9 @@ La penalización será impuesta por el juez de partida y, en caso de una descali
 
 13. En caso de empate en porcentaje de rendimiento, se aplicarán sucesivamente los siguientes criterios:
 
-   a. Mayor diferencia de combates.
+         a. Resultado directo entre los equipos empatados, cuando corresponda.
 
-   b. Mayor cantidad total de combates ganados.
-
-   c. Resultado directo entre los equipos empatados, cuando corresponda.
-
-   d. Combate de desempate o sorteo, según determine la organización.
+         b. Combate de desempate o sorteo, según determine la organización.
 
 ###  4. Segunda Fase
 
