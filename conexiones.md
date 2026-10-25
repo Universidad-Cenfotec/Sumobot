@@ -1,5 +1,10 @@
 # Conexiones del Sumobot
 
+## Prueba de Sensores
+
+> Para probar todos los sensores seguir este [link](https://universidad-cenfotec.github.io/Sumobot/)
+
+
 ## Baterías
 
 ![bat](https://github.com/Universidad-Cenfotec/Sumobot/blob/main/imagenes/conectBat.png)
