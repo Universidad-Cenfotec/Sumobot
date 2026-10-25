@@ -2,7 +2,7 @@
 
 ## Prueba de Sensores
 
-> Para probar todos los sensores seguir este [link](https://universidad-cenfotec.github.io/Sumobot/)
+> Para probar todos los sensores conectar USB y seguir este [link](https://universidad-cenfotec.github.io/Sumobot/)
 
 
 ## Baterías
