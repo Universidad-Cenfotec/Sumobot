@@ -2,6 +2,11 @@
 
 ## Prueba de Sensores
 
+
+
+
+<img src="/imagenes/sumobot_test_app.jpeg" width="100%">
+
 > Para probar todos los sensores conectar USB y seguir este [link](https://universidad-cenfotec.github.io/Sumobot/)
 
 
