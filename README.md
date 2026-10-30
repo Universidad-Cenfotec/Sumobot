@@ -45,7 +45,12 @@ Puede ver este [video resumen](https://youtu.be/L98O-mApjXQ) de la primera compe
 ## Asistente IA para programar el Sumobot
 
 - [GPT entrenado para programación Sumobot](https://chatgpt.com/g/g-6863f71f27b8819192a51ed05df367b0-asistente-de-programacion-sumobot-cenfotec)
+- 
+## Monitor web de sensores
 
+Página para ver en vivo, conectando el robot por USB, lo que "sienten" los sensores del CenfoBot: infrarrojos, ultrasónico, acelerómetro, giroscopio, botón BOOT y, en V2, el sensor de color. Funciona con **SumoBot V1 y V2**. Solo necesitas Chrome o Edge de escritorio, sin instalar nada.
+
+- [Abrir el monitor de sensores](https://universidad-cenfotec.github.io/Sumobot/)
 
 ## Retos
 
